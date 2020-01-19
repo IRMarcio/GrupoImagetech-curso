@@ -1,0 +1,1 @@
+<a href="{{ $url }}" class="btn btn-default" title="Limpar pesquisa"><b><i class="icon-reset"></i></b> Limpar</a>

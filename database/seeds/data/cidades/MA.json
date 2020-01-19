@@ -1,0 +1,1087 @@
+[
+    {
+        "descricao": "Açailândia",
+        "latitude": -4.94714,
+        "longitude": -47.5004
+    },
+    {
+        "descricao": "Afonso Cunha",
+        "latitude": -4.13631,
+        "longitude": -43.3275
+    },
+    {
+        "descricao": "Água Doce do Maranhão",
+        "latitude": -2.84048,
+        "longitude": -42.1189
+    },
+    {
+        "descricao": "Alcântara",
+        "latitude": -2.39574,
+        "longitude": -44.4062
+    },
+    {
+        "descricao": "Aldeias Altas",
+        "latitude": -4.62621,
+        "longitude": -43.4689
+    },
+    {
+        "descricao": "Altamira do Maranhão",
+        "latitude": -4.16598,
+        "longitude": -45.4706
+    },
+    {
+        "descricao": "Alto Alegre do Maranhão",
+        "latitude": -4.213,
+        "longitude": -44.446
+    },
+    {
+        "descricao": "Alto Alegre do Pindaré",
+        "latitude": -3.66689,
+        "longitude": -45.8421
+    },
+    {
+        "descricao": "Alto Parnaíba",
+        "latitude": -9.10273,
+        "longitude": -45.9303
+    },
+    {
+        "descricao": "Amapá do Maranhão",
+        "latitude": -1.67524,
+        "longitude": -46.0024
+    },
+    {
+        "descricao": "Amarante do Maranhão",
+        "latitude": -5.56913,
+        "longitude": -46.7473
+    },
+    {
+        "descricao": "Anajatuba",
+        "latitude": -3.26269,
+        "longitude": -44.6126
+    },
+    {
+        "descricao": "Anapurus",
+        "latitude": -3.67577,
+        "longitude": -43.1014
+    },
+    {
+        "descricao": "Apicum-Açu",
+        "latitude": -1.45862,
+        "longitude": -45.0864
+    },
+    {
+        "descricao": "Araguanã",
+        "latitude": -2.94644,
+        "longitude": -45.6589
+    },
+    {
+        "descricao": "Araioses",
+        "latitude": -2.89091,
+        "longitude": -41.905
+    },
+    {
+        "descricao": "Arame",
+        "latitude": -4.88347,
+        "longitude": -46.0032
+    },
+    {
+        "descricao": "Arari",
+        "latitude": -3.45214,
+        "longitude": -44.7665
+    },
+    {
+        "descricao": "Axixá",
+        "latitude": -2.83939,
+        "longitude": -44.062
+    },
+    {
+        "descricao": "Bacabal",
+        "latitude": -4.22447,
+        "longitude": -44.7832
+    },
+    {
+        "descricao": "Bacabeira",
+        "latitude": -2.96452,
+        "longitude": -44.3164
+    },
+    {
+        "descricao": "Bacuri",
+        "latitude": -1.6965,
+        "longitude": -45.1328
+    },
+    {
+        "descricao": "Bacurituba",
+        "latitude": -2.71,
+        "longitude": -44.7329
+    },
+    {
+        "descricao": "Balsas",
+        "latitude": -7.53214,
+        "longitude": -46.0372
+    },
+    {
+        "descricao": "Barão de Grajaú",
+        "latitude": -6.74463,
+        "longitude": -43.0261
+    },
+    {
+        "descricao": "Barra do Corda",
+        "latitude": -5.49682,
+        "longitude": -45.2485
+    },
+    {
+        "descricao": "Barreirinhas",
+        "latitude": -2.75863,
+        "longitude": -42.8232
+    },
+    {
+        "descricao": "Bela Vista do Maranhão",
+        "latitude": -3.72618,
+        "longitude": -45.3075
+    },
+    {
+        "descricao": "Belágua",
+        "latitude": -3.15485,
+        "longitude": -43.5122
+    },
+    {
+        "descricao": "Benedito Leite",
+        "latitude": -7.21037,
+        "longitude": -44.5577
+    },
+    {
+        "descricao": "Bequimão",
+        "latitude": -2.44162,
+        "longitude": -44.7842
+    },
+    {
+        "descricao": "Bernardo do Mearim",
+        "latitude": -4.62666,
+        "longitude": -44.7608
+    },
+    {
+        "descricao": "Boa Vista do Gurupi",
+        "latitude": -1.77614,
+        "longitude": -46.3002
+    },
+    {
+        "descricao": "Bom Jardim",
+        "latitude": -3.54129,
+        "longitude": -45.606
+    },
+    {
+        "descricao": "Bom Jesus das Selvas",
+        "latitude": -4.47638,
+        "longitude": -46.8641
+    },
+    {
+        "descricao": "Bom Lugar",
+        "latitude": -4.37311,
+        "longitude": -45.0326
+    },
+    {
+        "descricao": "Brejo",
+        "latitude": -3.67796,
+        "longitude": -42.7527
+    },
+    {
+        "descricao": "Brejo de Areia",
+        "latitude": -4.334,
+        "longitude": -45.581
+    },
+    {
+        "descricao": "Buriti",
+        "latitude": -3.94169,
+        "longitude": -42.9179
+    },
+    {
+        "descricao": "Buriti Bravo",
+        "latitude": -5.83239,
+        "longitude": -43.8353
+    },
+    {
+        "descricao": "Buriticupu",
+        "latitude": -4.32375,
+        "longitude": -46.4409
+    },
+    {
+        "descricao": "Buritirana",
+        "latitude": -5.59823,
+        "longitude": -47.0131
+    },
+    {
+        "descricao": "Cachoeira Grande",
+        "latitude": -2.93074,
+        "longitude": -44.0528
+    },
+    {
+        "descricao": "Cajapió",
+        "latitude": -2.87326,
+        "longitude": -44.6741
+    },
+    {
+        "descricao": "Cajari",
+        "latitude": -3.32742,
+        "longitude": -45.0145
+    },
+    {
+        "descricao": "Campestre do Maranhão",
+        "latitude": -6.17075,
+        "longitude": -47.3625
+    },
+    {
+        "descricao": "Cândido Mendes",
+        "latitude": -1.43265,
+        "longitude": -45.7161
+    },
+    {
+        "descricao": "Cantanhede",
+        "latitude": -3.63757,
+        "longitude": -44.383
+    },
+    {
+        "descricao": "Capinzal do Norte",
+        "latitude": -4.7236,
+        "longitude": -44.328
+    },
+    {
+        "descricao": "Carolina",
+        "latitude": -7.33584,
+        "longitude": -47.4634
+    },
+    {
+        "descricao": "Carutapera",
+        "latitude": -1.19696,
+        "longitude": -46.0085
+    },
+    {
+        "descricao": "Caxias",
+        "latitude": -4.86505,
+        "longitude": -43.3617
+    },
+    {
+        "descricao": "Cedral",
+        "latitude": -2.00027,
+        "longitude": -44.5281
+    },
+    {
+        "descricao": "Central do Maranhão",
+        "latitude": -2.19831,
+        "longitude": -44.8254
+    },
+    {
+        "descricao": "Centro do Guilherme",
+        "latitude": -2.44891,
+        "longitude": -46.0345
+    },
+    {
+        "descricao": "Centro Novo do Maranhão",
+        "latitude": -2.12696,
+        "longitude": -46.1228
+    },
+    {
+        "descricao": "Chapadinha",
+        "latitude": -3.73875,
+        "longitude": -43.3538
+    },
+    {
+        "descricao": "Cidelândia",
+        "latitude": -5.17465,
+        "longitude": -47.7781
+    },
+    {
+        "descricao": "Codó",
+        "latitude": -4.45562,
+        "longitude": -43.8924
+    },
+    {
+        "descricao": "Coelho Neto",
+        "latitude": -4.25245,
+        "longitude": -43.0108
+    },
+    {
+        "descricao": "Colinas",
+        "latitude": -6.03199,
+        "longitude": -44.2543
+    },
+    {
+        "descricao": "Conceição do Lago-Açu",
+        "latitude": -3.85142,
+        "longitude": -44.8895
+    },
+    {
+        "descricao": "Coroatá",
+        "latitude": -4.13442,
+        "longitude": -44.1244
+    },
+    {
+        "descricao": "Cururupu",
+        "latitude": -1.81475,
+        "longitude": -44.8644
+    },
+    {
+        "descricao": "Davinópolis",
+        "latitude": -5.54637,
+        "longitude": -47.4217
+    },
+    {
+        "descricao": "Dom Pedro",
+        "latitude": -5.03518,
+        "longitude": -44.4409
+    },
+    {
+        "descricao": "Duque Bacelar",
+        "latitude": -4.15002,
+        "longitude": -42.9477
+    },
+    {
+        "descricao": "Esperantinópolis",
+        "latitude": -4.87938,
+        "longitude": -44.6926
+    },
+    {
+        "descricao": "Estreito",
+        "latitude": -6.56077,
+        "longitude": -47.4431
+    },
+    {
+        "descricao": "Feira Nova do Maranhão",
+        "latitude": -6.96508,
+        "longitude": -46.6786
+    },
+    {
+        "descricao": "Fernando Falcão",
+        "latitude": -6.16207,
+        "longitude": -44.8979
+    },
+    {
+        "descricao": "Formosa da Serra Negra",
+        "latitude": -6.44017,
+        "longitude": -46.1916
+    },
+    {
+        "descricao": "Fortaleza dos Nogueiras",
+        "latitude": -6.95983,
+        "longitude": -46.1749
+    },
+    {
+        "descricao": "Fortuna",
+        "latitude": -5.72792,
+        "longitude": -44.1565
+    },
+    {
+        "descricao": "Godofredo Viana",
+        "latitude": -1.40259,
+        "longitude": -45.7795
+    },
+    {
+        "descricao": "Gonçalves Dias",
+        "latitude": -5.1475,
+        "longitude": -44.3013
+    },
+    {
+        "descricao": "Governador Archer",
+        "latitude": -5.02078,
+        "longitude": -44.2754
+    },
+    {
+        "descricao": "Governador Edison Lobão",
+        "latitude": -5.74973,
+        "longitude": -47.3646
+    },
+    {
+        "descricao": "Governador Eugênio Barros",
+        "latitude": -5.31897,
+        "longitude": -44.2469
+    },
+    {
+        "descricao": "Governador Luiz Rocha",
+        "latitude": -5.47835,
+        "longitude": -44.0774
+    },
+    {
+        "descricao": "Governador Newton Bello",
+        "latitude": -3.43245,
+        "longitude": -45.6619
+    },
+    {
+        "descricao": "Governador Nunes Freire",
+        "latitude": -2.12899,
+        "longitude": -45.8777
+    },
+    {
+        "descricao": "Graça Aranha",
+        "latitude": -5.40547,
+        "longitude": -44.3358
+    },
+    {
+        "descricao": "Grajaú",
+        "latitude": -5.81367,
+        "longitude": -46.1462
+    },
+    {
+        "descricao": "Guimarães",
+        "latitude": -2.12755,
+        "longitude": -44.602
+    },
+    {
+        "descricao": "Humberto de Campos",
+        "latitude": -2.59828,
+        "longitude": -43.4649
+    },
+    {
+        "descricao": "Icatu",
+        "latitude": -2.77206,
+        "longitude": -44.0501
+    },
+    {
+        "descricao": "Igarapé do Meio",
+        "latitude": -3.65771,
+        "longitude": -45.2114
+    },
+    {
+        "descricao": "Igarapé Grande",
+        "latitude": -4.6625,
+        "longitude": -44.8558
+    },
+    {
+        "descricao": "Imperatriz",
+        "latitude": -5.51847,
+        "longitude": -47.4777
+    },
+    {
+        "descricao": "Itaipava do Grajaú",
+        "latitude": -5.14252,
+        "longitude": -45.7877
+    },
+    {
+        "descricao": "Itapecuru Mirim",
+        "latitude": -3.40202,
+        "longitude": -44.3508
+    },
+    {
+        "descricao": "Itinga do Maranhão",
+        "latitude": -4.45293,
+        "longitude": -47.5235
+    },
+    {
+        "descricao": "Jatobá",
+        "latitude": -5.82282,
+        "longitude": -44.2153
+    },
+    {
+        "descricao": "Jenipapo dos Vieiras",
+        "latitude": -5.36237,
+        "longitude": -45.6356
+    },
+    {
+        "descricao": "João Lisboa",
+        "latitude": -5.44363,
+        "longitude": -47.4064
+    },
+    {
+        "descricao": "Joselândia",
+        "latitude": -4.98611,
+        "longitude": -44.6958
+    },
+    {
+        "descricao": "Junco do Maranhão",
+        "latitude": -1.83888,
+        "longitude": -46.09
+    },
+    {
+        "descricao": "Lago da Pedra",
+        "latitude": -4.56974,
+        "longitude": -45.1319
+    },
+    {
+        "descricao": "Lago do Junco",
+        "latitude": -4.609,
+        "longitude": -45.049
+    },
+    {
+        "descricao": "Lago dos Rodrigues",
+        "latitude": -4.61173,
+        "longitude": -44.9798
+    },
+    {
+        "descricao": "Lago Verde",
+        "latitude": -3.94661,
+        "longitude": -44.826
+    },
+    {
+        "descricao": "Lagoa do Mato",
+        "latitude": -6.05023,
+        "longitude": -43.5333
+    },
+    {
+        "descricao": "Lagoa Grande do Maranhão",
+        "latitude": -4.98893,
+        "longitude": -45.3816
+    },
+    {
+        "descricao": "Lajeado Novo",
+        "latitude": -6.18539,
+        "longitude": -47.0293
+    },
+    {
+        "descricao": "Lima Campos",
+        "latitude": -4.51837,
+        "longitude": -44.4646
+    },
+    {
+        "descricao": "Loreto",
+        "latitude": -7.08111,
+        "longitude": -45.1451
+    },
+    {
+        "descricao": "Luís Domingues",
+        "latitude": -1.27492,
+        "longitude": -45.867
+    },
+    {
+        "descricao": "Magalhães de Almeida",
+        "latitude": -3.39232,
+        "longitude": -42.2117
+    },
+    {
+        "descricao": "Maracaçumé",
+        "latitude": -2.04918,
+        "longitude": -45.9587
+    },
+    {
+        "descricao": "Marajá do Sena",
+        "latitude": -4.62806,
+        "longitude": -45.4531
+    },
+    {
+        "descricao": "Maranhãozinho",
+        "latitude": -2.24078,
+        "longitude": -45.8507
+    },
+    {
+        "descricao": "Mata Roma",
+        "latitude": -3.62035,
+        "longitude": -43.1112
+    },
+    {
+        "descricao": "Matinha",
+        "latitude": -3.09849,
+        "longitude": -45.035
+    },
+    {
+        "descricao": "Matões",
+        "latitude": -5.51359,
+        "longitude": -43.2018
+    },
+    {
+        "descricao": "Matões do Norte",
+        "latitude": -3.6244,
+        "longitude": -44.5468
+    },
+    {
+        "descricao": "Milagres do Maranhão",
+        "latitude": -3.57443,
+        "longitude": -42.6131
+    },
+    {
+        "descricao": "Mirador",
+        "latitude": -6.37454,
+        "longitude": -44.3683
+    },
+    {
+        "descricao": "Miranda do Norte",
+        "latitude": -3.56313,
+        "longitude": -44.5814
+    },
+    {
+        "descricao": "Mirinzal",
+        "latitude": -2.07094,
+        "longitude": -44.7787
+    },
+    {
+        "descricao": "Monção",
+        "latitude": -3.48125,
+        "longitude": -45.2496
+    },
+    {
+        "descricao": "Montes Altos",
+        "latitude": -5.83067,
+        "longitude": -47.0673
+    },
+    {
+        "descricao": "Morros",
+        "latitude": -2.85379,
+        "longitude": -44.0357
+    },
+    {
+        "descricao": "Nina Rodrigues",
+        "latitude": -3.46788,
+        "longitude": -43.9134
+    },
+    {
+        "descricao": "Nova Colinas",
+        "latitude": -7.12263,
+        "longitude": -46.2607
+    },
+    {
+        "descricao": "Nova Iorque",
+        "latitude": -6.73047,
+        "longitude": -44.0471
+    },
+    {
+        "descricao": "Nova Olinda do Maranhão",
+        "latitude": -2.84227,
+        "longitude": -45.6953
+    },
+    {
+        "descricao": "Olho d'Água das Cunhãs",
+        "latitude": -4.13417,
+        "longitude": -45.1163
+    },
+    {
+        "descricao": "Olinda Nova do Maranhão",
+        "latitude": -2.99295,
+        "longitude": -44.9897
+    },
+    {
+        "descricao": "Paço do Lumiar",
+        "latitude": -2.51657,
+        "longitude": -44.1019
+    },
+    {
+        "descricao": "Palmeirândia",
+        "latitude": -2.64433,
+        "longitude": -44.8933
+    },
+    {
+        "descricao": "Paraibano",
+        "latitude": -6.4264,
+        "longitude": -43.9792
+    },
+    {
+        "descricao": "Parnarama",
+        "latitude": -5.67365,
+        "longitude": -43.1011
+    },
+    {
+        "descricao": "Passagem Franca",
+        "latitude": -6.17745,
+        "longitude": -43.7755
+    },
+    {
+        "descricao": "Pastos Bons",
+        "latitude": -6.60296,
+        "longitude": -44.0745
+    },
+    {
+        "descricao": "Paulino Neves",
+        "latitude": -2.72094,
+        "longitude": -42.5258
+    },
+    {
+        "descricao": "Paulo Ramos",
+        "latitude": -4.44485,
+        "longitude": -45.2398
+    },
+    {
+        "descricao": "Pedreiras",
+        "latitude": -4.56482,
+        "longitude": -44.6006
+    },
+    {
+        "descricao": "Pedro do Rosário",
+        "latitude": -2.97272,
+        "longitude": -45.3493
+    },
+    {
+        "descricao": "Penalva",
+        "latitude": -3.27674,
+        "longitude": -45.1768
+    },
+    {
+        "descricao": "Peri Mirim",
+        "latitude": -2.57676,
+        "longitude": -44.8504
+    },
+    {
+        "descricao": "Peritoró",
+        "latitude": -4.37459,
+        "longitude": -44.3369
+    },
+    {
+        "descricao": "Pindaré-Mirim",
+        "latitude": -3.60985,
+        "longitude": -45.342
+    },
+    {
+        "descricao": "Pinheiro",
+        "latitude": -2.52224,
+        "longitude": -45.0788
+    },
+    {
+        "descricao": "Pio XII",
+        "latitude": -3.89315,
+        "longitude": -45.1759
+    },
+    {
+        "descricao": "Pirapemas",
+        "latitude": -3.72041,
+        "longitude": -44.2216
+    },
+    {
+        "descricao": "Poção de Pedras",
+        "latitude": -4.74626,
+        "longitude": -44.9432
+    },
+    {
+        "descricao": "Porto Franco",
+        "latitude": -6.34149,
+        "longitude": -47.3962
+    },
+    {
+        "descricao": "Porto Rico do Maranhão",
+        "latitude": -1.85925,
+        "longitude": -44.5842
+    },
+    {
+        "descricao": "Presidente Dutra",
+        "latitude": -5.2898,
+        "longitude": -44.495
+    },
+    {
+        "descricao": "Presidente Juscelino",
+        "latitude": -2.91872,
+        "longitude": -44.0715
+    },
+    {
+        "descricao": "Presidente Médici",
+        "latitude": -2.38991,
+        "longitude": -45.82
+    },
+    {
+        "descricao": "Presidente Sarney",
+        "latitude": -2.58799,
+        "longitude": -45.3595
+    },
+    {
+        "descricao": "Presidente Vargas",
+        "latitude": -3.40787,
+        "longitude": -44.0234
+    },
+    {
+        "descricao": "Primeira Cruz",
+        "latitude": -2.50568,
+        "longitude": -43.4232
+    },
+    {
+        "descricao": "Raposa",
+        "latitude": -2.4254,
+        "longitude": -44.0973
+    },
+    {
+        "descricao": "Riachão",
+        "latitude": -7.35819,
+        "longitude": -46.6225
+    },
+    {
+        "descricao": "Ribamar Fiquene",
+        "latitude": -5.93067,
+        "longitude": -47.3888
+    },
+    {
+        "descricao": "Rosário",
+        "latitude": -2.93444,
+        "longitude": -44.2531
+    },
+    {
+        "descricao": "Sambaíba",
+        "latitude": -7.13447,
+        "longitude": -45.3515
+    },
+    {
+        "descricao": "Santa Filomena do Maranhão",
+        "latitude": -5.49671,
+        "longitude": -44.5638
+    },
+    {
+        "descricao": "Santa Helena",
+        "latitude": -2.24426,
+        "longitude": -45.29
+    },
+    {
+        "descricao": "Santa Inês",
+        "latitude": -3.65112,
+        "longitude": -45.3774
+    },
+    {
+        "descricao": "Santa Luzia",
+        "latitude": -4.06873,
+        "longitude": -45.69
+    },
+    {
+        "descricao": "Santa Luzia do Paruá",
+        "latitude": -2.51123,
+        "longitude": -45.7801
+    },
+    {
+        "descricao": "Santa Quitéria do Maranhão",
+        "latitude": -3.49308,
+        "longitude": -42.5688
+    },
+    {
+        "descricao": "Santa Rita",
+        "latitude": -3.14241,
+        "longitude": -44.3211
+    },
+    {
+        "descricao": "Santana do Maranhão",
+        "latitude": -3.109,
+        "longitude": -42.4064
+    },
+    {
+        "descricao": "Santo Amaro do Maranhão",
+        "latitude": -2.50068,
+        "longitude": -43.238
+    },
+    {
+        "descricao": "Santo Antônio dos Lopes",
+        "latitude": -4.86613,
+        "longitude": -44.3653
+    },
+    {
+        "descricao": "São Benedito do Rio Preto",
+        "latitude": -3.33515,
+        "longitude": -43.5287
+    },
+    {
+        "descricao": "São Bento",
+        "latitude": -2.69781,
+        "longitude": -44.8289
+    },
+    {
+        "descricao": "São Bernardo",
+        "latitude": -3.37223,
+        "longitude": -42.4191
+    },
+    {
+        "descricao": "São Domingos do Azeitão",
+        "latitude": -6.81471,
+        "longitude": -44.6509
+    },
+    {
+        "descricao": "São Domingos do Maranhão",
+        "latitude": -5.58095,
+        "longitude": -44.3822
+    },
+    {
+        "descricao": "São Félix de Balsas",
+        "latitude": -7.07535,
+        "longitude": -44.8092
+    },
+    {
+        "descricao": "São Francisco do Brejão",
+        "latitude": -5.12584,
+        "longitude": -47.389
+    },
+    {
+        "descricao": "São Francisco do Maranhão",
+        "latitude": -6.25159,
+        "longitude": -42.8668
+    },
+    {
+        "descricao": "São João Batista",
+        "latitude": -2.95398,
+        "longitude": -44.7953
+    },
+    {
+        "descricao": "São João do Carú",
+        "latitude": -3.5503,
+        "longitude": -46.2507
+    },
+    {
+        "descricao": "São João do Paraíso",
+        "latitude": -6.45634,
+        "longitude": -47.0594
+    },
+    {
+        "descricao": "São João do Soter",
+        "latitude": -5.10821,
+        "longitude": -43.8163
+    },
+    {
+        "descricao": "São João dos Patos",
+        "latitude": -6.4934,
+        "longitude": -43.7036
+    },
+    {
+        "descricao": "São José de Ribamar",
+        "latitude": -2.54704,
+        "longitude": -44.0597
+    },
+    {
+        "descricao": "São José dos Basílios",
+        "latitude": -5.05493,
+        "longitude": -44.5809
+    },
+    {
+        "descricao": "São Luís",
+        "latitude": -2.53874,
+        "longitude": -44.2825
+    },
+    {
+        "descricao": "São Luís Gonzaga do Maranhão",
+        "latitude": -4.38541,
+        "longitude": -44.6654
+    },
+    {
+        "descricao": "São Mateus do Maranhão",
+        "latitude": -4.03736,
+        "longitude": -44.4707
+    },
+    {
+        "descricao": "São Pedro da Água Branca",
+        "latitude": -5.08472,
+        "longitude": -48.4291
+    },
+    {
+        "descricao": "São Pedro dos Crentes",
+        "latitude": -6.82389,
+        "longitude": -46.5319
+    },
+    {
+        "descricao": "São Raimundo das Mangabeiras",
+        "latitude": -7.02183,
+        "longitude": -45.4809
+    },
+    {
+        "descricao": "São Raimundo do Doca Bezerra",
+        "latitude": -5.11053,
+        "longitude": -45.0696
+    },
+    {
+        "descricao": "São Roberto",
+        "latitude": -5.0231,
+        "longitude": -45.001
+    },
+    {
+        "descricao": "São Vicente Ferrer",
+        "latitude": -2.89487,
+        "longitude": -44.8681
+    },
+    {
+        "descricao": "Satubinha",
+        "latitude": -4.04913,
+        "longitude": -45.2457
+    },
+    {
+        "descricao": "Senador Alexandre Costa",
+        "latitude": -5.25096,
+        "longitude": -44.0533
+    },
+    {
+        "descricao": "Senador La Rocque",
+        "latitude": -5.4461,
+        "longitude": -47.2959
+    },
+    {
+        "descricao": "Serrano do Maranhão",
+        "latitude": -1.85229,
+        "longitude": -45.1207
+    },
+    {
+        "descricao": "Sítio Novo",
+        "latitude": -5.87601,
+        "longitude": -46.7033
+    },
+    {
+        "descricao": "Sucupira do Norte",
+        "latitude": -6.47839,
+        "longitude": -44.1919
+    },
+    {
+        "descricao": "Sucupira do Riachão",
+        "latitude": -6.40858,
+        "longitude": -43.5455
+    },
+    {
+        "descricao": "Tasso Fragoso",
+        "latitude": -8.4662,
+        "longitude": -45.7536
+    },
+    {
+        "descricao": "Timbiras",
+        "latitude": -4.25597,
+        "longitude": -43.932
+    },
+    {
+        "descricao": "Timon",
+        "latitude": -5.09769,
+        "longitude": -42.8329
+    },
+    {
+        "descricao": "Trizidela do Vale",
+        "latitude": -4.538,
+        "longitude": -44.628
+    },
+    {
+        "descricao": "Tufilândia",
+        "latitude": -3.67355,
+        "longitude": -45.6238
+    },
+    {
+        "descricao": "Tuntum",
+        "latitude": -5.25476,
+        "longitude": -44.6444
+    },
+    {
+        "descricao": "Turiaçu",
+        "latitude": -1.65893,
+        "longitude": -45.3798
+    },
+    {
+        "descricao": "Turilândia",
+        "latitude": -2.21638,
+        "longitude": -45.3044
+    },
+    {
+        "descricao": "Tutóia",
+        "latitude": -2.76141,
+        "longitude": -42.2755
+    },
+    {
+        "descricao": "Urbano Santos",
+        "latitude": -3.20642,
+        "longitude": -43.3878
+    },
+    {
+        "descricao": "Vargem Grande",
+        "latitude": -3.53639,
+        "longitude": -43.917
+    },
+    {
+        "descricao": "Viana",
+        "latitude": -3.20451,
+        "longitude": -44.9912
+    },
+    {
+        "descricao": "Vila Nova dos Martírios",
+        "latitude": -5.18889,
+        "longitude": -48.1336
+    },
+    {
+        "descricao": "Vitória do Mearim",
+        "latitude": -3.45125,
+        "longitude": -44.8643
+    },
+    {
+        "descricao": "Vitorino Freire",
+        "latitude": -4.28184,
+        "longitude": -45.2505
+    },
+    {
+        "descricao": "Zé Doca",
+        "latitude": -3.27014,
+        "longitude": -45.6553
+    }
+]

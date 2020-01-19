@@ -1,0 +1,11 @@
+[
+  {
+      "nome": "Admin",
+      "cpf": "00000000000",
+      "senha": "sinlog",
+      "data_nascimento": "01/01/2019",
+      "email": "example@example.com",
+      "super_admin": 1,
+      "gestor": 1
+  }
+]

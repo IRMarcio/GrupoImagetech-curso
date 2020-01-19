@@ -1,0 +1,922 @@
+[
+    {
+        "descricao": "Abaiara",
+        "latitude": -7.34588,
+        "longitude": -39.0416
+    },
+    {
+        "descricao": "Acarape",
+        "latitude": -4.22083,
+        "longitude": -38.7055
+    },
+    {
+        "descricao": "Acaraú",
+        "latitude": -2.88769,
+        "longitude": -40.1183
+    },
+    {
+        "descricao": "Acopiara",
+        "latitude": -6.08911,
+        "longitude": -39.448
+    },
+    {
+        "descricao": "Aiuaba",
+        "latitude": -6.57122,
+        "longitude": -40.1178
+    },
+    {
+        "descricao": "Alcântaras",
+        "latitude": -3.58537,
+        "longitude": -40.5479
+    },
+    {
+        "descricao": "Altaneira",
+        "latitude": -6.99837,
+        "longitude": -39.7356
+    },
+    {
+        "descricao": "Alto Santo",
+        "latitude": -5.50894,
+        "longitude": -38.2743
+    },
+    {
+        "descricao": "Amontada",
+        "latitude": -3.36017,
+        "longitude": -39.8288
+    },
+    {
+        "descricao": "Antonina do Norte",
+        "latitude": -6.76919,
+        "longitude": -39.987
+    },
+    {
+        "descricao": "Apuiarés",
+        "latitude": -3.94506,
+        "longitude": -39.4359
+    },
+    {
+        "descricao": "Aquiraz",
+        "latitude": -3.89929,
+        "longitude": -38.3896
+    },
+    {
+        "descricao": "Aracati",
+        "latitude": -4.55826,
+        "longitude": -37.7679
+    },
+    {
+        "descricao": "Aracoiaba",
+        "latitude": -4.36872,
+        "longitude": -38.8125
+    },
+    {
+        "descricao": "Ararendá",
+        "latitude": -4.74567,
+        "longitude": -40.831
+    },
+    {
+        "descricao": "Araripe",
+        "latitude": -7.21319,
+        "longitude": -40.1359
+    },
+    {
+        "descricao": "Aratuba",
+        "latitude": -4.41229,
+        "longitude": -39.0471
+    },
+    {
+        "descricao": "Arneiroz",
+        "latitude": -6.3165,
+        "longitude": -40.1653
+    },
+    {
+        "descricao": "Assaré",
+        "latitude": -6.8669,
+        "longitude": -39.8689
+    },
+    {
+        "descricao": "Aurora",
+        "latitude": -6.93349,
+        "longitude": -38.9742
+    },
+    {
+        "descricao": "Baixio",
+        "latitude": -6.71945,
+        "longitude": -38.7134
+    },
+    {
+        "descricao": "Banabuiú",
+        "latitude": -5.30454,
+        "longitude": -38.9132
+    },
+    {
+        "descricao": "Barbalha",
+        "latitude": -7.2982,
+        "longitude": -39.3021
+    },
+    {
+        "descricao": "Barreira",
+        "latitude": -4.28921,
+        "longitude": -38.6429
+    },
+    {
+        "descricao": "Barro",
+        "latitude": -7.17188,
+        "longitude": -38.7741
+    },
+    {
+        "descricao": "Barroquinha",
+        "latitude": -3.02051,
+        "longitude": -41.1358
+    },
+    {
+        "descricao": "Baturité",
+        "latitude": -4.32598,
+        "longitude": -38.8812
+    },
+    {
+        "descricao": "Beberibe",
+        "latitude": -4.17741,
+        "longitude": -38.1271
+    },
+    {
+        "descricao": "Bela Cruz",
+        "latitude": -3.04996,
+        "longitude": -40.1671
+    },
+    {
+        "descricao": "Boa Viagem",
+        "latitude": -5.11258,
+        "longitude": -39.7337
+    },
+    {
+        "descricao": "Brejo Santo",
+        "latitude": -7.48469,
+        "longitude": -38.9799
+    },
+    {
+        "descricao": "Camocim",
+        "latitude": -2.9005,
+        "longitude": -40.8544
+    },
+    {
+        "descricao": "Campos Sales",
+        "latitude": -7.06761,
+        "longitude": -40.3687
+    },
+    {
+        "descricao": "Canindé",
+        "latitude": -4.35162,
+        "longitude": -39.3155
+    },
+    {
+        "descricao": "Capistrano",
+        "latitude": -4.45569,
+        "longitude": -38.9048
+    },
+    {
+        "descricao": "Caridade",
+        "latitude": -4.22514,
+        "longitude": -39.1912
+    },
+    {
+        "descricao": "Cariré",
+        "latitude": -3.94858,
+        "longitude": -40.476
+    },
+    {
+        "descricao": "Caririaçu",
+        "latitude": -7.02808,
+        "longitude": -39.2828
+    },
+    {
+        "descricao": "Cariús",
+        "latitude": -6.52428,
+        "longitude": -39.4916
+    },
+    {
+        "descricao": "Carnaubal",
+        "latitude": -4.15985,
+        "longitude": -40.9413
+    },
+    {
+        "descricao": "Cascavel",
+        "latitude": -4.12967,
+        "longitude": -38.2412
+    },
+    {
+        "descricao": "Catarina",
+        "latitude": -6.12291,
+        "longitude": -39.8736
+    },
+    {
+        "descricao": "Catunda",
+        "latitude": -4.64336,
+        "longitude": -40.2
+    },
+    {
+        "descricao": "Caucaia",
+        "latitude": -3.72797,
+        "longitude": -38.6619
+    },
+    {
+        "descricao": "Cedro",
+        "latitude": -6.60034,
+        "longitude": -39.0609
+    },
+    {
+        "descricao": "Chaval",
+        "latitude": -3.03571,
+        "longitude": -41.2435
+    },
+    {
+        "descricao": "Choró",
+        "latitude": -4.83906,
+        "longitude": -39.1344
+    },
+    {
+        "descricao": "Chorozinho",
+        "latitude": -4.28873,
+        "longitude": -38.4986
+    },
+    {
+        "descricao": "Coreaú",
+        "latitude": -3.5415,
+        "longitude": -40.6587
+    },
+    {
+        "descricao": "Crateús",
+        "latitude": -5.16768,
+        "longitude": -40.6536
+    },
+    {
+        "descricao": "Crato",
+        "latitude": -7.2153,
+        "longitude": -39.4103
+    },
+    {
+        "descricao": "Croatá",
+        "latitude": -4.40481,
+        "longitude": -40.9022
+    },
+    {
+        "descricao": "Cruz",
+        "latitude": -2.91813,
+        "longitude": -40.176
+    },
+    {
+        "descricao": "Deputado Irapuan Pinheiro",
+        "latitude": -5.91485,
+        "longitude": -39.257
+    },
+    {
+        "descricao": "Ererê",
+        "latitude": -6.02751,
+        "longitude": -38.3461
+    },
+    {
+        "descricao": "Eusébio",
+        "latitude": -3.8925,
+        "longitude": -38.4559
+    },
+    {
+        "descricao": "Farias Brito",
+        "latitude": -6.92146,
+        "longitude": -39.5651
+    },
+    {
+        "descricao": "Forquilha",
+        "latitude": -3.79945,
+        "longitude": -40.2634
+    },
+    {
+        "descricao": "Fortaleza",
+        "latitude": -3.71664,
+        "longitude": -38.5423
+    },
+    {
+        "descricao": "Fortim",
+        "latitude": -4.45126,
+        "longitude": -37.7981
+    },
+    {
+        "descricao": "Frecheirinha",
+        "latitude": -3.75557,
+        "longitude": -40.818
+    },
+    {
+        "descricao": "General Sampaio",
+        "latitude": -4.04351,
+        "longitude": -39.454
+    },
+    {
+        "descricao": "Graça",
+        "latitude": -4.04422,
+        "longitude": -40.749
+    },
+    {
+        "descricao": "Granja",
+        "latitude": -3.12788,
+        "longitude": -40.8372
+    },
+    {
+        "descricao": "Granjeiro",
+        "latitude": -6.88134,
+        "longitude": -39.2144
+    },
+    {
+        "descricao": "Groaíras",
+        "latitude": -3.91787,
+        "longitude": -40.3852
+    },
+    {
+        "descricao": "Guaiúba",
+        "latitude": -4.04057,
+        "longitude": -38.6404
+    },
+    {
+        "descricao": "Guaraciaba do Norte",
+        "latitude": -4.15814,
+        "longitude": -40.7476
+    },
+    {
+        "descricao": "Guaramiranga",
+        "latitude": -4.26248,
+        "longitude": -38.932
+    },
+    {
+        "descricao": "Hidrolândia",
+        "latitude": -4.40958,
+        "longitude": -40.4056
+    },
+    {
+        "descricao": "Horizonte",
+        "latitude": -4.1209,
+        "longitude": -38.4707
+    },
+    {
+        "descricao": "Ibaretama",
+        "latitude": -4.80376,
+        "longitude": -38.7501
+    },
+    {
+        "descricao": "Ibiapina",
+        "latitude": -3.92403,
+        "longitude": -40.8911
+    },
+    {
+        "descricao": "Ibicuitinga",
+        "latitude": -4.96999,
+        "longitude": -38.6362
+    },
+    {
+        "descricao": "Icapuí",
+        "latitude": -4.71206,
+        "longitude": -37.3531
+    },
+    {
+        "descricao": "Icó",
+        "latitude": -6.39627,
+        "longitude": -38.8554
+    },
+    {
+        "descricao": "Iguatu",
+        "latitude": -6.36281,
+        "longitude": -39.2892
+    },
+    {
+        "descricao": "Independência",
+        "latitude": -5.38789,
+        "longitude": -40.3085
+    },
+    {
+        "descricao": "Ipaporanga",
+        "latitude": -4.89764,
+        "longitude": -40.7537
+    },
+    {
+        "descricao": "Ipaumirim",
+        "latitude": -6.78265,
+        "longitude": -38.7179
+    },
+    {
+        "descricao": "Ipu",
+        "latitude": -4.31748,
+        "longitude": -40.7059
+    },
+    {
+        "descricao": "Ipueiras",
+        "latitude": -4.53802,
+        "longitude": -40.7118
+    },
+    {
+        "descricao": "Iracema",
+        "latitude": -5.8124,
+        "longitude": -38.2919
+    },
+    {
+        "descricao": "Irauçuba",
+        "latitude": -3.74737,
+        "longitude": -39.7843
+    },
+    {
+        "descricao": "Itaiçaba",
+        "latitude": -4.67146,
+        "longitude": -37.833
+    },
+    {
+        "descricao": "Itaitinga",
+        "latitude": -3.96577,
+        "longitude": -38.5298
+    },
+    {
+        "descricao": "Itapajé",
+        "latitude": -3.68314,
+        "longitude": -39.5855
+    },
+    {
+        "descricao": "Itapipoca",
+        "latitude": -3.49933,
+        "longitude": -39.5836
+    },
+    {
+        "descricao": "Itapiúna",
+        "latitude": -4.55516,
+        "longitude": -38.9281
+    },
+    {
+        "descricao": "Itarema",
+        "latitude": -2.9248,
+        "longitude": -39.9167
+    },
+    {
+        "descricao": "Itatira",
+        "latitude": -4.52608,
+        "longitude": -39.6202
+    },
+    {
+        "descricao": "Jaguaretama",
+        "latitude": -5.6051,
+        "longitude": -38.7639
+    },
+    {
+        "descricao": "Jaguaribara",
+        "latitude": -5.67765,
+        "longitude": -38.5359
+    },
+    {
+        "descricao": "Jaguaribe",
+        "latitude": -5.90213,
+        "longitude": -38.6227
+    },
+    {
+        "descricao": "Jaguaruana",
+        "latitude": -4.83151,
+        "longitude": -37.781
+    },
+    {
+        "descricao": "Jardim",
+        "latitude": -7.57599,
+        "longitude": -39.2826
+    },
+    {
+        "descricao": "Jati",
+        "latitude": -7.6797,
+        "longitude": -39.0029
+    },
+    {
+        "descricao": "Jijoca de Jericoacoara",
+        "latitude": -2.79331,
+        "longitude": -40.5127
+    },
+    {
+        "descricao": "Juazeiro do Norte",
+        "latitude": -7.19621,
+        "longitude": -39.3076
+    },
+    {
+        "descricao": "Jucás",
+        "latitude": -6.51523,
+        "longitude": -39.5187
+    },
+    {
+        "descricao": "Lavras da Mangabeira",
+        "latitude": -6.7448,
+        "longitude": -38.9706
+    },
+    {
+        "descricao": "Limoeiro do Norte",
+        "latitude": -5.14392,
+        "longitude": -38.0847
+    },
+    {
+        "descricao": "Madalena",
+        "latitude": -4.84601,
+        "longitude": -39.5725
+    },
+    {
+        "descricao": "Maracanaú",
+        "latitude": -3.86699,
+        "longitude": -38.6259
+    },
+    {
+        "descricao": "Maranguape",
+        "latitude": -3.89143,
+        "longitude": -38.6829
+    },
+    {
+        "descricao": "Marco",
+        "latitude": -3.1285,
+        "longitude": -40.1582
+    },
+    {
+        "descricao": "Martinópole",
+        "latitude": -3.2252,
+        "longitude": -40.6896
+    },
+    {
+        "descricao": "Massapê",
+        "latitude": -3.52364,
+        "longitude": -40.3423
+    },
+    {
+        "descricao": "Mauriti",
+        "latitude": -7.38597,
+        "longitude": -38.7708
+    },
+    {
+        "descricao": "Meruoca",
+        "latitude": -3.53974,
+        "longitude": -40.4531
+    },
+    {
+        "descricao": "Milagres",
+        "latitude": -7.29749,
+        "longitude": -38.9378
+    },
+    {
+        "descricao": "Milhã",
+        "latitude": -5.67252,
+        "longitude": -39.1875
+    },
+    {
+        "descricao": "Miraíma",
+        "latitude": -3.56867,
+        "longitude": -39.9663
+    },
+    {
+        "descricao": "Missão Velha",
+        "latitude": -7.23522,
+        "longitude": -39.143
+    },
+    {
+        "descricao": "Mombaça",
+        "latitude": -5.73844,
+        "longitude": -39.63
+    },
+    {
+        "descricao": "Monsenhor Tabosa",
+        "latitude": -4.79102,
+        "longitude": -40.0646
+    },
+    {
+        "descricao": "Morada Nova",
+        "latitude": -5.09736,
+        "longitude": -38.3702
+    },
+    {
+        "descricao": "Moraújo",
+        "latitude": -3.46311,
+        "longitude": -40.6776
+    },
+    {
+        "descricao": "Morrinhos",
+        "latitude": -3.23426,
+        "longitude": -40.1233
+    },
+    {
+        "descricao": "Mucambo",
+        "latitude": -3.90271,
+        "longitude": -40.7452
+    },
+    {
+        "descricao": "Mulungu",
+        "latitude": -4.30294,
+        "longitude": -38.9951
+    },
+    {
+        "descricao": "Nova Olinda",
+        "latitude": -7.08415,
+        "longitude": -39.6713
+    },
+    {
+        "descricao": "Nova Russas",
+        "latitude": -4.70581,
+        "longitude": -40.5621
+    },
+    {
+        "descricao": "Novo Oriente",
+        "latitude": -5.52552,
+        "longitude": -40.7713
+    },
+    {
+        "descricao": "Ocara",
+        "latitude": -4.48523,
+        "longitude": -38.5933
+    },
+    {
+        "descricao": "Orós",
+        "latitude": -6.25182,
+        "longitude": -38.9053
+    },
+    {
+        "descricao": "Pacajus",
+        "latitude": -4.17107,
+        "longitude": -38.465
+    },
+    {
+        "descricao": "Pacatuba",
+        "latitude": -3.9784,
+        "longitude": -38.6183
+    },
+    {
+        "descricao": "Pacoti",
+        "latitude": -4.22492,
+        "longitude": -38.922
+    },
+    {
+        "descricao": "Pacujá",
+        "latitude": -3.98327,
+        "longitude": -40.6989
+    },
+    {
+        "descricao": "Palhano",
+        "latitude": -4.73672,
+        "longitude": -37.9655
+    },
+    {
+        "descricao": "Palmácia",
+        "latitude": -4.13831,
+        "longitude": -38.8446
+    },
+    {
+        "descricao": "Paracuru",
+        "latitude": -3.41436,
+        "longitude": -39.03
+    },
+    {
+        "descricao": "Paraipaba",
+        "latitude": -3.43799,
+        "longitude": -39.1479
+    },
+    {
+        "descricao": "Parambu",
+        "latitude": -6.20768,
+        "longitude": -40.6905
+    },
+    {
+        "descricao": "Paramoti",
+        "latitude": -4.08815,
+        "longitude": -39.2417
+    },
+    {
+        "descricao": "Pedra Branca",
+        "latitude": -5.45341,
+        "longitude": -39.7078
+    },
+    {
+        "descricao": "Penaforte",
+        "latitude": -7.82163,
+        "longitude": -39.0707
+    },
+    {
+        "descricao": "Pentecoste",
+        "latitude": -3.79274,
+        "longitude": -39.2692
+    },
+    {
+        "descricao": "Pereiro",
+        "latitude": -6.03576,
+        "longitude": -38.4624
+    },
+    {
+        "descricao": "Pindoretama",
+        "latitude": -4.01584,
+        "longitude": -38.3061
+    },
+    {
+        "descricao": "Piquet Carneiro",
+        "latitude": -5.80025,
+        "longitude": -39.417
+    },
+    {
+        "descricao": "Pires Ferreira",
+        "latitude": -4.23922,
+        "longitude": -40.6442
+    },
+    {
+        "descricao": "Poranga",
+        "latitude": -4.74672,
+        "longitude": -40.9205
+    },
+    {
+        "descricao": "Porteiras",
+        "latitude": -7.52265,
+        "longitude": -39.114
+    },
+    {
+        "descricao": "Potengi",
+        "latitude": -7.09154,
+        "longitude": -40.0233
+    },
+    {
+        "descricao": "Potiretama",
+        "latitude": -5.71287,
+        "longitude": -38.1578
+    },
+    {
+        "descricao": "Quiterianópolis",
+        "latitude": -5.8425,
+        "longitude": -40.7002
+    },
+    {
+        "descricao": "Quixadá",
+        "latitude": -4.9663,
+        "longitude": -39.0155
+    },
+    {
+        "descricao": "Quixelô",
+        "latitude": -6.24637,
+        "longitude": -39.2011
+    },
+    {
+        "descricao": "Quixeramobim",
+        "latitude": -5.19067,
+        "longitude": -39.2889
+    },
+    {
+        "descricao": "Quixeré",
+        "latitude": -5.07148,
+        "longitude": -37.9802
+    },
+    {
+        "descricao": "Redenção",
+        "latitude": -4.21587,
+        "longitude": -38.7277
+    },
+    {
+        "descricao": "Reriutaba",
+        "latitude": -4.14191,
+        "longitude": -40.5759
+    },
+    {
+        "descricao": "Russas",
+        "latitude": -4.92673,
+        "longitude": -37.9721
+    },
+    {
+        "descricao": "Saboeiro",
+        "latitude": -6.5346,
+        "longitude": -39.9017
+    },
+    {
+        "descricao": "Salitre",
+        "latitude": -7.28398,
+        "longitude": -40.45
+    },
+    {
+        "descricao": "Santa Quitéria",
+        "latitude": -4.32608,
+        "longitude": -40.1523
+    },
+    {
+        "descricao": "Santana do Acaraú",
+        "latitude": -3.46144,
+        "longitude": -40.2118
+    },
+    {
+        "descricao": "Santana do Cariri",
+        "latitude": -7.17613,
+        "longitude": -39.7302
+    },
+    {
+        "descricao": "São Benedito",
+        "latitude": -4.04713,
+        "longitude": -40.8596
+    },
+    {
+        "descricao": "São Gonçalo do Amarante",
+        "latitude": -3.60515,
+        "longitude": -38.9726
+    },
+    {
+        "descricao": "São João do Jaguaribe",
+        "latitude": -5.27516,
+        "longitude": -38.2694
+    },
+    {
+        "descricao": "São Luís do Curu",
+        "latitude": -3.66976,
+        "longitude": -39.2391
+    },
+    {
+        "descricao": "Senador Pompeu",
+        "latitude": -5.58244,
+        "longitude": -39.3704
+    },
+    {
+        "descricao": "Senador Sá",
+        "latitude": -3.35305,
+        "longitude": -40.4662
+    },
+    {
+        "descricao": "Sobral",
+        "latitude": -3.68913,
+        "longitude": -40.3482
+    },
+    {
+        "descricao": "Solonópole",
+        "latitude": -5.71894,
+        "longitude": -39.0107
+    },
+    {
+        "descricao": "Tabuleiro do Norte",
+        "latitude": -5.24353,
+        "longitude": -38.1282
+    },
+    {
+        "descricao": "Tamboril",
+        "latitude": -4.83136,
+        "longitude": -40.3196
+    },
+    {
+        "descricao": "Tarrafas",
+        "latitude": -6.67838,
+        "longitude": -39.753
+    },
+    {
+        "descricao": "Tauá",
+        "latitude": -5.98585,
+        "longitude": -40.2968
+    },
+    {
+        "descricao": "Tejuçuoca",
+        "latitude": -3.98831,
+        "longitude": -39.5799
+    },
+    {
+        "descricao": "Tianguá",
+        "latitude": -3.72965,
+        "longitude": -40.9923
+    },
+    {
+        "descricao": "Trairi",
+        "latitude": -3.26932,
+        "longitude": -39.2681
+    },
+    {
+        "descricao": "Tururu",
+        "latitude": -3.58413,
+        "longitude": -39.4297
+    },
+    {
+        "descricao": "Ubajara",
+        "latitude": -3.85448,
+        "longitude": -40.9204
+    },
+    {
+        "descricao": "Umari",
+        "latitude": -6.63893,
+        "longitude": -38.7008
+    },
+    {
+        "descricao": "Umirim",
+        "latitude": -3.67654,
+        "longitude": -39.3465
+    },
+    {
+        "descricao": "Uruburetama",
+        "latitude": -3.62316,
+        "longitude": -39.5107
+    },
+    {
+        "descricao": "Uruoca",
+        "latitude": -3.30819,
+        "longitude": -40.5628
+    },
+    {
+        "descricao": "Varjota",
+        "latitude": -4.19387,
+        "longitude": -40.4741
+    },
+    {
+        "descricao": "Várzea Alegre",
+        "latitude": -6.78264,
+        "longitude": -39.2942
+    },
+    {
+        "descricao": "Viçosa do Ceará",
+        "latitude": -3.5667,
+        "longitude": -41.0916
+    }
+]

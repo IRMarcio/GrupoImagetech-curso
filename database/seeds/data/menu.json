@@ -1,0 +1,132 @@
+[
+    {
+        "descricao": "Dashboard",
+        "slug": "dashboard",
+        "url": "dashboard",
+        "tipo_menu": "SIMPLES",
+        "ordem": 0
+    },
+    {
+        "descricao": "Sistema",
+        "slug": "cad_auxiliares",
+        "tipo_menu": "MEGA",
+        "ordem": 5,
+        "filhos": [
+            {
+                "descricao": "Geral",
+                "slug": "geral",
+                "ordem": 0,
+                "tipo_menu": "HEADER"
+            },
+            {
+                "descricao": "Unidades",
+                "slug": "unidades",
+                "url": "unidade.index",
+                "ordem": 10,
+                "icone": "icon-city"
+            },
+            {
+                "descricao": "Perfis",
+                "slug": "perfis",
+                "url": "perfil.index",
+                "ordem": 20,
+                "icone": "icon-git-compare"
+            },
+            {
+                "descricao": "Usuários",
+                "slug": "usuarios",
+                "url": "usuario.index",
+                "ordem": 30,
+                "icone": "icon-users"
+            },
+            {
+                "descricao": "Centro de Distribuição - CD",
+                "slug": "centro_distribuicao",
+                "url": "centro_distribuicao.index",
+                "ordem": 40,
+                "icone": "fa fa-building-o"
+            },
+            {
+                "descricao": "Endereçamento",
+                "slug": "cad_aux_endereco",
+                "ordem": 200,
+                "tipo_menu": "HEADER"
+            },
+            {
+                "descricao": "Estados",
+                "slug": "estados",
+                "url": "estado.index",
+                "ordem": 210,
+                "icone": "icon-map"
+            },
+            {
+                "descricao": "Municípios",
+                "slug": "municipios",
+                "url": "municipio.index",
+                "ordem": 220,
+                "icone": "icon-map4"
+            },
+            {
+                "descricao": "Configurações",
+                "slug": "configuracoes",
+                "tipo_menu": "HEADER",
+                "ordem": 230
+            },
+            {
+                "descricao": "Auditoria",
+                "slug": "auditoria",
+                "url": "auditoria.index",
+                "ordem": 240,
+                "icone": "icon-list"
+            },
+            {
+                "descricao": "Sistema",
+                "slug": "config_sistema",
+                "url": "configuracao.index",
+                "ordem": 250,
+                "icone": "icon-cog"
+            }
+        ]
+    },
+    {
+        "descricao": "Gestão Administrativa",
+        "slug": "alunos",
+        "tipo_menu": "MEGA",
+        "ordem": 300,
+        "filhos": [
+            {
+                "descricao": "Alunos",
+                "slug": "gestao",
+                "ordem": 310,
+                "tipo_menu": "HEADER"
+            },
+            {
+                "descricao": "Cadastro",
+                "slug": "cadastro",
+                "url": "aluno.index",
+                "ordem": 320,
+                "icone": "icon-map"
+            },
+            {
+                "descricao": "Período",
+                "slug": "periodo",
+                "ordem": 330,
+                "tipo_menu": "HEADER"
+            },
+            {
+                "descricao": "Cadastro Tipo Período",
+                "slug": "cadastro_tipo",
+                "url": "tipo_periodo.index",
+                "ordem": 340,
+                "icone": "icon-map"
+            },
+            {
+                "descricao": "Cadastro Período",
+                "slug": "cadastro_periodo",
+                "url": "periodo.index",
+                "ordem": 340,
+                "icone": "icon-map"
+            }
+        ]
+    }
+]

@@ -1,0 +1,262 @@
+[
+    {
+        "descricao": "Alta Floresta D'Oeste",
+        "latitude": -11.9283,
+        "longitude": -61.9953
+    },
+    {
+        "descricao": "Alto Alegre dos Parecis",
+        "latitude": -12.132,
+        "longitude": -61.835
+    },
+    {
+        "descricao": "Alto Paraíso",
+        "latitude": -9.71429,
+        "longitude": -63.3188
+    },
+    {
+        "descricao": "Alvorada D'Oeste",
+        "latitude": -11.3463,
+        "longitude": -62.2847
+    },
+    {
+        "descricao": "Ariquemes",
+        "latitude": -9.90571,
+        "longitude": -63.0325
+    },
+    {
+        "descricao": "Buritis",
+        "latitude": -10.1943,
+        "longitude": -63.8324
+    },
+    {
+        "descricao": "Cabixi",
+        "latitude": -13.4945,
+        "longitude": -60.552
+    },
+    {
+        "descricao": "Cacaulândia",
+        "latitude": -10.349,
+        "longitude": -62.9043
+    },
+    {
+        "descricao": "Cacoal",
+        "latitude": -11.4343,
+        "longitude": -61.4562
+    },
+    {
+        "descricao": "Campo Novo de Rondônia",
+        "latitude": -10.5712,
+        "longitude": -63.6266
+    },
+    {
+        "descricao": "Candeias do Jamari",
+        "latitude": -8.7907,
+        "longitude": -63.7005
+    },
+    {
+        "descricao": "Castanheiras",
+        "latitude": -11.4253,
+        "longitude": -61.9482
+    },
+    {
+        "descricao": "Cerejeiras",
+        "latitude": -13.187,
+        "longitude": -60.8168
+    },
+    {
+        "descricao": "Chupinguaia",
+        "latitude": -12.5611,
+        "longitude": -60.8877
+    },
+    {
+        "descricao": "Colorado do Oeste",
+        "latitude": -13.1174,
+        "longitude": -60.5454
+    },
+    {
+        "descricao": "Corumbiara",
+        "latitude": -12.9551,
+        "longitude": -60.8947
+    },
+    {
+        "descricao": "Costa Marques",
+        "latitude": -12.4367,
+        "longitude": -64.228
+    },
+    {
+        "descricao": "Cujubim",
+        "latitude": -9.36065,
+        "longitude": -62.5846
+    },
+    {
+        "descricao": "Espigão D'Oeste",
+        "latitude": -11.5266,
+        "longitude": -61.0252
+    },
+    {
+        "descricao": "Governador Jorge Teixeira",
+        "latitude": -10.61,
+        "longitude": -62.7371
+    },
+    {
+        "descricao": "Guajará-Mirim",
+        "latitude": -10.7889,
+        "longitude": -65.3296
+    },
+    {
+        "descricao": "Itapuã do Oeste",
+        "latitude": -9.19687,
+        "longitude": -63.1809
+    },
+    {
+        "descricao": "Jaru",
+        "latitude": -10.4318,
+        "longitude": -62.4788
+    },
+    {
+        "descricao": "Ji-Paraná",
+        "latitude": -10.8777,
+        "longitude": -61.9322
+    },
+    {
+        "descricao": "Machadinho D'Oeste",
+        "latitude": -9.44363,
+        "longitude": -61.9818
+    },
+    {
+        "descricao": "Ministro Andreazza",
+        "latitude": -11.196,
+        "longitude": -61.5174
+    },
+    {
+        "descricao": "Mirante da Serra",
+        "latitude": -11.029,
+        "longitude": -62.6696
+    },
+    {
+        "descricao": "Monte Negro",
+        "latitude": -10.2458,
+        "longitude": -63.29
+    },
+    {
+        "descricao": "Nova Brasilândia D'Oeste",
+        "latitude": -11.7247,
+        "longitude": -62.3127
+    },
+    {
+        "descricao": "Nova Mamoré",
+        "latitude": -10.4077,
+        "longitude": -65.3346
+    },
+    {
+        "descricao": "Nova União",
+        "latitude": -10.9068,
+        "longitude": -62.5564
+    },
+    {
+        "descricao": "Novo Horizonte do Oeste",
+        "latitude": -11.6961,
+        "longitude": -61.9951
+    },
+    {
+        "descricao": "Ouro Preto do Oeste",
+        "latitude": -10.7167,
+        "longitude": -62.2565
+    },
+    {
+        "descricao": "Parecis",
+        "latitude": -12.1754,
+        "longitude": -61.6032
+    },
+    {
+        "descricao": "Pimenta Bueno",
+        "latitude": -11.672,
+        "longitude": -61.198
+    },
+    {
+        "descricao": "Pimenteiras do Oeste",
+        "latitude": -13.4823,
+        "longitude": -61.0471
+    },
+    {
+        "descricao": "Porto Velho",
+        "latitude": -8.76077,
+        "longitude": -63.8999
+    },
+    {
+        "descricao": "Presidente Médici",
+        "latitude": -11.169,
+        "longitude": -61.8986
+    },
+    {
+        "descricao": "Primavera de Rondônia",
+        "latitude": -11.8295,
+        "longitude": -61.3153
+    },
+    {
+        "descricao": "Rio Crespo",
+        "latitude": -9.69965,
+        "longitude": -62.9011
+    },
+    {
+        "descricao": "Rolim de Moura",
+        "latitude": -11.7271,
+        "longitude": -61.7714
+    },
+    {
+        "descricao": "Santa Luzia D'Oeste",
+        "latitude": -11.9074,
+        "longitude": -61.7777
+    },
+    {
+        "descricao": "São Felipe D'Oeste",
+        "latitude": -11.9023,
+        "longitude": -61.5026
+    },
+    {
+        "descricao": "São Francisco do Guaporé",
+        "latitude": -12.052,
+        "longitude": -63.568
+    },
+    {
+        "descricao": "São Miguel do Guaporé",
+        "latitude": -11.6953,
+        "longitude": -62.7192
+    },
+    {
+        "descricao": "Seringueiras",
+        "latitude": -11.8055,
+        "longitude": -63.0182
+    },
+    {
+        "descricao": "Teixeirópolis",
+        "latitude": -10.9056,
+        "longitude": -62.242
+    },
+    {
+        "descricao": "Theobroma",
+        "latitude": -10.2483,
+        "longitude": -62.3538
+    },
+    {
+        "descricao": "Urupá",
+        "latitude": -11.1261,
+        "longitude": -62.3639
+    },
+    {
+        "descricao": "Vale do Anari",
+        "latitude": -9.86215,
+        "longitude": -62.1876
+    },
+    {
+        "descricao": "Vale do Paraíso",
+        "latitude": -10.4465,
+        "longitude": -62.1352
+    },
+    {
+        "descricao": "Vilhena",
+        "latitude": -12.7502,
+        "longitude": -60.1488
+    }
+]

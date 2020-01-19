@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.4.0.final using JasperReports Library version 6.4.1  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="f7d3d221-8506-4f58-b2af-799beaa43b8d">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="SisGE"/>
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<parameter name="SUBREPORT_DIR" class="java.lang.String"/>
+	<parameter name="IMG_DIR" class="java.lang.String"/>
+	<parameter name="USER_ID" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[select 
+	descricao, uf
+from 
+	uf
+order by
+	descricao]]>
+	</queryString>
+	<field name="descricao" class="java.lang.String"/>
+	<field name="uf" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="41" splitType="Stretch">
+			<image>
+				<reportElement x="20" y="5" width="71" height="30" uuid="bf22d3d6-8eb5-4c3b-8238-db735a02cd5d"/>
+				<imageExpression><![CDATA[$P{IMG_DIR}]]></imageExpression>
+			</image>
+			<textField pattern="d/M/yyyy">
+				<reportElement x="478" y="0" width="78" height="22" uuid="8579be19-0f95-4e4c-90e4-9401c1dbe266"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<textField pattern="HH:mm:ss">
+				<reportElement x="502" y="17" width="53" height="16" uuid="70fbc696-ed13-41aa-b594-712058c27d6d"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="470" y="1" width="30" height="21" uuid="f789e4f0-5220-4ac5-a0ec-b49d443d3111"/>
+				<textElement textAlignment="Right"/>
+				<text><![CDATA[Data:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="470" y="17" width="30" height="21" uuid="43f693d4-ed3a-4a3d-af2a-54fe8f5b37bc"/>
+				<textElement textAlignment="Right"/>
+				<text><![CDATA[Hora:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="143" y="5" width="268" height="30" uuid="a4dc8e64-2440-484e-99eb-fa3eaa335247"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="16"/>
+				</textElement>
+				<text><![CDATA[Estados]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="33" splitType="Stretch">
+			<line>
+				<reportElement x="0" y="23" width="555" height="1" uuid="394f6679-0863-4ded-acf2-3b0401b967a2">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="11" y="6" width="300" height="17" uuid="d5700661-540d-4ede-b6df-fd3b6cfd38ac"/>
+				<text><![CDATA[Estado]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="450" y="7" width="50" height="17" uuid="9069f392-055d-440f-874c-0c5c1a1969de"/>
+				<text><![CDATA[UF]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="18" splitType="Stretch">
+			<textField>
+				<reportElement x="11" y="-10" width="300" height="20" uuid="08d94e52-b28f-49ec-af5a-fbc61b23bead"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{descricao}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="450" y="-10" width="50" height="20" uuid="9fe50de8-28ca-4759-b26a-44cc5e47dbb4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{uf}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="35" splitType="Stretch">
+			<line>
+				<reportElement x="0" y="0" width="555" height="1" uuid="aded15ff-f8b0-4fa4-aaca-149bec428166">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="0" y="2" width="399" height="20" uuid="5c4c16c3-7311-480c-89e5-a83b580a1c3a"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[SigaLOG - 1.0.0]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="490" y="6" width="65" height="18" uuid="0c055242-e896-4030-8791-164c687f9a08"/>
+				<textElement textAlignment="Right">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Pág. " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="14" width="399" height="20" uuid="ea134c0c-8f52-4d58-8001-df225df3f400"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[SIGA Tecnologias do Brasil]]></text>
+			</staticText>
+		</band>
+	</pageFooter>
+</jasperReport>

@@ -1,0 +1,1232 @@
+[
+    {
+        "descricao": "Abadia de Goiás",
+        "latitude": -16.7573,
+        "longitude": -49.4412
+    },
+    {
+        "descricao": "Abadiânia",
+        "latitude": -16.197,
+        "longitude": -48.7057
+    },
+    {
+        "descricao": "Acreúna",
+        "latitude": -17.396,
+        "longitude": -50.3749
+    },
+    {
+        "descricao": "Adelândia",
+        "latitude": -16.4127,
+        "longitude": -50.1657
+    },
+    {
+        "descricao": "Água Fria de Goiás",
+        "latitude": -14.9778,
+        "longitude": -47.7823
+    },
+    {
+        "descricao": "Água Limpa",
+        "latitude": -18.0771,
+        "longitude": -48.7603
+    },
+    {
+        "descricao": "Águas Lindas de Goiás",
+        "latitude": -15.7617,
+        "longitude": -48.2816
+    },
+    {
+        "descricao": "Alexânia",
+        "latitude": -16.0834,
+        "longitude": -48.5076
+    },
+    {
+        "descricao": "Aloândia",
+        "latitude": -17.7292,
+        "longitude": -49.4769
+    },
+    {
+        "descricao": "Alto Horizonte",
+        "latitude": -14.1978,
+        "longitude": -49.3378
+    },
+    {
+        "descricao": "Alto Paraíso de Goiás",
+        "latitude": -14.1305,
+        "longitude": -47.51
+    },
+    {
+        "descricao": "Alvorada do Norte",
+        "latitude": -14.4797,
+        "longitude": -46.491
+    },
+    {
+        "descricao": "Amaralina",
+        "latitude": -13.9236,
+        "longitude": -49.2962
+    },
+    {
+        "descricao": "Americano do Brasil",
+        "latitude": -16.2514,
+        "longitude": -49.9831
+    },
+    {
+        "descricao": "Amorinópolis",
+        "latitude": -16.6151,
+        "longitude": -51.0919
+    },
+    {
+        "descricao": "Anápolis",
+        "latitude": -16.3281,
+        "longitude": -48.953
+    },
+    {
+        "descricao": "Anhanguera",
+        "latitude": -18.3339,
+        "longitude": -48.2204
+    },
+    {
+        "descricao": "Anicuns",
+        "latitude": -16.4642,
+        "longitude": -49.9617
+    },
+    {
+        "descricao": "Aparecida de Goiânia",
+        "latitude": -16.8198,
+        "longitude": -49.2469
+    },
+    {
+        "descricao": "Aparecida do Rio Doce",
+        "latitude": -18.2941,
+        "longitude": -51.1516
+    },
+    {
+        "descricao": "Aporé",
+        "latitude": -18.9607,
+        "longitude": -51.9232
+    },
+    {
+        "descricao": "Araçu",
+        "latitude": -16.3563,
+        "longitude": -49.6804
+    },
+    {
+        "descricao": "Aragarças",
+        "latitude": -15.8955,
+        "longitude": -52.2372
+    },
+    {
+        "descricao": "Aragoiânia",
+        "latitude": -16.9087,
+        "longitude": -49.4476
+    },
+    {
+        "descricao": "Araguapaz",
+        "latitude": -15.0909,
+        "longitude": -50.6315
+    },
+    {
+        "descricao": "Arenópolis",
+        "latitude": -16.3837,
+        "longitude": -51.5563
+    },
+    {
+        "descricao": "Aruanã",
+        "latitude": -14.9166,
+        "longitude": -51.075
+    },
+    {
+        "descricao": "Aurilândia",
+        "latitude": -16.6773,
+        "longitude": -50.4641
+    },
+    {
+        "descricao": "Avelinópolis",
+        "latitude": -16.4672,
+        "longitude": -49.7579
+    },
+    {
+        "descricao": "Baliza",
+        "latitude": -16.1966,
+        "longitude": -52.5393
+    },
+    {
+        "descricao": "Barro Alto",
+        "latitude": -14.9658,
+        "longitude": -48.9086
+    },
+    {
+        "descricao": "Bela Vista de Goiás",
+        "latitude": -16.9693,
+        "longitude": -48.9513
+    },
+    {
+        "descricao": "Bom Jardim de Goiás",
+        "latitude": -16.2063,
+        "longitude": -52.1728
+    },
+    {
+        "descricao": "Bom Jesus de Goiás",
+        "latitude": -18.2173,
+        "longitude": -49.74
+    },
+    {
+        "descricao": "Bonfinópolis",
+        "latitude": -16.6173,
+        "longitude": -48.9616
+    },
+    {
+        "descricao": "Bonópolis",
+        "latitude": -13.6329,
+        "longitude": -49.8106
+    },
+    {
+        "descricao": "Brazabrantes",
+        "latitude": -16.4281,
+        "longitude": -49.3863
+    },
+    {
+        "descricao": "Britânia",
+        "latitude": -15.2428,
+        "longitude": -51.1602
+    },
+    {
+        "descricao": "Buriti Alegre",
+        "latitude": -18.1378,
+        "longitude": -49.0404
+    },
+    {
+        "descricao": "Buriti de Goiás",
+        "latitude": -16.1792,
+        "longitude": -50.4302
+    },
+    {
+        "descricao": "Buritinópolis",
+        "latitude": -14.4772,
+        "longitude": -46.4076
+    },
+    {
+        "descricao": "Cabeceiras",
+        "latitude": -15.7995,
+        "longitude": -46.9265
+    },
+    {
+        "descricao": "Cachoeira Alta",
+        "latitude": -18.7618,
+        "longitude": -50.9432
+    },
+    {
+        "descricao": "Cachoeira de Goiás",
+        "latitude": -16.6635,
+        "longitude": -50.646
+    },
+    {
+        "descricao": "Cachoeira Dourada",
+        "latitude": -18.4859,
+        "longitude": -49.4766
+    },
+    {
+        "descricao": "Caçu",
+        "latitude": -18.5594,
+        "longitude": -51.1328
+    },
+    {
+        "descricao": "Caiapônia",
+        "latitude": -16.9539,
+        "longitude": -51.8091
+    },
+    {
+        "descricao": "Caldas Novas",
+        "latitude": -17.7441,
+        "longitude": -48.6246
+    },
+    {
+        "descricao": "Caldazinha",
+        "latitude": -16.7117,
+        "longitude": -49.0013
+    },
+    {
+        "descricao": "Campestre de Goiás",
+        "latitude": -16.7624,
+        "longitude": -49.695
+    },
+    {
+        "descricao": "Campinaçu",
+        "latitude": -13.787,
+        "longitude": -48.5704
+    },
+    {
+        "descricao": "Campinorte",
+        "latitude": -14.3137,
+        "longitude": -49.1511
+    },
+    {
+        "descricao": "Campo Alegre de Goiás",
+        "latitude": -17.6363,
+        "longitude": -47.7768
+    },
+    {
+        "descricao": "Campos Belos",
+        "latitude": -13.035,
+        "longitude": -46.7681
+    },
+    {
+        "descricao": "Campos Verdes",
+        "latitude": -14.2442,
+        "longitude": -49.6528
+    },
+    {
+        "descricao": "Carmo do Rio Verde",
+        "latitude": -15.3549,
+        "longitude": -49.708
+    },
+    {
+        "descricao": "Castelândia",
+        "latitude": -18.0921,
+        "longitude": -50.203
+    },
+    {
+        "descricao": "Catalão",
+        "latitude": -18.1656,
+        "longitude": -47.944
+    },
+    {
+        "descricao": "Caturaí",
+        "latitude": -16.4447,
+        "longitude": -49.4936
+    },
+    {
+        "descricao": "Cavalcante",
+        "latitude": -13.7976,
+        "longitude": -47.4566
+    },
+    {
+        "descricao": "Ceres",
+        "latitude": -15.3061,
+        "longitude": -49.6
+    },
+    {
+        "descricao": "Cezarina",
+        "latitude": -16.9718,
+        "longitude": -49.7758
+    },
+    {
+        "descricao": "Chapadão do Céu",
+        "latitude": -18.4073,
+        "longitude": -52.549
+    },
+    {
+        "descricao": "Cidade Ocidental",
+        "latitude": -16.0765,
+        "longitude": -47.9252
+    },
+    {
+        "descricao": "Cocalzinho de Goiás",
+        "latitude": -15.7914,
+        "longitude": -48.7747
+    },
+    {
+        "descricao": "Colinas do Sul",
+        "latitude": -14.1528,
+        "longitude": -48.076
+    },
+    {
+        "descricao": "Córrego do Ouro",
+        "latitude": -16.2918,
+        "longitude": -50.5503
+    },
+    {
+        "descricao": "Corumbá de Goiás",
+        "latitude": -15.9245,
+        "longitude": -48.8117
+    },
+    {
+        "descricao": "Corumbaíba",
+        "latitude": -18.1415,
+        "longitude": -48.5626
+    },
+    {
+        "descricao": "Cristalina",
+        "latitude": -16.7676,
+        "longitude": -47.6131
+    },
+    {
+        "descricao": "Cristianópolis",
+        "latitude": -17.1987,
+        "longitude": -48.7034
+    },
+    {
+        "descricao": "Crixás",
+        "latitude": -14.5412,
+        "longitude": -49.974
+    },
+    {
+        "descricao": "Cromínia",
+        "latitude": -17.2883,
+        "longitude": -49.3798
+    },
+    {
+        "descricao": "Cumari",
+        "latitude": -18.2644,
+        "longitude": -48.1511
+    },
+    {
+        "descricao": "Damianópolis",
+        "latitude": -14.5604,
+        "longitude": -46.178
+    },
+    {
+        "descricao": "Damolândia",
+        "latitude": -16.2544,
+        "longitude": -49.3631
+    },
+    {
+        "descricao": "Davinópolis",
+        "latitude": -18.1501,
+        "longitude": -47.5568
+    },
+    {
+        "descricao": "Diorama",
+        "latitude": -16.2329,
+        "longitude": -51.2543
+    },
+    {
+        "descricao": "Divinópolis de Goiás",
+        "latitude": -13.2853,
+        "longitude": -46.3999
+    },
+    {
+        "descricao": "Doverlândia",
+        "latitude": -16.7188,
+        "longitude": -52.3189
+    },
+    {
+        "descricao": "Edealina",
+        "latitude": -17.4239,
+        "longitude": -49.6644
+    },
+    {
+        "descricao": "Edéia",
+        "latitude": -17.3406,
+        "longitude": -49.9295
+    },
+    {
+        "descricao": "Estrela do Norte",
+        "latitude": -13.8665,
+        "longitude": -49.0716
+    },
+    {
+        "descricao": "Faina",
+        "latitude": -15.4473,
+        "longitude": -50.3622
+    },
+    {
+        "descricao": "Fazenda Nova",
+        "latitude": -16.1834,
+        "longitude": -50.7781
+    },
+    {
+        "descricao": "Firminópolis",
+        "latitude": -16.5778,
+        "longitude": -50.304
+    },
+    {
+        "descricao": "Flores de Goiás",
+        "latitude": -14.4451,
+        "longitude": -47.0417
+    },
+    {
+        "descricao": "Formosa",
+        "latitude": -15.54,
+        "longitude": -47.337
+    },
+    {
+        "descricao": "Formoso",
+        "latitude": -13.6499,
+        "longitude": -48.8775
+    },
+    {
+        "descricao": "Goianápolis",
+        "latitude": -16.5098,
+        "longitude": -49.0234
+    },
+    {
+        "descricao": "Goiandira",
+        "latitude": -18.1352,
+        "longitude": -48.0875
+    },
+    {
+        "descricao": "Goianésia",
+        "latitude": -15.3118,
+        "longitude": -49.1162
+    },
+    {
+        "descricao": "Goiânia",
+        "latitude": -16.6864,
+        "longitude": -49.2643
+    },
+    {
+        "descricao": "Goianira",
+        "latitude": -16.4947,
+        "longitude": -49.427
+    },
+    {
+        "descricao": "Goiás",
+        "latitude": -15.9333,
+        "longitude": -50.14
+    },
+    {
+        "descricao": "Goiatuba",
+        "latitude": -18.0105,
+        "longitude": -49.3658
+    },
+    {
+        "descricao": "Gouvelândia",
+        "latitude": -18.6238,
+        "longitude": -50.0805
+    },
+    {
+        "descricao": "Guapó",
+        "latitude": -16.8297,
+        "longitude": -49.5345
+    },
+    {
+        "descricao": "Guaraíta",
+        "latitude": -15.6121,
+        "longitude": -50.0265
+    },
+    {
+        "descricao": "Guarani de Goiás",
+        "latitude": -13.9421,
+        "longitude": -46.4868
+    },
+    {
+        "descricao": "Guarinos",
+        "latitude": -14.7292,
+        "longitude": -49.7006
+    },
+    {
+        "descricao": "Heitoraí",
+        "latitude": -15.719,
+        "longitude": -49.8268
+    },
+    {
+        "descricao": "Hidrolândia",
+        "latitude": -16.9626,
+        "longitude": -49.2265
+    },
+    {
+        "descricao": "Hidrolina",
+        "latitude": -14.7261,
+        "longitude": -49.4634
+    },
+    {
+        "descricao": "Iaciara",
+        "latitude": -14.1011,
+        "longitude": -46.6335
+    },
+    {
+        "descricao": "Inaciolândia",
+        "latitude": -18.4869,
+        "longitude": -49.9888
+    },
+    {
+        "descricao": "Indiara",
+        "latitude": -17.1387,
+        "longitude": -49.9862
+    },
+    {
+        "descricao": "Inhumas",
+        "latitude": -16.3611,
+        "longitude": -49.5001
+    },
+    {
+        "descricao": "Ipameri",
+        "latitude": -17.7215,
+        "longitude": -48.1581
+    },
+    {
+        "descricao": "Iporá",
+        "latitude": -16.4398,
+        "longitude": -51.118
+    },
+    {
+        "descricao": "Israelândia",
+        "latitude": -16.3144,
+        "longitude": -50.9087
+    },
+    {
+        "descricao": "Itaberaí",
+        "latitude": -16.0206,
+        "longitude": -49.806
+    },
+    {
+        "descricao": "Itaguari",
+        "latitude": -15.918,
+        "longitude": -49.6071
+    },
+    {
+        "descricao": "Itaguaru",
+        "latitude": -15.7565,
+        "longitude": -49.6354
+    },
+    {
+        "descricao": "Itajá",
+        "latitude": -19.0673,
+        "longitude": -51.5495
+    },
+    {
+        "descricao": "Itapaci",
+        "latitude": -14.9522,
+        "longitude": -49.5511
+    },
+    {
+        "descricao": "Itapirapuã",
+        "latitude": -15.8205,
+        "longitude": -50.6094
+    },
+    {
+        "descricao": "Itapuranga",
+        "latitude": -15.5606,
+        "longitude": -49.949
+    },
+    {
+        "descricao": "Itarumã",
+        "latitude": -18.7646,
+        "longitude": -51.3485
+    },
+    {
+        "descricao": "Itauçu",
+        "latitude": -16.2029,
+        "longitude": -49.6109
+    },
+    {
+        "descricao": "Itumbiara",
+        "latitude": -18.4093,
+        "longitude": -49.2158
+    },
+    {
+        "descricao": "Ivolândia",
+        "latitude": -16.5995,
+        "longitude": -50.7921
+    },
+    {
+        "descricao": "Jandaia",
+        "latitude": -17.0481,
+        "longitude": -50.1453
+    },
+    {
+        "descricao": "Jaraguá",
+        "latitude": -15.7529,
+        "longitude": -49.3344
+    },
+    {
+        "descricao": "Jataí",
+        "latitude": -17.8784,
+        "longitude": -51.7204
+    },
+    {
+        "descricao": "Jaupaci",
+        "latitude": -16.1773,
+        "longitude": -50.9508
+    },
+    {
+        "descricao": "Jesúpolis",
+        "latitude": -15.9484,
+        "longitude": -49.3739
+    },
+    {
+        "descricao": "Joviânia",
+        "latitude": -17.802,
+        "longitude": -49.6197
+    },
+    {
+        "descricao": "Jussara",
+        "latitude": -15.8659,
+        "longitude": -50.8668
+    },
+    {
+        "descricao": "Leopoldo de Bulhões",
+        "latitude": -16.619,
+        "longitude": -48.7428
+    },
+    {
+        "descricao": "Luziânia",
+        "latitude": -16.253,
+        "longitude": -47.95
+    },
+    {
+        "descricao": "Mairipotaba",
+        "latitude": -17.2975,
+        "longitude": -49.4898
+    },
+    {
+        "descricao": "Mambaí",
+        "latitude": -14.4823,
+        "longitude": -46.1165
+    },
+    {
+        "descricao": "Mara Rosa",
+        "latitude": -14.0148,
+        "longitude": -49.1777
+    },
+    {
+        "descricao": "Marzagão",
+        "latitude": -17.983,
+        "longitude": -48.6415
+    },
+    {
+        "descricao": "Matrinchã",
+        "latitude": -15.4342,
+        "longitude": -50.7456
+    },
+    {
+        "descricao": "Maurilândia",
+        "latitude": -17.9719,
+        "longitude": -50.3388
+    },
+    {
+        "descricao": "Mimoso de Goiás",
+        "latitude": -15.0515,
+        "longitude": -48.1611
+    },
+    {
+        "descricao": "Minaçu",
+        "latitude": -13.5304,
+        "longitude": -48.2206
+    },
+    {
+        "descricao": "Mineiros",
+        "latitude": -17.5654,
+        "longitude": -52.5537
+    },
+    {
+        "descricao": "Moiporá",
+        "latitude": -16.5434,
+        "longitude": -50.739
+    },
+    {
+        "descricao": "Monte Alegre de Goiás",
+        "latitude": -13.2552,
+        "longitude": -46.8928
+    },
+    {
+        "descricao": "Montes Claros de Goiás",
+        "latitude": -16.0059,
+        "longitude": -51.3979
+    },
+    {
+        "descricao": "Montividiu",
+        "latitude": -17.4439,
+        "longitude": -51.1728
+    },
+    {
+        "descricao": "Montividiu do Norte",
+        "latitude": -13.3485,
+        "longitude": -48.6853
+    },
+    {
+        "descricao": "Morrinhos",
+        "latitude": -17.7334,
+        "longitude": -49.1059
+    },
+    {
+        "descricao": "Morro Agudo de Goiás",
+        "latitude": -15.3184,
+        "longitude": -50.0553
+    },
+    {
+        "descricao": "Mossâmedes",
+        "latitude": -16.124,
+        "longitude": -50.2136
+    },
+    {
+        "descricao": "Mozarlândia",
+        "latitude": -14.7457,
+        "longitude": -50.5713
+    },
+    {
+        "descricao": "Mundo Novo",
+        "latitude": -13.7729,
+        "longitude": -50.2814
+    },
+    {
+        "descricao": "Mutunópolis",
+        "latitude": -13.7303,
+        "longitude": -49.2745
+    },
+    {
+        "descricao": "Nazário",
+        "latitude": -16.5808,
+        "longitude": -49.8817
+    },
+    {
+        "descricao": "Nerópolis",
+        "latitude": -16.4047,
+        "longitude": -49.2227
+    },
+    {
+        "descricao": "Niquelândia",
+        "latitude": -14.4662,
+        "longitude": -48.4599
+    },
+    {
+        "descricao": "Nova América",
+        "latitude": -15.0206,
+        "longitude": -49.8953
+    },
+    {
+        "descricao": "Nova Aurora",
+        "latitude": -18.0597,
+        "longitude": -48.2552
+    },
+    {
+        "descricao": "Nova Crixás",
+        "latitude": -14.0957,
+        "longitude": -50.33
+    },
+    {
+        "descricao": "Nova Glória",
+        "latitude": -15.145,
+        "longitude": -49.5737
+    },
+    {
+        "descricao": "Nova Iguaçu de Goiás",
+        "latitude": -14.2868,
+        "longitude": -49.3872
+    },
+    {
+        "descricao": "Nova Roma",
+        "latitude": -13.7388,
+        "longitude": -46.8734
+    },
+    {
+        "descricao": "Nova Veneza",
+        "latitude": -16.3695,
+        "longitude": -49.3168
+    },
+    {
+        "descricao": "Novo Brasil",
+        "latitude": -16.0313,
+        "longitude": -50.7113
+    },
+    {
+        "descricao": "Novo Gama",
+        "latitude": -16.0592,
+        "longitude": -48.0417
+    },
+    {
+        "descricao": "Novo Planalto",
+        "latitude": -13.2424,
+        "longitude": -49.506
+    },
+    {
+        "descricao": "Orizona",
+        "latitude": -17.0334,
+        "longitude": -48.2964
+    },
+    {
+        "descricao": "Ouro Verde de Goiás",
+        "latitude": -16.2181,
+        "longitude": -49.1942
+    },
+    {
+        "descricao": "Ouvidor",
+        "latitude": -18.2277,
+        "longitude": -47.8355
+    },
+    {
+        "descricao": "Padre Bernardo",
+        "latitude": -15.1605,
+        "longitude": -48.2833
+    },
+    {
+        "descricao": "Palestina de Goiás",
+        "latitude": -16.7392,
+        "longitude": -51.5309
+    },
+    {
+        "descricao": "Palmeiras de Goiás",
+        "latitude": -16.8044,
+        "longitude": -49.924
+    },
+    {
+        "descricao": "Palmelo",
+        "latitude": -17.3258,
+        "longitude": -48.426
+    },
+    {
+        "descricao": "Palminópolis",
+        "latitude": -16.7924,
+        "longitude": -50.1652
+    },
+    {
+        "descricao": "Panamá",
+        "latitude": -18.1783,
+        "longitude": -49.355
+    },
+    {
+        "descricao": "Paranaiguara",
+        "latitude": -18.9141,
+        "longitude": -50.6539
+    },
+    {
+        "descricao": "Paraúna",
+        "latitude": -16.9463,
+        "longitude": -50.4484
+    },
+    {
+        "descricao": "Perolândia",
+        "latitude": -17.5258,
+        "longitude": -52.065
+    },
+    {
+        "descricao": "Petrolina de Goiás",
+        "latitude": -16.0968,
+        "longitude": -49.3364
+    },
+    {
+        "descricao": "Pilar de Goiás",
+        "latitude": -14.7608,
+        "longitude": -49.5784
+    },
+    {
+        "descricao": "Piracanjuba",
+        "latitude": -17.302,
+        "longitude": -49.017
+    },
+    {
+        "descricao": "Piranhas",
+        "latitude": -16.4258,
+        "longitude": -51.8235
+    },
+    {
+        "descricao": "Pirenópolis",
+        "latitude": -15.8507,
+        "longitude": -48.9584
+    },
+    {
+        "descricao": "Pires do Rio",
+        "latitude": -17.3019,
+        "longitude": -48.2768
+    },
+    {
+        "descricao": "Planaltina",
+        "latitude": -15.452,
+        "longitude": -47.6089
+    },
+    {
+        "descricao": "Pontalina",
+        "latitude": -17.5225,
+        "longitude": -49.4489
+    },
+    {
+        "descricao": "Porangatu",
+        "latitude": -13.4391,
+        "longitude": -49.1503
+    },
+    {
+        "descricao": "Porteirão",
+        "latitude": -17.8143,
+        "longitude": -50.1653
+    },
+    {
+        "descricao": "Portelândia",
+        "latitude": -17.3554,
+        "longitude": -52.6799
+    },
+    {
+        "descricao": "Posse",
+        "latitude": -14.0859,
+        "longitude": -46.3704
+    },
+    {
+        "descricao": "Professor Jamil",
+        "latitude": -17.2497,
+        "longitude": -49.244
+    },
+    {
+        "descricao": "Quirinópolis",
+        "latitude": -18.4472,
+        "longitude": -50.4547
+    },
+    {
+        "descricao": "Rialma",
+        "latitude": -15.3145,
+        "longitude": -49.5814
+    },
+    {
+        "descricao": "Rianápolis",
+        "latitude": -15.4456,
+        "longitude": -49.5114
+    },
+    {
+        "descricao": "Rio Quente",
+        "latitude": -17.774,
+        "longitude": -48.7725
+    },
+    {
+        "descricao": "Rio Verde",
+        "latitude": -17.7923,
+        "longitude": -50.9192
+    },
+    {
+        "descricao": "Rubiataba",
+        "latitude": -15.1617,
+        "longitude": -49.8048
+    },
+    {
+        "descricao": "Sanclerlândia",
+        "latitude": -16.197,
+        "longitude": -50.3124
+    },
+    {
+        "descricao": "Santa Bárbara de Goiás",
+        "latitude": -16.5714,
+        "longitude": -49.6954
+    },
+    {
+        "descricao": "Santa Cruz de Goiás",
+        "latitude": -17.3155,
+        "longitude": -48.4809
+    },
+    {
+        "descricao": "Santa Fé de Goiás",
+        "latitude": -15.7664,
+        "longitude": -51.1037
+    },
+    {
+        "descricao": "Santa Helena de Goiás",
+        "latitude": -17.8115,
+        "longitude": -50.5977
+    },
+    {
+        "descricao": "Santa Isabel",
+        "latitude": -15.2958,
+        "longitude": -49.4259
+    },
+    {
+        "descricao": "Santa Rita do Araguaia",
+        "latitude": -17.3269,
+        "longitude": -53.2012
+    },
+    {
+        "descricao": "Santa Rita do Novo Destino",
+        "latitude": -15.1351,
+        "longitude": -49.1203
+    },
+    {
+        "descricao": "Santa Rosa de Goiás",
+        "latitude": -16.084,
+        "longitude": -49.4953
+    },
+    {
+        "descricao": "Santa Tereza de Goiás",
+        "latitude": -13.7138,
+        "longitude": -49.0144
+    },
+    {
+        "descricao": "Santa Terezinha de Goiás",
+        "latitude": -14.4326,
+        "longitude": -49.7091
+    },
+    {
+        "descricao": "Santo Antônio da Barra",
+        "latitude": -17.5585,
+        "longitude": -50.6345
+    },
+    {
+        "descricao": "Santo Antônio de Goiás",
+        "latitude": -16.4815,
+        "longitude": -49.3096
+    },
+    {
+        "descricao": "Santo Antônio do Descoberto",
+        "latitude": -15.9412,
+        "longitude": -48.2578
+    },
+    {
+        "descricao": "São Francisco de Goiás",
+        "latitude": -15.9256,
+        "longitude": -49.2605
+    },
+    {
+        "descricao": "São João d'Aliança",
+        "latitude": -14.7048,
+        "longitude": -47.5228
+    },
+    {
+        "descricao": "São João da Paraúna",
+        "latitude": -16.8126,
+        "longitude": -50.4092
+    },
+    {
+        "descricao": "São Luís de Montes Belos",
+        "latitude": -16.5211,
+        "longitude": -50.3726
+    },
+    {
+        "descricao": "São Luiz do Norte",
+        "latitude": -14.8608,
+        "longitude": -49.3285
+    },
+    {
+        "descricao": "São Miguel do Araguaia",
+        "latitude": -13.2731,
+        "longitude": -50.1634
+    },
+    {
+        "descricao": "São Miguel do Passa Quatro",
+        "latitude": -17.0582,
+        "longitude": -48.662
+    },
+    {
+        "descricao": "São Patrício",
+        "latitude": -15.35,
+        "longitude": -49.818
+    },
+    {
+        "descricao": "São Simão",
+        "latitude": -18.996,
+        "longitude": -50.547
+    },
+    {
+        "descricao": "Senador Canedo",
+        "latitude": -16.7084,
+        "longitude": -49.0914
+    },
+    {
+        "descricao": "Serranópolis",
+        "latitude": -18.3067,
+        "longitude": -51.9586
+    },
+    {
+        "descricao": "Silvânia",
+        "latitude": -16.66,
+        "longitude": -48.6083
+    },
+    {
+        "descricao": "Simolândia",
+        "latitude": -14.4644,
+        "longitude": -46.4847
+    },
+    {
+        "descricao": "Sítio d'Abadia",
+        "latitude": -14.7992,
+        "longitude": -46.2506
+    },
+    {
+        "descricao": "Taquaral de Goiás",
+        "latitude": -16.0521,
+        "longitude": -49.6039
+    },
+    {
+        "descricao": "Teresina de Goiás",
+        "latitude": -13.7801,
+        "longitude": -47.2659
+    },
+    {
+        "descricao": "Terezópolis de Goiás",
+        "latitude": -16.3945,
+        "longitude": -49.0797
+    },
+    {
+        "descricao": "Três Ranchos",
+        "latitude": -18.3539,
+        "longitude": -47.776
+    },
+    {
+        "descricao": "Trindade",
+        "latitude": -16.6517,
+        "longitude": -49.4927
+    },
+    {
+        "descricao": "Trombas",
+        "latitude": -13.5079,
+        "longitude": -48.7417
+    },
+    {
+        "descricao": "Turvânia",
+        "latitude": -16.6125,
+        "longitude": -50.1369
+    },
+    {
+        "descricao": "Turvelândia",
+        "latitude": -17.8502,
+        "longitude": -50.3024
+    },
+    {
+        "descricao": "Uirapuru",
+        "latitude": -14.2835,
+        "longitude": -49.9201
+    },
+    {
+        "descricao": "Uruaçu",
+        "latitude": -14.5238,
+        "longitude": -49.1396
+    },
+    {
+        "descricao": "Uruana",
+        "latitude": -15.4993,
+        "longitude": -49.6861
+    },
+    {
+        "descricao": "Urutaí",
+        "latitude": -17.4651,
+        "longitude": -48.2015
+    },
+    {
+        "descricao": "Valparaíso de Goiás",
+        "latitude": -16.0651,
+        "longitude": -47.9757
+    },
+    {
+        "descricao": "Varjão",
+        "latitude": -17.0471,
+        "longitude": -49.6312
+    },
+    {
+        "descricao": "Vianópolis",
+        "latitude": -16.7405,
+        "longitude": -48.5159
+    },
+    {
+        "descricao": "Vicentinópolis",
+        "latitude": -17.7322,
+        "longitude": -49.8047
+    },
+    {
+        "descricao": "Vila Boa",
+        "latitude": -15.0387,
+        "longitude": -47.052
+    },
+    {
+        "descricao": "Vila Propício",
+        "latitude": -15.4542,
+        "longitude": -48.8819
+    },
+    {
+        "descricao": "Ipiranga de Goiás",
+        "latitude": -15.1688805,
+        "longitude": -49.6694603
+    },
+    {
+        "descricao": "Campo Limpo de Goiás",
+        "latitude": -16.2971001,
+        "longitude": -49.0895004
+    },
+    {
+        "descricao": "Lagoa Santa",
+        "latitude": -19.1832409,
+        "longitude": -51.3998032
+    },
+    {
+        "descricao": "São Domingos",
+        "latitude": -13.6210356,
+        "longitude": -46.7414818
+    },
+    {
+        "descricao": "Gameleira de Goiás",
+        "latitude": -16.4853745,
+        "longitude": -48.6454086
+    }
+]

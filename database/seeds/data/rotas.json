@@ -1,0 +1,562 @@
+[
+    {
+        "tipo_rota_id": "Arquivos",
+        "rota": "arquivo.upload",
+        "descricao": "Upload de arquivo",
+        "acesso_liberado": "N"
+    },
+    {
+        "tipo_rota_id": "Arquivos",
+        "rota": "arquivo.visualizar",
+        "descricao": "Visualizar arquivo",
+        "acesso_liberado": "N"
+    },
+    {
+        "tipo_rota_id": "Autenticação",
+        "rota": "login",
+        "descricao": "Realizou login",
+        "acesso_liberado": "N"
+    },
+    {
+        "tipo_rota_id": "Autenticação",
+        "rota": "login_erro",
+        "descricao": "Realizou login (falha)",
+        "acesso_liberado": "N"
+    },
+    {
+        "tipo_rota_id": "Autenticação",
+        "rota": "login_bloqueado",
+        "descricao": "Falha de login (Bloqueada/Inativa)",
+        "acesso_liberado": "N"
+    },
+    {
+        "tipo_rota_id": "Autenticação",
+        "rota": "password.reset",
+        "descricao": "Resetar senha",
+        "acesso_liberado": "N"
+    },
+    {
+        "tipo_rota_id": "Autenticação",
+        "rota": "tentativas_login",
+        "descricao": "Bloquear conta de usuário por tentativas de login",
+        "acesso_liberado": "N"
+    },
+    {
+        "tipo_rota_id": "Sessão",
+        "rota": "logout",
+        "descricao": "Encerrar sessão",
+        "acesso_liberado": "N"
+    },
+    {
+        "tipo_rota_id": "Sessão",
+        "rota": "logout_sessao_expirada",
+        "descricao": "Sessão expirada",
+        "acesso_liberado": "N"
+    },
+    {
+        "tipo_rota_id": "Usuários",
+        "rota": "bloquear_tela",
+        "descricao": "Bloqueia tela",
+        "acesso_liberado": "N"
+    },
+    {
+        "tipo_rota_id": "Sessão",
+        "rota": "tela_bloqueada_inatividade",
+        "descricao": "Tela bloqueada por inatividade",
+        "acesso_liberado": "N"
+    },
+    {
+        "tipo_rota_id": "Sessão",
+        "rota": "tela_bloqueada",
+        "descricao": "Tela bloqueada pelo usuário",
+        "acesso_liberado": "N"
+    },
+    {
+        "tipo_rota_id": "Sessão",
+        "rota": "tela_desbloqueada",
+        "descricao": "Tela desbloqueada pelo usuário",
+        "acesso_liberado": "N"
+    },
+    {
+        "tipo_rota_id": "Sessão",
+        "rota": "desbloqueio_tela_erro",
+        "descricao": "Desbloquear tela (falha)",
+        "acesso_liberado": "N"
+    },
+    {
+        "tipo_rota_id": "Dashboard",
+        "rota": "dashboard",
+        "descricao": "Visualizar dashboard",
+        "acesso_liberado": "N"
+    },
+    {
+        "tipo_rota_id": "Configurações",
+        "rota": "configuracao.index",
+        "descricao": "Alterar as configurações do sistema",
+        "descricao_get": "Visualizar as configurações do sistema",
+        "acesso_liberado": "N"
+    },
+    {
+        "tipo_rota_id": "Perfis",
+        "rota": "perfil.index",
+        "descricao": "Visualizar perfis"
+    },
+    {
+        "tipo_rota_id": "Perfis",
+        "rota": "perfil.adicionar",
+        "descricao": "Adicionar perfis",
+        "descricao_get": "Iniciar cadastro de perfil",
+        "descricao_post": "Finalizar cadastro de perfil"
+    },
+    {
+        "tipo_rota_id": "Perfis",
+        "rota": "perfil.alterar",
+        "descricao": "Alterar perfis",
+        "descricao_get": "Visualizar registro de perfil",
+        "descricao_post": "Alterar registro de perfil"
+    },
+    {
+        "tipo_rota_id": "Perfis",
+        "rota": "perfil.excluir",
+        "descricao": "Excluir perfis"
+    },
+    {
+        "tipo_rota_id": "Perfis",
+        "rota": "perfil.excluir_varios",
+        "acesso_liberado": "N",
+        "descricao": "Excluir várias perfis"
+    },
+    {
+        "tipo_rota_id": "Auditoria",
+        "rota": "auditoria.index",
+        "descricao": "Visualizar auditoria"
+    },
+    {
+        "tipo_rota_id": "Auditoria",
+        "rota": "auditoria.visualizar",
+        "descricao": "Visualizar detalhes de auditorias"
+    },
+    {
+        "tipo_rota_id": "Sessão",
+        "rota": "login",
+        "descricao": "Login no sistema"
+    },
+    {
+        "tipo_rota_id": "Sessão",
+        "rota": "logout",
+        "descricao": "Logout no sistema"
+    },
+    {
+        "tipo_rota_id": "Usuários",
+        "rota": "usuario.index",
+        "descricao": "Visualizar usuários"
+    },
+    {
+        "tipo_rota_id": "Usuários",
+        "rota": "usuario.adicionar",
+        "descricao": "Adicionar usuários",
+        "descricao_get": "Iniciar cadastro de usuário",
+        "descricao_post": "Finalizar cadastro de usuário"
+    },
+    {
+        "tipo_rota_id": "Usuários",
+        "rota": "usuario.alterar",
+        "descricao": "Alterar usuários",
+        "descricao_get": "Visualizar registro de usuário",
+        "descricao_post": "Alterar registro de usuário"
+    },
+    {
+        "tipo_rota_id": "Usuários",
+        "rota": "usuario.excluir",
+        "descricao": "Excluir usuários"
+    },
+    {
+        "tipo_rota_id": "Usuários",
+        "rota": "usuario.excluir_varios",
+        "acesso_liberado": "N",
+        "descricao": "Excluir vários usuários"
+    },
+    {
+        "tipo_rota_id": "Usuários",
+        "rota": "usuario.alterar_senha",
+        "acesso_liberado": "N",
+        "descricao": "Alterar senha de usuário"
+    },
+    {
+        "tipo_rota_id": "Usuários",
+        "rota": "usuario.alterar_perfil",
+        "acesso_liberado": "N",
+        "descricao": "Alterar perfil do usuário"
+    },
+    {
+        "tipo_rota_id": "Usuários",
+        "rota": "usuario.permissoes",
+        "acesso_liberado": "N",
+        "descricao": "Gerenciar exceções de permissões"
+    },
+    {
+        "tipo_rota_id": "Usuários",
+        "rota": "usuario.invalidar_senha",
+        "descricao": "Invalidar senha de usuário"
+    },
+    {
+        "tipo_rota_id": "Usuários",
+        "rota": "usuario.invalidar_senha_varios",
+        "acesso_liberado": "N",
+        "descricao": "Invalidar senha de vários usuários"
+    },
+    {
+        "tipo_rota_id": "Usuários",
+        "rota": "usuario.ativar",
+        "descricao": "Ativar usuário desativado do sistema"
+    },
+    {
+        "tipo_rota_id": "Usuários",
+        "rota": "usuario.desativar",
+        "descricao": "Desativar usuário ativo do sistema"
+    },
+    {
+        "tipo_rota_id": "Usuários",
+        "rota": "usuario.desbloquear_tentativas",
+        "descricao": "Desbloquear usuário bloqueado por tentativas erradas de login"
+    },
+    {
+        "tipo_rota_id": "Usuários",
+        "rota": "usuario_perfil.validar_remocao_perfil",
+        "descricao": "Validar exclusão de perfil de usuário",
+        "acesso_liberado": "N"
+    },
+    {
+        "tipo_rota_id": "Usuários",
+        "rota": "usuario_perfil.adicionar",
+        "acesso_liberado": "N",
+        "descricao": "Adicionar perfil ao usuário"
+    },
+    {
+        "tipo_rota_id": "Usuários",
+        "rota": "usuario_perfil.remover",
+        "acesso_liberado": "N",
+        "descricao": "Remover perfil do usuário"
+    },
+    {
+        "tipo_rota_id": "Usuários",
+        "rota": "usuario_perfil.ativar",
+        "acesso_liberado": "N",
+        "descricao": "Ativar perfil do usuário"
+    },
+    {
+        "tipo_rota_id": "Usuários",
+        "rota": "usuario_perfil.desativar",
+        "acesso_liberado": "N",
+        "descricao": "Desativar perfil do usuário"
+    },
+    {
+        "tipo_rota_id": "Usuários",
+        "rota": "usuario_perfil.definir_como_principal",
+        "acesso_liberado": "N",
+        "descricao": "Definir perfil como principal"
+    },
+    {
+        "tipo_rota_id": "Permissões",
+        "rota": "permissao.index",
+        "descricao": "Visualizar permissões",
+        "acesso_liberado": "N"
+    },
+    {
+        "tipo_rota_id": "Termos de Uso",
+        "rota": "termos_uso.aceite",
+        "descricao": "Registrar o aceite dos termos de uso",
+        "acesso_liberado": "N"
+    },
+    {
+        "tipo_rota_id": "Estados",
+        "rota": "estado.index",
+        "descricao": "Visualizar estados"
+    },
+    {
+        "tipo_rota_id": "Municípios",
+        "rota": "municipio.index",
+        "descricao": "Visualizar municípios"
+    },
+    {
+        "tipo_rota_id": "Unidades",
+        "rota": "unidade.index",
+        "descricao": "Visualizar unidades"
+    },
+    {
+        "tipo_rota_id": "Unidades",
+        "rota": "unidade.adicionar",
+        "descricao": "Adicionar unidade",
+        "descricao_get": "Iniciar cadastro de unidade",
+        "descricao_post": "Finalizar cadastro de unidade"
+    },
+    {
+        "tipo_rota_id": "Unidades",
+        "rota": "unidade.alterar",
+        "descricao": "Alterar unidade",
+        "descricao_get": "Visualizar registro de unidade",
+        "descricao_post": "Alterar registro de unidade"
+    },
+    {
+        "tipo_rota_id": "Unidades",
+        "rota": "unidade.excluir",
+        "descricao": "Excluir unidade"
+    },
+    {
+        "tipo_rota_id": "Unidades",
+        "rota": "unidade_secao.salvar",
+        "acesso_liberado": "N",
+        "descricao": "Adicionar seção na US"
+    },
+    {
+        "tipo_rota_id": "Unidades",
+        "rota": "unidade_secao.atualizar",
+        "acesso_liberado": "N",
+        "descricao": "Atualizar seção da US"
+    },
+    {
+        "tipo_rota_id": "Unidades",
+        "rota": "unidade_secao.excluir",
+        "acesso_liberado": "N",
+        "descricao": "Excluir seção da US"
+    },
+    {
+        "tipo_rota_id": "Permissões",
+        "rota": "permissao.index",
+        "descricao": "Visualizar permissões",
+        "acesso_liberado": "N"
+    },
+    {
+        "tipo_rota_id": "Sistemas",
+        "rota": "selecionar_unidade",
+        "descricao": "Selecionar unidade ativa",
+        "acesso_liberado": "N"
+    },
+    {
+        "tipo_rota_id": "Endereçamentos",
+        "rota": "enderecamento.index",
+        "descricao": "Visualizar endereçamentos"
+    },
+    {
+        "tipo_rota_id": "Endereçamentos",
+        "rota": "enderecamento.adicionar",
+        "descricao": "Adicionar endereçamento",
+        "descricao_get": "Iniciar cadastro de endereçamento",
+        "descricao_post": "Finalizar cadastro de endereçamento"
+    },
+    {
+        "tipo_rota_id": "Endereçamentos",
+        "rota": "enderecamento.alterar",
+        "descricao": "Alterar endereçamento",
+        "descricao_get": "Visualizar registro de endereçamento",
+        "descricao_post": "Alterar registro de endereçamento"
+    },
+    {
+        "tipo_rota_id": "Endereçamentos",
+        "rota": "enderecamento.excluir",
+        "descricao": "Excluir endereçamento"
+    },
+    {
+        "tipo_rota_id": "Endereçamentos",
+        "rota": "enderecamento.excluir_varios",
+        "acesso_liberado": "N",
+        "descricao": "Excluir vários endereçamentos"
+    },
+    {
+        "tipo_rota_id": "Centro de Distribuição - CD",
+        "rota": "centro_distribuicao.index",
+        "descricao": "Visualizar centros de distribuição cadastradas no sistema"
+    },
+    {
+        "tipo_rota_id": "Centro de Distribuição - CD",
+        "rota": "centro_distribuicao.adicionar",
+        "descricao": "Adicionar centro_distribuicao",
+        "descricao_get": "Iniciar cadastro de centro_distribuicao",
+        "descricao_post": "Finalizar cadastro de centro_distribuicao"
+    },
+    {
+        "tipo_rota_id": "Centro de Distribuição - CD",
+        "rota": "centro_distribuicao.alterar",
+        "descricao": "Alterar centro_distribuicao",
+        "descricao_get": "Visualizar registro de centro_distribuicao",
+        "descricao_post": "Alterar registro de centro_distribuicao"
+    },
+    {
+        "tipo_rota_id": "Centro de Distribuição - CD",
+        "rota": "centro_distribuicao.excluir",
+        "descricao": "Excluir centro_distribuicao"
+    },
+    {
+        "tipo_rota_id": "Centro de Distribuição - CD",
+        "rota": "centro_distribuicao_secao.salvar",
+        "acesso_liberado": "N",
+        "descricao": "Adicionar seção na US"
+    },
+    {
+        "tipo_rota_id": "Centro de Distribuição - CD",
+        "rota": "centro_distribuicao_secao.atualizar",
+        "acesso_liberado": "N",
+        "descricao": "Atualizar seção da US"
+    },
+    {
+        "tipo_rota_id": "Centro de Distribuição - CD",
+        "rota": "centro_distribuicao_secao.excluir",
+        "acesso_liberado": "N",
+        "descricao": "Excluir seção da CD"
+    },
+    {
+        "tipo_rota_id": "Centro de Distribuição - CD",
+        "rota": "centro_distribuicao.adicionar_armazens",
+        "acesso_liberado": "N",
+        "descricao": "Permite o usuário adicionar armazens para os centros de distribuição"
+    },
+    {
+        "tipo_rota_id": "Centro de Distribuição - CD",
+        "rota": "centro_distribuicao.adicionar_armazens.post",
+        "acesso_liberado": "N",
+        "descricao": "Permite o usuário salvar armazens para os centros de distribuição"
+    },
+    {
+        "tipo_rota_id": "Centro de Distribuição - CD",
+        "rota": "centro_distribuicao.alterar_armazens",
+        "acesso_liberado": "N",
+        "descricao": "Permite o usuário alterar  armazens para os centros de distribuição"
+    },
+    {
+        "tipo_rota_id": "Centro de Distribuição - CD",
+        "rota": "centro_distribuicao.alterar_armazens.post",
+        "acesso_liberado": "N",
+        "descricao": "Permite o usuário alterar  armazens para os centros de distribuição"
+    },
+    {
+        "tipo_rota_id": "Centro de Distribuição - CD",
+        "rota": "centro_distribuicao.enderecos.post",
+        "acesso_liberado": "S",
+        "descricao": "Permite o usuário buscar todos os enderecos cadastrados no  centros de distribuição"
+    },
+    {
+        "tipo_rota_id": "Centro de Distribuição - CD",
+        "rota": "centro_distribuicao.alterar.endereco",
+        "descricao": "Permite o usuário alterar enderecos do depósito do  centros de distribuição"
+    },
+    {
+        "tipo_rota_id": "Centro de Distribuição - CD",
+        "rota": "centro_distribuicao.alterar.endereco.post",
+        "descricao": "Permite o usuário alterar enderecos do depósito do  centros de distribuição"
+    },
+    {
+        "tipo_rota_id": "Centro de Distribuição - CD",
+        "rota": "centro_distribuicao.produtos.post",
+        "descricao": "Permite o usuário carregar produtos centros de distribuição"
+    },
+    {
+        "tipo_rota_id": "Alunos",
+        "rota": "aluno.index",
+        "descricao": "Visualizar Alunso"
+    },
+    {
+        "tipo_rota_id": "Alunos",
+        "rota": "aluno.adicionar",
+        "descricao": "Adicionar Alunos",
+        "descricao_get": "Iniciar cadastro de Alunos",
+        "descricao_post": "Finalizar cadastro de Alunos"
+    },
+    {
+        "tipo_rota_id": "Alunos",
+        "rota": "aluno.alterar",
+        "descricao": "Alterar Alunos",
+        "descricao_get": "Visualizar registro de Alunos",
+        "descricao_post": "Alterar registro de Alunos"
+    },
+    {
+        "tipo_rota_id": "Alunos",
+        "rota": "aluno.excluir",
+        "descricao": "Excluir Alunos"
+    },
+    {
+        "tipo_rota_id": "Alunos",
+        "rota": "aluno.excluir_varios",
+        "acesso_liberado": "N",
+        "descricao": "Excluir vários Alunso"
+    },
+    {
+        "tipo_rota_id": "Endereçamento Cargas - CD",
+        "rota": "enderecamento_cargas.estocagem_",
+        "descricao": "Permite o usuário visualizar depósito  do  centros de distribuição"
+    },
+    {
+        "tipo_rota_id": "Endereçamento Cargas - CD",
+        "rota": "enderecamento_cargas.endereco.delete",
+        "descricao": "Permite o usuário deletar endereço do  depósito  do  centros de distribuição"
+    },
+    {
+        "tipo_rota_id": "Endereçamento Cargas - CD",
+        "rota": "enderecamento_cargas.adicionar",
+        "descricao": "Permite o usuário adicionar endereço do depósito do  centros de distribuição"
+    },
+    {
+        "tipo_rota_id": "Endereçamento Cargas - CD",
+        "rota": "enderecamento_cargas.salvar",
+        "descricao": "Permite o Salvar endereço do depósito do  centros de distribuição"
+    },
+    {
+        "tipo_rota_id": "Tipos de Período",
+        "rota": "tipo_periodo.index",
+        "descricao": "Visualizar tipos de períodos"
+    },
+    {
+        "tipo_rota_id": "Tipos de Período",
+        "rota": "tipo_periodo.adicionar",
+        "descricao": "Adicionar tipos de períodos",
+        "descricao_get": "Iniciar cadastro de tipo de período",
+        "descricao_post": "Finalizar cadastro de tipo de período"
+    },
+    {
+        "tipo_rota_id": "Tipos de Período",
+        "rota": "tipo_periodo.alterar",
+        "descricao": "Alterar tipos de períodos",
+        "descricao_get": "Visualizar registro de tipo de período",
+        "descricao_post": "Alterar registro de tipo de período"
+    },
+    {
+        "tipo_rota_id": "Tipos de Período",
+        "rota": "tipo_periodo.excluir",
+        "descricao": "Excluir tipos de períodos"
+    },
+    {
+        "tipo_rota_id": "Tipos de Período",
+        "rota": "tipo_periodo.excluir_varios",
+        "acesso_liberado": "N",
+        "descricao": "Excluir vários tipos de períodos"
+    },
+    {
+        "tipo_rota_id": "PERÍODO",
+        "rota": "periodo.index",
+        "descricao": "Visualizar PERÍODO"
+    },
+    {
+        "tipo_rota_id": "PERÍODO",
+        "rota": "periodo.adicionar",
+        "descricao": "Adicionar PERÍODO",
+        "descricao_get": "Iniciar cadastro de PERÍODO",
+        "descricao_post": "Finalizar cadastro de PERÍODO"
+    },
+    {
+        "tipo_rota_id": "PERÍODO",
+        "rota": "periodo.alterar",
+        "descricao": "Alterar PERÍODO",
+        "descricao_get": "Visualizar registro de PERÍODO",
+        "descricao_post": "Alterar registro de PERÍODO"
+    },
+    {
+        "tipo_rota_id": "PERÍODO",
+        "rota": "periodo.excluir",
+        "descricao": "Excluir PERÍODO"
+    },
+    {
+        "tipo_rota_id": "PERÍODO",
+        "rota": "periodo.excluir_varios",
+        "acesso_liberado": "N",
+        "descricao": "Excluir vários PERÍODO"
+    }
+]

@@ -1,0 +1,113 @@
+[
+    {
+        "descricao": "Unidade São Paulo",
+        "responsavel": "Marcio rozendo",
+        "ativo": "1",
+        "telefone": "(12) 32131-2312",
+        "fax": "(12) 31231-2312",
+        "email": "adm.evento@gmail.com",
+        "municipio_id": "5346",
+        "cep": "799-8008",
+        "endereco": "rua são tome",
+        "bairro": "vilas boas",
+        "numero": "34",
+        "complemento": null,
+        "cd": {
+            "descricao": "Centro de Distribuição São Paulo",
+            "responsavel": "Marcio rozendo rodrigues gonçalves",
+            "ativo": "1",
+            "endereco": {
+                "telefone": "(12) 31232-3121",
+                "fax": "(12) 31231-2312",
+                "email": "adm.evento@gmail.com",
+                "municipio_id": "5346",
+                "cep": "12312312",
+                "endereco": "Av. Mônaco",
+                "bairro": "Centro",
+                "numero": "200",
+                "complemento": ""
+            },
+            "deposito": {
+                "area": "2",
+                "rua": "2",
+                "modulo": "2",
+                "nivel": "2",
+                "vao": "2"
+            }
+        }
+    },
+    {
+        "descricao": "Unidade Campo grande",
+        "responsavel": "Tulio Cesar",
+        "ativo": "1",
+        "telefone": "(67) 3231-2312",
+        "fax": "(67) 3231-2312",
+        "email": "tuliocesar@gmail.com",
+        "municipio_id": "38",
+        "cep": "79092-050",
+        "endereco": "rua giocondo orsi",
+        "bairro": "jd.Paulista",
+        "numero": "34",
+        "complemento": null,
+        "cd": {
+            "descricao": "Centro de Distribuição Campo Grande",
+            "responsavel": "Marcio rozendo rodrigues gonçalves",
+            "ativo": "1",
+            "endereco": {
+                "telefone": "(12) 31232-3121",
+                "fax": "(12) 31231-2312",
+                "email": "adm.evento@gmail.com",
+                "municipio_id": "5346",
+                "cep": "12312312",
+                "endereco": "rua giocondo Orsi",
+                "bairro": "Jd. Paulista",
+                "numero": "34",
+                "complemento": ""
+            },
+            "deposito": {
+                "area": "2",
+                "rua": "2",
+                "modulo": "2",
+                "nivel": "2",
+                "vao": "2"
+            }
+        }
+    },
+    {
+        "descricao": "Unidade Brasília",
+        "responsavel": "Tio Carlos Caires",
+        "ativo": "1",
+        "telefone": "(67) 3231-2312",
+        "fax": "(67) 3231-2312",
+        "email": "tioCarlos@gmail.com",
+        "municipio_id": "804",
+        "cep": "79092-050",
+        "endereco": "Via N2",
+        "bairro": "Jd. Burler Marx",
+        "numero": "40",
+        "complemento": null,
+        "cd": {
+            "descricao": "Centro de Distribuição de Brasília",
+            "responsavel": "Carlos Caires",
+            "ativo": "1",
+            "endereco": {
+                "telefone": "(12) 31232-3121",
+                "fax": "(12) 31231-2312",
+                "email": "adm.evento@gmail.com",
+                "municipio_id": "5346",
+                "cep": "12312312",
+                "endereco": "Via N2",
+                "bairro": "Jd. Burler Marx",
+                "numero": "40",
+                "complemento": ""
+            },
+            "deposito": {
+                "area": "2",
+                "rua": "2",
+                "modulo": "2",
+                "nivel": "2",
+                "vao": "2"
+            }
+        }
+    }
+]

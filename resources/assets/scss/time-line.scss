@@ -1,0 +1,258 @@
+// Variables
+$bg-body: #f9f9f9;
+
+$red: #ee4d4d;
+$blue: #2b2e48;
+$green: #22883fa1;
+$req-visualizado: rgba(136, 136, 44, 0.63);
+$primary-color: $red;
+$secondary-color: $blue;
+
+
+// Typography
+$base-font: helvetica, arial, tahoma, verdana;
+$base-font-title: "Dosis", arial, tahoma, verdana;
+
+$base-font-color: #726f77;
+
+// Timeline
+$timeline-color: $primary-color;
+
+
+// Mixins and Placeholders
+%clearfix {
+  &:after, &:before {
+    content: '';
+    display: block;
+    width: 100%;
+    clear: both;
+  }
+}
+
+@mixin prefix($prop, $val) {
+  @each $prefix in '-webkit-', '-moz-', '-ms-', '' {
+    #{$prefix}#{$prop}: $val;
+  }
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+
+.container-timeline {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow-y: auto;
+  height: 400px;
+  background: #f5f4e4;;
+  border: 1px;
+  border-style: outset;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.project-name {
+  text-align: center;
+  padding: 10px 0;
+}
+
+
+// Timeline
+#timeline {
+  width: 100%;
+  margin: 30px auto;
+  position: relative;
+  padding: 0 10px;
+  @include prefix(transition, all .4s ease);
+
+  &:before {
+    content: "";
+    width: 3px;
+    height: 100%;
+    background: $timeline-color;
+    left: 50%;
+    top: 0;
+    position: absolute;
+  }
+
+  &:after {
+    //content: "";
+    clear: both;
+    display: table;
+    width: 100%;
+  }
+
+  .timeline-item {
+    margin-bottom: 30px;
+    position: relative;
+    @extend %clearfix;
+
+    .timeline-icon {
+      background: #36b857;
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      overflow: hidden;
+      margin-left: -23px;
+      @include prefix(border-radius, 50%);
+      z-index: 2;
+
+      &:after {
+        display: none;
+        color: #0a68b4;
+      }
+
+      &.fa-exclamation-triangle-color{
+        background: #940000;
+      }
+
+      &.fa-ban-color{
+        background: #940000;
+      }
+
+      &.fa-share-square-o-color{
+        background: #989613;
+      }
+
+      &.fa-eye-color{
+        background: #989613;
+      }
+
+      & i {
+        margin-left: 9px !important;
+        margin-top: 8px !important;
+        color: white;
+      }
+    }
+
+    .timeline-content {
+      //width: 45%;
+      background: #fff;
+      //padding: 20px;
+      @include prefix(box-shadow, 0 3px 0 rgba(0, 0, 0, 0.1));
+      @include prefix(border-radius, 5px);
+      @include prefix(transition, all .3s ease);
+
+      h2 {
+        //padding: 15px;
+        padding-left: 10px;
+        background: $timeline-color;
+        color: #fff;
+        //margin: -20px -20px 0 -20px;
+        font-weight: 300;
+        @include prefix(border-radius, 3px 3px 0 0);
+      }
+
+      /*PEDIDO CANCELADO*/
+      h2.fa-ban-color {
+        background: $red;
+      }
+      /*PEDIDO CREADO*/
+      h2.fa-random-color {
+        background: $green;
+      }
+
+      /*PEDIDO VISUALIZADO*/
+      h2.fa-low-vision-color {
+        background: $green;
+      }
+
+      /*REQUERIMENTO ENVIADO*/
+      h2.fa-file-code-o-color {
+        background: $green;
+      }
+
+      /*REQUERIMENTO VISUALIZADO*/
+      h2.fa-eye-color {
+        background: $req-visualizado;
+      }
+
+      /*REQUERIMENTO VISUALIZADO*/
+      h2.fa-share-square-o-color {
+        background: rgba(216, 208, 130, 0.96);
+      }
+
+      /*REQUERIMENTO VISUALIZADO*/
+      h2.fa-check-circle-color {
+        background: $green;
+      }
+
+      /*REQUERIMENTO VISUALIZADO*/
+      h2.fa-external-link-square-color {
+        background: $green;
+      }
+
+      /*REQUERIMENTO VISUALIZADO*/
+      h2.fa-external-link-color {
+        background: $green;
+      }
+
+
+      &:before {
+        //content: '';
+        position: absolute;
+        left: 45%;
+        top: 20px;
+        width: 0;
+        height: 0;
+        border-top: 7px solid transparent;
+        border-bottom: 7px solid transparent;
+        border-left: 7px solid $timeline-color;
+      }
+
+      &.asd {
+
+        background: #0b2e13 !important;
+      }
+
+      &.right {
+        //float: right;
+
+        &:before {
+          // content: '';
+          //right: 45%;
+          left: inherit;
+          border-left: 0;
+          border-right: 7px solid $timeline-color;
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  #timeline {
+    margin: 30px;
+    padding: 0px;
+    width: 90%;
+
+    &:before {
+      left: 0;
+    }
+
+    .timeline-item {
+      .timeline-content {
+        width: 90%;
+        float: right;
+
+        &:before, &.right:before {
+          left: 10%;
+          margin-left: -6px;
+          border-left: 0;
+          border-right: 7px solid $timeline-color;
+        }
+      }
+
+      .timeline-icon {
+        left: 0;
+      }
+    }
+  }
+}

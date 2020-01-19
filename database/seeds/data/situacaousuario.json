@@ -1,0 +1,18 @@
+[
+  {
+      "descricao": "Liberado",
+      "slug": "liberado"
+  },
+  {
+      "descricao": "Senha invalidada",
+      "slug": "senha_invalidada"
+  },
+  {
+      "descricao": "Inativo",
+      "slug": "inativo"
+  },
+  {
+      "descricao": "Bloqueado por tentativa",
+      "slug": "bloqueado_tentativa"
+  }
+]

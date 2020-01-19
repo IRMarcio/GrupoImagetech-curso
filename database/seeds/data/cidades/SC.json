@@ -1,0 +1,1477 @@
+[
+    {
+        "descricao": "Abdon Batista",
+        "latitude": -27.6126,
+        "longitude": -51.0233
+    },
+    {
+        "descricao": "Abelardo Luz",
+        "latitude": -26.5716,
+        "longitude": -52.3229
+    },
+    {
+        "descricao": "Agrolândia",
+        "latitude": -27.4087,
+        "longitude": -49.822
+    },
+    {
+        "descricao": "Agronômica",
+        "latitude": -27.2662,
+        "longitude": -49.708
+    },
+    {
+        "descricao": "Água Doce",
+        "latitude": -26.9985,
+        "longitude": -51.5528
+    },
+    {
+        "descricao": "Águas de Chapecó",
+        "latitude": -27.0754,
+        "longitude": -52.9808
+    },
+    {
+        "descricao": "Águas Frias",
+        "latitude": -26.8794,
+        "longitude": -52.8568
+    },
+    {
+        "descricao": "Águas Mornas",
+        "latitude": -27.6963,
+        "longitude": -48.8243
+    },
+    {
+        "descricao": "Alfredo Wagner",
+        "latitude": -27.7001,
+        "longitude": -49.3273
+    },
+    {
+        "descricao": "Alto Bela Vista",
+        "latitude": -27.4333,
+        "longitude": -51.9044
+    },
+    {
+        "descricao": "Anchieta",
+        "latitude": -26.5382,
+        "longitude": -53.3319
+    },
+    {
+        "descricao": "Angelina",
+        "latitude": -27.5704,
+        "longitude": -48.9879
+    },
+    {
+        "descricao": "Anita Garibaldi",
+        "latitude": -27.6897,
+        "longitude": -51.1271
+    },
+    {
+        "descricao": "Anitápolis",
+        "latitude": -27.9012,
+        "longitude": -49.1316
+    },
+    {
+        "descricao": "Antônio Carlos",
+        "latitude": -27.5191,
+        "longitude": -48.766
+    },
+    {
+        "descricao": "Apiúna",
+        "latitude": -27.0375,
+        "longitude": -49.3885
+    },
+    {
+        "descricao": "Arabutã",
+        "latitude": -27.1587,
+        "longitude": -52.1423
+    },
+    {
+        "descricao": "Araquari",
+        "latitude": -26.3754,
+        "longitude": -48.7188
+    },
+    {
+        "descricao": "Araranguá",
+        "latitude": -28.9356,
+        "longitude": -49.4918
+    },
+    {
+        "descricao": "Armazém",
+        "latitude": -28.2448,
+        "longitude": -49.0215
+    },
+    {
+        "descricao": "Arroio Trinta",
+        "latitude": -26.9257,
+        "longitude": -51.3407
+    },
+    {
+        "descricao": "Arvoredo",
+        "latitude": -27.0748,
+        "longitude": -52.4543
+    },
+    {
+        "descricao": "Ascurra",
+        "latitude": -26.9548,
+        "longitude": -49.3783
+    },
+    {
+        "descricao": "Atalanta",
+        "latitude": -27.4219,
+        "longitude": -49.7789
+    },
+    {
+        "descricao": "Aurora",
+        "latitude": -27.3098,
+        "longitude": -49.6295
+    },
+    {
+        "descricao": "Balneário Arroio do Silva",
+        "latitude": -28.9806,
+        "longitude": -49.4237
+    },
+    {
+        "descricao": "Balneário Barra do Sul",
+        "latitude": -26.4597,
+        "longitude": -48.6123
+    },
+    {
+        "descricao": "Balneário Camboriú",
+        "latitude": -26.9926,
+        "longitude": -48.6352
+    },
+    {
+        "descricao": "Balneário Gaivota",
+        "latitude": -29.1527,
+        "longitude": -49.5841
+    },
+    {
+        "descricao": "Bandeirante",
+        "latitude": -26.7705,
+        "longitude": -53.6413
+    },
+    {
+        "descricao": "Barra Bonita",
+        "latitude": -26.654,
+        "longitude": -53.44
+    },
+    {
+        "descricao": "Barra Velha",
+        "latitude": -26.637,
+        "longitude": -48.6933
+    },
+    {
+        "descricao": "Bela Vista do Toldo",
+        "latitude": -26.2746,
+        "longitude": -50.4664
+    },
+    {
+        "descricao": "Belmonte",
+        "latitude": -26.843,
+        "longitude": -53.5758
+    },
+    {
+        "descricao": "Benedito Novo",
+        "latitude": -26.781,
+        "longitude": -49.3593
+    },
+    {
+        "descricao": "Biguaçu",
+        "latitude": -27.496,
+        "longitude": -48.6598
+    },
+    {
+        "descricao": "Blumenau",
+        "latitude": -26.9155,
+        "longitude": -49.0709
+    },
+    {
+        "descricao": "Bocaina do Sul",
+        "latitude": -27.7455,
+        "longitude": -49.9423
+    },
+    {
+        "descricao": "Bom Jardim da Serra",
+        "latitude": -28.3377,
+        "longitude": -49.6373
+    },
+    {
+        "descricao": "Bom Jesus",
+        "latitude": -26.7326,
+        "longitude": -52.3919
+    },
+    {
+        "descricao": "Bom Jesus do Oeste",
+        "latitude": -26.6927,
+        "longitude": -53.0967
+    },
+    {
+        "descricao": "Bom Retiro",
+        "latitude": -27.799,
+        "longitude": -49.487
+    },
+    {
+        "descricao": "Bombinhas",
+        "latitude": -27.1382,
+        "longitude": -48.5146
+    },
+    {
+        "descricao": "Botuverá",
+        "latitude": -27.2007,
+        "longitude": -49.0689
+    },
+    {
+        "descricao": "Braço do Norte",
+        "latitude": -28.2681,
+        "longitude": -49.1701
+    },
+    {
+        "descricao": "Braço do Trombudo",
+        "latitude": -27.3586,
+        "longitude": -49.8821
+    },
+    {
+        "descricao": "Brunópolis",
+        "latitude": -27.3058,
+        "longitude": -50.8684
+    },
+    {
+        "descricao": "Brusque",
+        "latitude": -27.0977,
+        "longitude": -48.9107
+    },
+    {
+        "descricao": "Caçador",
+        "latitude": -26.7757,
+        "longitude": -51.012
+    },
+    {
+        "descricao": "Caibi",
+        "latitude": -27.0741,
+        "longitude": -53.2458
+    },
+    {
+        "descricao": "Calmon",
+        "latitude": -26.5942,
+        "longitude": -51.095
+    },
+    {
+        "descricao": "Camboriú",
+        "latitude": -27.0241,
+        "longitude": -48.6503
+    },
+    {
+        "descricao": "Campo Alegre",
+        "latitude": -26.195,
+        "longitude": -49.2676
+    },
+    {
+        "descricao": "Campo Belo do Sul",
+        "latitude": -27.8975,
+        "longitude": -50.7595
+    },
+    {
+        "descricao": "Campo Erê",
+        "latitude": -26.3931,
+        "longitude": -53.0856
+    },
+    {
+        "descricao": "Campos Novos",
+        "latitude": -27.4002,
+        "longitude": -51.2276
+    },
+    {
+        "descricao": "Canelinha",
+        "latitude": -27.2616,
+        "longitude": -48.7658
+    },
+    {
+        "descricao": "Canoinhas",
+        "latitude": -26.1766,
+        "longitude": -50.395
+    },
+    {
+        "descricao": "Capão Alto",
+        "latitude": -27.9389,
+        "longitude": -50.5098
+    },
+    {
+        "descricao": "Capinzal",
+        "latitude": -27.3473,
+        "longitude": -51.6057
+    },
+    {
+        "descricao": "Capivari de Baixo",
+        "latitude": -28.4498,
+        "longitude": -48.9631
+    },
+    {
+        "descricao": "Catanduvas",
+        "latitude": -27.069,
+        "longitude": -51.6602
+    },
+    {
+        "descricao": "Caxambu do Sul",
+        "latitude": -27.1624,
+        "longitude": -52.8807
+    },
+    {
+        "descricao": "Celso Ramos",
+        "latitude": -27.6327,
+        "longitude": -51.335
+    },
+    {
+        "descricao": "Cerro Negro",
+        "latitude": -27.7942,
+        "longitude": -50.8673
+    },
+    {
+        "descricao": "Chapadão do Lageado",
+        "latitude": -27.5905,
+        "longitude": -49.5539
+    },
+    {
+        "descricao": "Chapecó",
+        "latitude": -27.1004,
+        "longitude": -52.6152
+    },
+    {
+        "descricao": "Cocal do Sul",
+        "latitude": -28.5986,
+        "longitude": -49.3335
+    },
+    {
+        "descricao": "Concórdia",
+        "latitude": -27.2335,
+        "longitude": -52.026
+    },
+    {
+        "descricao": "Cordilheira Alta",
+        "latitude": -26.9844,
+        "longitude": -52.6056
+    },
+    {
+        "descricao": "Coronel Freitas",
+        "latitude": -26.9057,
+        "longitude": -52.7011
+    },
+    {
+        "descricao": "Coronel Martins",
+        "latitude": -26.511,
+        "longitude": -52.6694
+    },
+    {
+        "descricao": "Correia Pinto",
+        "latitude": -27.5877,
+        "longitude": -50.3614
+    },
+    {
+        "descricao": "Corupá",
+        "latitude": -26.4246,
+        "longitude": -49.246
+    },
+    {
+        "descricao": "Criciúma",
+        "latitude": -28.6723,
+        "longitude": -49.3729
+    },
+    {
+        "descricao": "Cunha Porã",
+        "latitude": -26.895,
+        "longitude": -53.1662
+    },
+    {
+        "descricao": "Cunhataí",
+        "latitude": -26.9709,
+        "longitude": -53.0895
+    },
+    {
+        "descricao": "Curitibanos",
+        "latitude": -27.2824,
+        "longitude": -50.5816
+    },
+    {
+        "descricao": "Descanso",
+        "latitude": -26.827,
+        "longitude": -53.5034
+    },
+    {
+        "descricao": "Dionísio Cerqueira",
+        "latitude": -26.2648,
+        "longitude": -53.6351
+    },
+    {
+        "descricao": "Dona Emma",
+        "latitude": -26.981,
+        "longitude": -49.7261
+    },
+    {
+        "descricao": "Doutor Pedrinho",
+        "latitude": -26.7174,
+        "longitude": -49.4795
+    },
+    {
+        "descricao": "Entre Rios",
+        "latitude": -26.7225,
+        "longitude": -52.5585
+    },
+    {
+        "descricao": "Ermo",
+        "latitude": -28.9869,
+        "longitude": -49.643
+    },
+    {
+        "descricao": "Erval Velho",
+        "latitude": -27.2743,
+        "longitude": -51.443
+    },
+    {
+        "descricao": "Faxinal dos Guedes",
+        "latitude": -26.8451,
+        "longitude": -52.2596
+    },
+    {
+        "descricao": "Flor do Sertão",
+        "latitude": -26.7811,
+        "longitude": -53.3505
+    },
+    {
+        "descricao": "Florianópolis",
+        "latitude": -27.5945,
+        "longitude": -48.5477
+    },
+    {
+        "descricao": "Formosa do Sul",
+        "latitude": -26.6453,
+        "longitude": -52.7946
+    },
+    {
+        "descricao": "Forquilhinha",
+        "latitude": -28.7454,
+        "longitude": -49.4785
+    },
+    {
+        "descricao": "Fraiburgo",
+        "latitude": -27.0233,
+        "longitude": -50.92
+    },
+    {
+        "descricao": "Frei Rogério",
+        "latitude": -27.175,
+        "longitude": -50.8076
+    },
+    {
+        "descricao": "Galvão",
+        "latitude": -26.4549,
+        "longitude": -52.6875
+    },
+    {
+        "descricao": "Garopaba",
+        "latitude": -28.02748,
+        "longitude": -48.61916
+    },
+    {
+        "descricao": "Garuva",
+        "latitude": -26.0292,
+        "longitude": -48.852
+    },
+    {
+        "descricao": "Gaspar",
+        "latitude": -26.9336,
+        "longitude": -48.9534
+    },
+    {
+        "descricao": "Governador Celso Ramos",
+        "latitude": -27.3172,
+        "longitude": -48.5576
+    },
+    {
+        "descricao": "Grão Pará",
+        "latitude": -28.1809,
+        "longitude": -49.2252
+    },
+    {
+        "descricao": "Gravatal",
+        "latitude": -28.3208,
+        "longitude": -49.0427
+    },
+    {
+        "descricao": "Guabiruba",
+        "latitude": -27.0808,
+        "longitude": -48.9804
+    },
+    {
+        "descricao": "Guaraciaba",
+        "latitude": -26.6042,
+        "longitude": -53.5243
+    },
+    {
+        "descricao": "Guaramirim",
+        "latitude": -26.4688,
+        "longitude": -49.0026
+    },
+    {
+        "descricao": "Guarujá do Sul",
+        "latitude": -26.3858,
+        "longitude": -53.5296
+    },
+    {
+        "descricao": "Guatambú",
+        "latitude": -27.1341,
+        "longitude": -52.7887
+    },
+    {
+        "descricao": "Herval d'Oeste",
+        "latitude": -27.1903,
+        "longitude": -51.4917
+    },
+    {
+        "descricao": "Ibiam",
+        "latitude": -27.1847,
+        "longitude": -51.2352
+    },
+    {
+        "descricao": "Ibicaré",
+        "latitude": -27.0881,
+        "longitude": -51.3681
+    },
+    {
+        "descricao": "Ibirama",
+        "latitude": -27.0547,
+        "longitude": -49.5193
+    },
+    {
+        "descricao": "Içara",
+        "latitude": -28.7132,
+        "longitude": -49.3087
+    },
+    {
+        "descricao": "Ilhota",
+        "latitude": -26.9023,
+        "longitude": -48.8251
+    },
+    {
+        "descricao": "Imaruí",
+        "latitude": -28.3339,
+        "longitude": -48.817
+    },
+    {
+        "descricao": "Imbituba",
+        "latitude": -28.2284,
+        "longitude": -48.6659
+    },
+    {
+        "descricao": "Imbuia",
+        "latitude": -27.4908,
+        "longitude": -49.4218
+    },
+    {
+        "descricao": "Indaial",
+        "latitude": -26.8992,
+        "longitude": -49.2354
+    },
+    {
+        "descricao": "Iomerê",
+        "latitude": -27.0019,
+        "longitude": -51.2442
+    },
+    {
+        "descricao": "Ipira",
+        "latitude": -27.4038,
+        "longitude": -51.7758
+    },
+    {
+        "descricao": "Iporã do Oeste",
+        "latitude": -26.9854,
+        "longitude": -53.5355
+    },
+    {
+        "descricao": "Ipumirim",
+        "latitude": -27.0772,
+        "longitude": -52.1289
+    },
+    {
+        "descricao": "Iraceminha",
+        "latitude": -26.8215,
+        "longitude": -53.2767
+    },
+    {
+        "descricao": "Irani",
+        "latitude": -27.0287,
+        "longitude": -51.9012
+    },
+    {
+        "descricao": "Irati",
+        "latitude": -26.6539,
+        "longitude": -52.8955
+    },
+    {
+        "descricao": "Irineópolis",
+        "latitude": -26.242,
+        "longitude": -50.7957
+    },
+    {
+        "descricao": "Itá",
+        "latitude": -27.2907,
+        "longitude": -52.3212
+    },
+    {
+        "descricao": "Itaiópolis",
+        "latitude": -26.339,
+        "longitude": -49.9092
+    },
+    {
+        "descricao": "Itajaí",
+        "latitude": -26.9101,
+        "longitude": -48.6705
+    },
+    {
+        "descricao": "Itapema",
+        "latitude": -27.0861,
+        "longitude": -48.616
+    },
+    {
+        "descricao": "Itapiranga",
+        "latitude": -27.1659,
+        "longitude": -53.7166
+    },
+    {
+        "descricao": "Itapoá",
+        "latitude": -26.1158,
+        "longitude": -48.6182
+    },
+    {
+        "descricao": "Ituporanga",
+        "latitude": -27.4101,
+        "longitude": -49.5963
+    },
+    {
+        "descricao": "Jaborá",
+        "latitude": -27.1782,
+        "longitude": -51.7279
+    },
+    {
+        "descricao": "Jacinto Machado",
+        "latitude": -28.9961,
+        "longitude": -49.7623
+    },
+    {
+        "descricao": "Jaguaruna",
+        "latitude": -28.6146,
+        "longitude": -49.0296
+    },
+    {
+        "descricao": "Jaraguá do Sul",
+        "latitude": -26.4851,
+        "longitude": -49.0713
+    },
+    {
+        "descricao": "Jardinópolis",
+        "latitude": -26.7191,
+        "longitude": -52.8625
+    },
+    {
+        "descricao": "Joaçaba",
+        "latitude": -27.1721,
+        "longitude": -51.5108
+    },
+    {
+        "descricao": "Joinville",
+        "latitude": -26.3045,
+        "longitude": -48.8487
+    },
+    {
+        "descricao": "José Boiteux",
+        "latitude": -26.9566,
+        "longitude": -49.6286
+    },
+    {
+        "descricao": "Jupiá",
+        "latitude": -26.395,
+        "longitude": -52.7298
+    },
+    {
+        "descricao": "Lacerdópolis",
+        "latitude": -27.2579,
+        "longitude": -51.5577
+    },
+    {
+        "descricao": "Lages",
+        "latitude": -27.815,
+        "longitude": -50.3259
+    },
+    {
+        "descricao": "Laguna",
+        "latitude": -28.4843,
+        "longitude": -48.7772
+    },
+    {
+        "descricao": "Lajeado Grande",
+        "latitude": -26.8576,
+        "longitude": -52.5648
+    },
+    {
+        "descricao": "Laurentino",
+        "latitude": -27.2173,
+        "longitude": -49.7331
+    },
+    {
+        "descricao": "Lauro Muller",
+        "latitude": -28.3859,
+        "longitude": -49.4035
+    },
+    {
+        "descricao": "Lebon Régis",
+        "latitude": -26.928,
+        "longitude": -50.6921
+    },
+    {
+        "descricao": "Leoberto Leal",
+        "latitude": -27.5081,
+        "longitude": -49.2789
+    },
+    {
+        "descricao": "Lindóia do Sul",
+        "latitude": -27.0545,
+        "longitude": -52.069
+    },
+    {
+        "descricao": "Lontras",
+        "latitude": -27.1684,
+        "longitude": -49.535
+    },
+    {
+        "descricao": "Luiz Alves",
+        "latitude": -26.7151,
+        "longitude": -48.9322
+    },
+    {
+        "descricao": "Luzerna",
+        "latitude": -27.1304,
+        "longitude": -51.4682
+    },
+    {
+        "descricao": "Macieira",
+        "latitude": -26.8552,
+        "longitude": -51.3705
+    },
+    {
+        "descricao": "Mafra",
+        "latitude": -26.1159,
+        "longitude": -49.8086
+    },
+    {
+        "descricao": "Major Gercino",
+        "latitude": -27.4192,
+        "longitude": -48.9488
+    },
+    {
+        "descricao": "Major Vieira",
+        "latitude": -26.3709,
+        "longitude": -50.3266
+    },
+    {
+        "descricao": "Maracajá",
+        "latitude": -28.8463,
+        "longitude": -49.4605
+    },
+    {
+        "descricao": "Maravilha",
+        "latitude": -26.7665,
+        "longitude": -53.1737
+    },
+    {
+        "descricao": "Marema",
+        "latitude": -26.8024,
+        "longitude": -52.6264
+    },
+    {
+        "descricao": "Massaranduba",
+        "latitude": -26.6109,
+        "longitude": -49.0054
+    },
+    {
+        "descricao": "Matos Costa",
+        "latitude": -26.4709,
+        "longitude": -51.1501
+    },
+    {
+        "descricao": "Meleiro",
+        "latitude": -28.8244,
+        "longitude": -49.6378
+    },
+    {
+        "descricao": "Mirim Doce",
+        "latitude": -27.197,
+        "longitude": -50.0786
+    },
+    {
+        "descricao": "Modelo",
+        "latitude": -26.7729,
+        "longitude": -53.04
+    },
+    {
+        "descricao": "Mondaí",
+        "latitude": -27.1008,
+        "longitude": -53.4032
+    },
+    {
+        "descricao": "Monte Carlo",
+        "latitude": -27.2239,
+        "longitude": -50.9808
+    },
+    {
+        "descricao": "Monte Castelo",
+        "latitude": -26.461,
+        "longitude": -50.2327
+    },
+    {
+        "descricao": "Morro da Fumaça",
+        "latitude": -28.6511,
+        "longitude": -49.2169
+    },
+    {
+        "descricao": "Morro Grande",
+        "latitude": -28.8006,
+        "longitude": -49.7214
+    },
+    {
+        "descricao": "Navegantes",
+        "latitude": -26.8943,
+        "longitude": -48.6546
+    },
+    {
+        "descricao": "Nova Erechim",
+        "latitude": -26.8982,
+        "longitude": -52.9066
+    },
+    {
+        "descricao": "Nova Itaberaba",
+        "latitude": -26.9428,
+        "longitude": -52.8141
+    },
+    {
+        "descricao": "Nova Trento",
+        "latitude": -27.278,
+        "longitude": -48.9298
+    },
+    {
+        "descricao": "Nova Veneza",
+        "latitude": -28.6338,
+        "longitude": -49.5055
+    },
+    {
+        "descricao": "Novo Horizonte",
+        "latitude": -26.4442,
+        "longitude": -52.8281
+    },
+    {
+        "descricao": "Orleans",
+        "latitude": -28.3487,
+        "longitude": -49.2986
+    },
+    {
+        "descricao": "Otacílio Costa",
+        "latitude": -27.4789,
+        "longitude": -50.1231
+    },
+    {
+        "descricao": "Ouro",
+        "latitude": -27.3379,
+        "longitude": -51.6194
+    },
+    {
+        "descricao": "Ouro Verde",
+        "latitude": -26.692,
+        "longitude": -52.3108
+    },
+    {
+        "descricao": "Paial",
+        "latitude": -27.2541,
+        "longitude": -52.4975
+    },
+    {
+        "descricao": "Painel",
+        "latitude": -27.9234,
+        "longitude": -50.0972
+    },
+    {
+        "descricao": "Palhoça",
+        "latitude": -27.6455,
+        "longitude": -48.6697
+    },
+    {
+        "descricao": "Palma Sola",
+        "latitude": -26.3471,
+        "longitude": -53.2771
+    },
+    {
+        "descricao": "Palmeira",
+        "latitude": -27.583,
+        "longitude": -50.1577
+    },
+    {
+        "descricao": "Palmitos",
+        "latitude": -27.0702,
+        "longitude": -53.1586
+    },
+    {
+        "descricao": "Papanduva",
+        "latitude": -26.3777,
+        "longitude": -50.1419
+    },
+    {
+        "descricao": "Paraíso",
+        "latitude": -26.62,
+        "longitude": -53.6716
+    },
+    {
+        "descricao": "Passo de Torres",
+        "latitude": -29.3099,
+        "longitude": -49.722
+    },
+    {
+        "descricao": "Passos Maia",
+        "latitude": -26.7829,
+        "longitude": -52.0568
+    },
+    {
+        "descricao": "Paulo Lopes",
+        "latitude": -27.9607,
+        "longitude": -48.6864
+    },
+    {
+        "descricao": "Pedras Grandes",
+        "latitude": -28.4339,
+        "longitude": -49.1949
+    },
+    {
+        "descricao": "Penha",
+        "latitude": -26.7754,
+        "longitude": -48.6465
+    },
+    {
+        "descricao": "Peritiba",
+        "latitude": -27.3754,
+        "longitude": -51.9018
+    },
+    {
+        "descricao": "Petrolândia",
+        "latitude": -27.5346,
+        "longitude": -49.6937
+    },
+    {
+        "descricao": "Pinhalzinho",
+        "latitude": -26.8495,
+        "longitude": -52.9913
+    },
+    {
+        "descricao": "Pinheiro Preto",
+        "latitude": -27.0483,
+        "longitude": -51.2243
+    },
+    {
+        "descricao": "Piratuba",
+        "latitude": -27.4242,
+        "longitude": -51.7668
+    },
+    {
+        "descricao": "Planalto Alegre",
+        "latitude": -27.0704,
+        "longitude": -52.867
+    },
+    {
+        "descricao": "Pomerode",
+        "latitude": -26.7384,
+        "longitude": -49.1785
+    },
+    {
+        "descricao": "Ponte Alta",
+        "latitude": -27.4835,
+        "longitude": -50.3764
+    },
+    {
+        "descricao": "Ponte Alta do Norte",
+        "latitude": -27.1591,
+        "longitude": -50.4659
+    },
+    {
+        "descricao": "Ponte Serrada",
+        "latitude": -26.8733,
+        "longitude": -52.0112
+    },
+    {
+        "descricao": "Porto Belo",
+        "latitude": -27.1586,
+        "longitude": -48.5469
+    },
+    {
+        "descricao": "Porto União",
+        "latitude": -26.2451,
+        "longitude": -51.0759
+    },
+    {
+        "descricao": "Pouso Redondo",
+        "latitude": -27.2567,
+        "longitude": -49.9301
+    },
+    {
+        "descricao": "Praia Grande",
+        "latitude": -29.1918,
+        "longitude": -49.9525
+    },
+    {
+        "descricao": "Presidente Getúlio",
+        "latitude": -27.0474,
+        "longitude": -49.6246
+    },
+    {
+        "descricao": "Presidente Nereu",
+        "latitude": -27.2768,
+        "longitude": -49.3889
+    },
+    {
+        "descricao": "Princesa",
+        "latitude": -26.4441,
+        "longitude": -53.5994
+    },
+    {
+        "descricao": "Quilombo",
+        "latitude": -26.7264,
+        "longitude": -52.724
+    },
+    {
+        "descricao": "Rancho Queimado",
+        "latitude": -27.6727,
+        "longitude": -49.0191
+    },
+    {
+        "descricao": "Rio das Antas",
+        "latitude": -26.8946,
+        "longitude": -51.0674
+    },
+    {
+        "descricao": "Rio do Campo",
+        "latitude": -26.9452,
+        "longitude": -50.136
+    },
+    {
+        "descricao": "Rio do Oeste",
+        "latitude": -27.1952,
+        "longitude": -49.7989
+    },
+    {
+        "descricao": "Rio do Sul",
+        "latitude": -27.2156,
+        "longitude": -49.643
+    },
+    {
+        "descricao": "Rio dos Cedros",
+        "latitude": -26.7398,
+        "longitude": -49.2718
+    },
+    {
+        "descricao": "Rio Fortuna",
+        "latitude": -28.1244,
+        "longitude": -49.1068
+    },
+    {
+        "descricao": "Rio Negrinho",
+        "latitude": -26.2591,
+        "longitude": -49.5177
+    },
+    {
+        "descricao": "Rio Rufino",
+        "latitude": -27.8592,
+        "longitude": -49.7754
+    },
+    {
+        "descricao": "Riqueza",
+        "latitude": -27.0653,
+        "longitude": -53.3265
+    },
+    {
+        "descricao": "Rodeio",
+        "latitude": -26.9243,
+        "longitude": -49.3649
+    },
+    {
+        "descricao": "Romelândia",
+        "latitude": -26.6809,
+        "longitude": -53.3172
+    },
+    {
+        "descricao": "Salete",
+        "latitude": -26.9798,
+        "longitude": -49.9988
+    },
+    {
+        "descricao": "Saltinho",
+        "latitude": -26.6049,
+        "longitude": -53.0578
+    },
+    {
+        "descricao": "Salto Veloso",
+        "latitude": -26.903,
+        "longitude": -51.4043
+    },
+    {
+        "descricao": "Sangão",
+        "latitude": -28.6326,
+        "longitude": -49.1322
+    },
+    {
+        "descricao": "Santa Cecília",
+        "latitude": -26.9592,
+        "longitude": -50.4252
+    },
+    {
+        "descricao": "Santa Helena",
+        "latitude": -26.937,
+        "longitude": -53.6214
+    },
+    {
+        "descricao": "Santa Rosa de Lima",
+        "latitude": -28.0331,
+        "longitude": -49.133
+    },
+    {
+        "descricao": "Santa Rosa do Sul",
+        "latitude": -29.1313,
+        "longitude": -49.7109
+    },
+    {
+        "descricao": "Santa Terezinha",
+        "latitude": -26.7813,
+        "longitude": -50.009
+    },
+    {
+        "descricao": "Santa Terezinha do Progresso",
+        "latitude": -26.624,
+        "longitude": -53.1997
+    },
+    {
+        "descricao": "Santiago do Sul",
+        "latitude": -26.6388,
+        "longitude": -52.6799
+    },
+    {
+        "descricao": "Santo Amaro da Imperatriz",
+        "latitude": -27.6852,
+        "longitude": -48.7813
+    },
+    {
+        "descricao": "São Bento do Sul",
+        "latitude": -26.2495,
+        "longitude": -49.3831
+    },
+    {
+        "descricao": "São Bernardino",
+        "latitude": -26.4739,
+        "longitude": -52.9687
+    },
+    {
+        "descricao": "São Bonifácio",
+        "latitude": -27.9009,
+        "longitude": -48.9326
+    },
+    {
+        "descricao": "São Carlos",
+        "latitude": -27.0798,
+        "longitude": -53.0037
+    },
+    {
+        "descricao": "São Cristovão do Sul",
+        "latitude": -27.2666,
+        "longitude": -50.4388
+    },
+    {
+        "descricao": "São Domingos",
+        "latitude": -26.5548,
+        "longitude": -52.5313
+    },
+    {
+        "descricao": "São Francisco do Sul",
+        "latitude": -26.2579,
+        "longitude": -48.6344
+    },
+    {
+        "descricao": "São João Batista",
+        "latitude": -27.2772,
+        "longitude": -48.8474
+    },
+    {
+        "descricao": "São João do Itaperiú",
+        "latitude": -26.6213,
+        "longitude": -48.7683
+    },
+    {
+        "descricao": "São João do Oeste",
+        "latitude": -27.0984,
+        "longitude": -53.5977
+    },
+    {
+        "descricao": "São João do Sul",
+        "latitude": -29.2154,
+        "longitude": -49.8094
+    },
+    {
+        "descricao": "São Joaquim",
+        "latitude": -28.2887,
+        "longitude": -49.9457
+    },
+    {
+        "descricao": "São José",
+        "latitude": -27.6136,
+        "longitude": -48.6366
+    },
+    {
+        "descricao": "São José do Cedro",
+        "latitude": -26.4561,
+        "longitude": -53.4955
+    },
+    {
+        "descricao": "São José do Cerrito",
+        "latitude": -27.6602,
+        "longitude": -50.5733
+    },
+    {
+        "descricao": "São Ludgero",
+        "latitude": -28.3144,
+        "longitude": -49.1806
+    },
+    {
+        "descricao": "São Martinho",
+        "latitude": -28.1609,
+        "longitude": -48.9867
+    },
+    {
+        "descricao": "São Miguel da Boa Vista",
+        "latitude": -26.687,
+        "longitude": -53.2511
+    },
+    {
+        "descricao": "São Miguel do Oeste",
+        "latitude": -26.7242,
+        "longitude": -53.5163
+    },
+    {
+        "descricao": "São Pedro de Alcântara",
+        "latitude": -27.5665,
+        "longitude": -48.8048
+    },
+    {
+        "descricao": "Saudades",
+        "latitude": -26.9317,
+        "longitude": -53.0021
+    },
+    {
+        "descricao": "Schroeder",
+        "latitude": -26.4116,
+        "longitude": -49.074
+    },
+    {
+        "descricao": "Seara",
+        "latitude": -27.1564,
+        "longitude": -52.299
+    },
+    {
+        "descricao": "Serra Alta",
+        "latitude": -26.7229,
+        "longitude": -53.0409
+    },
+    {
+        "descricao": "Siderópolis",
+        "latitude": -28.5955,
+        "longitude": -49.4314
+    },
+    {
+        "descricao": "Sombrio",
+        "latitude": -29.108,
+        "longitude": -49.6328
+    },
+    {
+        "descricao": "Sul Brasil",
+        "latitude": -26.7351,
+        "longitude": -52.964
+    },
+    {
+        "descricao": "Taió",
+        "latitude": -27.121,
+        "longitude": -49.9942
+    },
+    {
+        "descricao": "Tangará",
+        "latitude": -27.0996,
+        "longitude": -51.2473
+    },
+    {
+        "descricao": "Tigrinhos",
+        "latitude": -26.6876,
+        "longitude": -53.1545
+    },
+    {
+        "descricao": "Tijucas",
+        "latitude": -27.2354,
+        "longitude": -48.6322
+    },
+    {
+        "descricao": "Timbé do Sul",
+        "latitude": -28.8287,
+        "longitude": -49.842
+    },
+    {
+        "descricao": "Timbó",
+        "latitude": -26.8246,
+        "longitude": -49.269
+    },
+    {
+        "descricao": "Timbó Grande",
+        "latitude": -26.6127,
+        "longitude": -50.6607
+    },
+    {
+        "descricao": "Três Barras",
+        "latitude": -26.1056,
+        "longitude": -50.3197
+    },
+    {
+        "descricao": "Treviso",
+        "latitude": -28.5097,
+        "longitude": -49.4634
+    },
+    {
+        "descricao": "Treze de Maio",
+        "latitude": -28.5537,
+        "longitude": -49.1565
+    },
+    {
+        "descricao": "Treze Tílias",
+        "latitude": -27.0026,
+        "longitude": -51.4084
+    },
+    {
+        "descricao": "Trombudo Central",
+        "latitude": -27.3033,
+        "longitude": -49.793
+    },
+    {
+        "descricao": "Tubarão",
+        "latitude": -28.4713,
+        "longitude": -49.0144
+    },
+    {
+        "descricao": "Tunápolis",
+        "latitude": -26.9681,
+        "longitude": -53.6417
+    },
+    {
+        "descricao": "Turvo",
+        "latitude": -28.9272,
+        "longitude": -49.6831
+    },
+    {
+        "descricao": "União do Oeste",
+        "latitude": -26.762,
+        "longitude": -52.8541
+    },
+    {
+        "descricao": "Urubici",
+        "latitude": -28.0157,
+        "longitude": -49.5925
+    },
+    {
+        "descricao": "Urupema",
+        "latitude": -27.9557,
+        "longitude": -49.8729
+    },
+    {
+        "descricao": "Urussanga",
+        "latitude": -28.518,
+        "longitude": -49.3238
+    },
+    {
+        "descricao": "Vargeão",
+        "latitude": -26.8621,
+        "longitude": -52.1549
+    },
+    {
+        "descricao": "Vargem",
+        "latitude": -27.4867,
+        "longitude": -50.9724
+    },
+    {
+        "descricao": "Vargem Bonita",
+        "latitude": -27.0055,
+        "longitude": -51.7402
+    },
+    {
+        "descricao": "Vidal Ramos",
+        "latitude": -27.3886,
+        "longitude": -49.3593
+    },
+    {
+        "descricao": "Videira",
+        "latitude": -27.0086,
+        "longitude": -51.1543
+    },
+    {
+        "descricao": "Vitor Meireles",
+        "latitude": -26.8782,
+        "longitude": -49.8328
+    },
+    {
+        "descricao": "Witmarsum",
+        "latitude": -26.9275,
+        "longitude": -49.7947
+    },
+    {
+        "descricao": "Xanxerê",
+        "latitude": -26.8747,
+        "longitude": -52.4036
+    },
+    {
+        "descricao": "Xavantina",
+        "latitude": -27.0667,
+        "longitude": -52.343
+    },
+    {
+        "descricao": "Xaxim",
+        "latitude": -26.9596,
+        "longitude": -52.5374
+    },
+    {
+        "descricao": "Zortéa",
+        "latitude": -27.4521,
+        "longitude": -51.552
+    },
+    {
+        "descricao": "Balneário Piçarras",
+        "latitude": -26.7638893,
+        "longitude": -48.6716652
+    },
+    {
+        "descricao": "São Lourenço do Oeste",
+        "latitude": -26.3556595,
+        "longitude": -52.8498383
+    },
+    {
+        "descricao": "Ipuaçu",
+        "latitude": -26.6349869,
+        "longitude": -52.4555931
+    },
+    {
+        "descricao": "Presidente Castello Branco",
+        "latitude": -27.2217865,
+        "longitude": -51.8089485
+    },
+    {
+        "descricao": "Balneário Rincão",
+        "latitude": -28.8314,
+        "longitude": -49.2352
+    },
+    {
+        "descricao": "Pescaria Brava",
+        "latitude": -28.3966,
+        "longitude": -48.8864
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "descricao": "Amapá",
+        "latitude": 2.05267,
+        "longitude": -50.7957
+    },
+    {
+        "descricao": "Calçoene",
+        "latitude": 2.50475,
+        "longitude": -50.9512
+    },
+    {
+        "descricao": "Ferreira Gomes",
+        "latitude": 0.857256,
+        "longitude": -51.1795
+    },
+    {
+        "descricao": "Laranjal do Jari",
+        "latitude": -0.804911,
+        "longitude": -52.453
+    },
+    {
+        "descricao": "Macapá",
+        "latitude": 0.034934,
+        "longitude": -51.0694
+    },
+    {
+        "descricao": "Mazagão",
+        "latitude": -0.11336,
+        "longitude": -51.2891
+    },
+    {
+        "descricao": "Oiapoque",
+        "latitude": 3.84074,
+        "longitude": -51.8331
+    },
+    {
+        "descricao": "Pedra Branca do Amapari",
+        "latitude": 0.777424,
+        "longitude": -51.9503
+    },
+    {
+        "descricao": "Porto Grande",
+        "latitude": 0.71243,
+        "longitude": -51.4155
+    },
+    {
+        "descricao": "Pracuúba",
+        "latitude": 1.74543,
+        "longitude": -50.7892
+    },
+    {
+        "descricao": "Santana",
+        "latitude": -0.045434,
+        "longitude": -51.1729
+    },
+    {
+        "descricao": "Serra do Navio",
+        "latitude": 0.901357,
+        "longitude": -52.0036
+    },
+    {
+        "descricao": "Tartarugalzinho",
+        "latitude": 1.50652,
+        "longitude": -50.9087
+    },
+    {
+        "descricao": "Vitória do Jari",
+        "latitude": -0.938,
+        "longitude": -52.424
+    },
+    {
+        "descricao": "Itaubal",
+        "latitude": 0.6021849,
+        "longitude": -50.6995964
+    },
+    {
+        "descricao": "Cutias",
+        "latitude": 0.9707606,
+        "longitude": -50.8004684
+    }
+]
