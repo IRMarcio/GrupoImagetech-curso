@@ -1,2 +1,2 @@
-# Repositório do sistema SigaLog.
-Desenvolvedores: Ricardo Fuhrmann, Fernando Miyahira e Márcio Rozendo.
+# Repositório do sistema Curso.
+Desenvolvedores: Márcio Rozendo Rodrigues gonçalves.
