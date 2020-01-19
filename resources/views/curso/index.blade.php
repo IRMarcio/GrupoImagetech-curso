@@ -1,14 +1,14 @@
 @extends('layouts.default')
 
-@section('titulo_pagina', 'Período')
+@section('titulo_pagina', 'CURSOS')
 
 @section('breadcrumbs')
-    <li class="active">Período</li>
+    <li class="active">CURSOS</li>
 @endsection
 
 @section('conteudo')
     <div class="panel panel-flat">
-        <form action="{{ route('periodo.index') }}" method="get">
+        <form action="{{ route('curso.index') }}" method="get">
             <div class="panel-heading">
                 <h5 class="panel-title">
                     Filtros
@@ -23,13 +23,13 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-8 col-md-8 col-lg-10">
                         <div class="form-group">
-                            <label>Descrição:</label>
+                            <label>Descrição do Curso:</label>
                             <input type="text" class="form-control" name="descricao" value="{{ request('descricao') }}">
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-2">
                         <div class="form-group">
-                            <label>Tipo de produto:</label>
+                            <label>Tipo de períodos:</label>
                             <select name="tipo_periodo_id" class="form-control select2">
                                 <option value=""></option>
                                 @foreach($tipoPeriodos as $tipoPeriodo)
@@ -43,7 +43,7 @@
             <div class="panel-footer">
                 <div class="heading-elements">
                     <div class="heading-btn pull-left">
-                        @include('partials.forms.botao_limpar', ['url' => route('periodo.index')])
+                        @include('partials.forms.botao_limpar', ['url' => route('curso.index')])
                     </div>
                 </div>
             </div>
@@ -52,7 +52,7 @@
     </div>
 
     @include('partials.painel_registros', [
-        'listagem' => 'periodo.listagem',
-        'prefixo' => 'periodo'
+        'listagem' => 'curso.listagem',
+        'prefixo' => 'curso'
     ])
 @endsection

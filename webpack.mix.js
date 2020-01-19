@@ -59,7 +59,7 @@ mix.webpackConfig({
 });
 
 mix.browserSync({
-    proxy: 'sinlog.dev',
+    proxy: 'curso',
     files: ["assets/**/*.css", "asstes/**/*.php", "asstes/**/*.js"],
-    open: false
+    open: true
 });

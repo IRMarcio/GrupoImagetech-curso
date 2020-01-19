@@ -1,5 +1,5 @@
 @extends('layouts.imprimir')
 
 @section('conteudo')
-    @include('periodo.listagem', ['imprimir' => true])
+    @include('curso.listagem', ['imprimir' => true])
 @endsection

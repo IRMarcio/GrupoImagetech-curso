@@ -3,9 +3,9 @@
 namespace App\Relatorios;
 
 use App\Relatorios\RelatorioBase;
-use App\Models\Periodo;
+use App\Models\Curso;
 
-class PeriodoListagem extends RelatorioBase
+class CursoListagem extends RelatorioBase
 {
 
     /**
@@ -13,7 +13,7 @@ class PeriodoListagem extends RelatorioBase
      *
      * @var string
      */
-    protected $titulo = 'PERÍODO';
+    protected $titulo = 'CURSO';
 
     /**
      * Quantidade de itens por página.
@@ -40,18 +40,18 @@ class PeriodoListagem extends RelatorioBase
      */
     public function gerar($filtros, $paginar = true, $with = [])
     {
-        $registros = Periodo::select('periodos.*')
-                              ->with($with)
-                              ->leftJoin('tipo_periodos', 'tipo_periodos.id', '=', 'periodos.tipo_periodo_id')
-                              ->orderBy('periodos.descricao', 'ASC')
-                              ->orderBy('tipo_periodos.descricao', 'ASC');
+        $registros = Curso::select('cursos.*')
+                          ->with($with)
+                          ->leftJoin('tipo_periodos', 'tipo_periodos.id', '=', 'cursos.tipo_periodo_id')
+                          ->orderBy('cursos.descricao', 'ASC')
+                          ->orderBy('tipo_periodos.descricao', 'ASC');
 
         if (!empty($filtros['descricao'])) {
-            $registros->where('periodos.descricao', 'LIKE', '%' . $filtros['descricao'] . '%');
+            $registros->where('cursos.descricao', 'LIKE', '%' . $filtros['descricao'] . '%');
         }
 
         if (!empty($filtros['tipo_periodo_id'])) {
-            $registros->where('periodos.tipo_produto_id', $filtros['tipo_periodo_id']);
+            $registros->where('cursos.tipo_produto_id', $filtros['tipo_periodo_id']);
         }
 
         if ($paginar) {

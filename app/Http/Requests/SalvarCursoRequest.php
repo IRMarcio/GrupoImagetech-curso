@@ -5,7 +5,7 @@ namespace App\Http\Requests;
 use App\Http\Requests\Request;
 use Illuminate\Validation\Rule;
 
-class SalvarPeriodoRequest extends Request
+class SalvarCursoRequest extends Request
 {
 
     /**
@@ -25,15 +25,20 @@ class SalvarPeriodoRequest extends Request
      */
     public function rules()
     {
-        $registro = $this->route('periodo');
+        $registro = $this->route('curso');
         $id = $registro ? $registro->id : null;
 
         return [
             'codigo' => [
                 'required',
-                Rule::unique('periodos')->ignore($id),
+                Rule::unique('cursos')->ignore($id),
             ],
-            'unidade_fornecimento' => ['required']
+            'nome' => ['required'],
+            'valor_mensalidade' => ['required'],
+            'valor_matricula' => ['required'],
+            'duracao' => ['required'],
+            'ativo' => ['required'],
+            'tipo_periodo_id' => ['required']
         ];
     }
 }

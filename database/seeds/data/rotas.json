@@ -530,33 +530,33 @@
         "descricao": "Excluir vários tipos de períodos"
     },
     {
-        "tipo_rota_id": "PERÍODO",
-        "rota": "periodo.index",
-        "descricao": "Visualizar PERÍODO"
+        "tipo_rota_id": "CURSO",
+        "rota": "curso.index",
+        "descricao": "Visualizar CURSO"
     },
     {
-        "tipo_rota_id": "PERÍODO",
-        "rota": "periodo.adicionar",
-        "descricao": "Adicionar PERÍODO",
-        "descricao_get": "Iniciar cadastro de PERÍODO",
-        "descricao_post": "Finalizar cadastro de PERÍODO"
+        "tipo_rota_id": "CURSO",
+        "rota": "curso.adicionar",
+        "descricao": "Adicionar CURSO",
+        "descricao_get": "Iniciar cadastro de CURSO",
+        "descricao_post": "Finalizar cadastro de CURSO"
     },
     {
-        "tipo_rota_id": "PERÍODO",
-        "rota": "periodo.alterar",
-        "descricao": "Alterar PERÍODO",
-        "descricao_get": "Visualizar registro de PERÍODO",
-        "descricao_post": "Alterar registro de PERÍODO"
+        "tipo_rota_id": "CURSO",
+        "rota": "curso.alterar",
+        "descricao": "Alterar CURSO",
+        "descricao_get": "Visualizar registro de CURSO",
+        "descricao_post": "Alterar registro de CURSO"
     },
     {
-        "tipo_rota_id": "PERÍODO",
-        "rota": "periodo.excluir",
-        "descricao": "Excluir PERÍODO"
+        "tipo_rota_id": "CURSO",
+        "rota": "curso.excluir",
+        "descricao": "Excluir CURSO"
     },
     {
-        "tipo_rota_id": "PERÍODO",
-        "rota": "periodo.excluir_varios",
+        "tipo_rota_id": "CURSO",
+        "rota": "curso.excluir_varios",
         "acesso_liberado": "N",
-        "descricao": "Excluir vários PERÍODO"
+        "descricao": "Excluir vários CURSO"
     }
 ]

@@ -108,7 +108,7 @@
                 "icone": "icon-map"
             },
             {
-                "descricao": "Período",
+                "descricao": "Curso",
                 "slug": "periodo",
                 "ordem": 330,
                 "tipo_menu": "HEADER"
@@ -121,9 +121,9 @@
                 "icone": "icon-map"
             },
             {
-                "descricao": "Cadastro Período",
-                "slug": "cadastro_periodo",
-                "url": "periodo.index",
+                "descricao": "Cadastro Cursos",
+                "slug": "curso",
+                "url": "curso.index",
                 "ordem": 340,
                 "icone": "icon-map"
             }

@@ -2,22 +2,22 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\SalvarPeriodoRequest;
-use App\Models\Periodo;
-use App\Relatorios\PeriodoListagem;
+use App\Http\Requests\SalvarCursoRequest;
+use App\Models\Curso;
+use App\Relatorios\CursoListagem;
 use App\Repositories\TipoPeriodoRepository;
-use App\Repositories\PeriodoRepository;
+use App\Repositories\CursoRepository;
 
-class PeriodoController extends Controller
+class CursoController extends Controller
 {
 
     /**
-     * @var PeriodoListagem
+     * @var CursoListagem
      */
     private $listagem;
 
     /**
-     * @var PeriodoRepository
+     * @var CursoRepository
      */
     private $repository;
 
@@ -26,7 +26,7 @@ class PeriodoController extends Controller
      */
     private $tipoPeriodoRepository;
 
-    public function __construct(PeriodoListagem $listagem, PeriodoRepository $repository, TipoPeriodoRepository $tipoPeriodoRepository)
+    public function __construct(CursoListagem $listagem, CursoRepository $repository, TipoPeriodoRepository $tipoPeriodoRepository)
     {
         parent::__construct();
 
@@ -42,7 +42,7 @@ class PeriodoController extends Controller
      */
     public function index()
     {
-        $with = ['tipoPeriodo'];
+        $with = [];
 
         $filtros = request()->all();
 
@@ -57,7 +57,7 @@ class PeriodoController extends Controller
 
         $tipoPeriodos = $this->tipoPeriodoRepository->buscarTodosOrdenados('descricao');
 
-        return view('periodo.index', compact('dados', 'filtros', 'tipoPeriodos'));
+        return view('curso.index', compact('dados', 'filtros', 'tipoPeriodos'));
     }
 
     /**
@@ -69,19 +69,20 @@ class PeriodoController extends Controller
     {
         $tipoPeriodos = $this->tipoPeriodoRepository->buscarTodosOrdenados('descricao');
 
-        return view('periodo.adicionar', compact('tipoPeriodos'));
+        return view('curso.adicionar', compact('tipoPeriodos'));
     }
 
     /**
      * Adiciona um novo registro.
      *
      *
-     * @param  SalvarPeriodoRequest  $request
+     * @param  SalvarCursoRequest  $request
      *
      * @return \Illuminate\Http\RedirectResponse
      */
-    public function salvar(SalvarPeriodoRequest $request)
+    public function salvar(SalvarCursoRequest $request)
     {
+
         $registro = $this->repository->create($request->all());
         if (!$registro->id) {
             return back()->withInput();
@@ -89,34 +90,34 @@ class PeriodoController extends Controller
 
         flash('Registro salvo com sucesso.')->success();
 
-        return $this->tratarRedirecionamentoCrud(request('acao'), 'periodo', $registro);
+        return $this->tratarRedirecionamentoCrud(request('acao'), 'curso', $registro);
     }
 
     /**
      * Exibe a tela para alterar os dados de um registro.
      *
-     * @param Periodo $periodo
+     * @param  Curso curso
      *
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function alterar(Periodo $periodo)
+    public function alterar(Curso $curso)
     {
         $tipoPeriodos = $this->tipoPeriodoRepository->buscarTodosOrdenados('descricao');
-
-        return view('periodo.alterar', compact('periodo', 'tipoPeriodos'));
+        return view('curso.alterar', compact('curso', 'tipoPeriodos'));
     }
 
     /**
      * Altera os dados de um registro.
      *
-     * @param  Periodo  $registro
+     * @param  Curso  $registro
      *
-     * @param  SalvarPeriodoRequest  $request
+     * @param  SalvarCursoRequest  $request
      *
      * @return \Illuminate\Http\RedirectResponse
      */
-    public function atualizar(Periodo $registro, SalvarPeriodoRequest $request)
+    public function atualizar(Curso $registro, SalvarCursoRequest $request)
     {
+
         $atualizado = $this->repository->update($registro, $request->all());
         if (!$atualizado) {
             return back()->withInput();
@@ -124,18 +125,18 @@ class PeriodoController extends Controller
 
         flash('Os dados do registro foram alterados com sucesso.')->success();
 
-        return $this->tratarRedirecionamentoCrud(request('acao'), 'periodo', $registro);
+        return $this->tratarRedirecionamentoCrud(request('acao'), 'curso', $registro);
     }
 
     /**
      * Exclui um registro.
      *
-     * @param Periodo $registro
+     * @param  Curso  $registro
      *
      * @return \Illuminate\Http\RedirectResponse
      * @throws \Exception
      */
-    public function excluir(Periodo $registro)
+    public function excluir(Curso $registro)
     {
         $excluido = $this->repository->delete($registro);
         if (!$excluido) {

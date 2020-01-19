@@ -80,11 +80,11 @@ Route::group(['middleware' => ['web', 'logado', 'unidade-ativa', 'descobrir-cent
     incluirRotaDireta("_tipo_periodo.php");
 
     /**
-     * @see  Períodos
+     * @see  Cursos
      * @since Rotas Atuais -> [@internal]
-     * @internal (Periodo)
+     * @internal (Cursos)
      * */
-    incluirRotaDireta("_periodos.php");
+    incluirRotaDireta("_curso.php");
 
 
 });

@@ -22,7 +22,8 @@ class GerenciaAluno
         $estados = Estado::orderBy('uf', 'ASC')->get();
         $municipios = null;
 
-        if (!is_null($aluno) && $aluno->endereco->municipio_id) {
+
+        if (!is_null($aluno) && !is_null($aluno->endereco)  && $aluno->endereco->municipio_id) {
             $municipios = Municipio::where('uf_id', $aluno->endereco->uf_id)->get();
         }
 
