@@ -25,6 +25,7 @@ class Aluno extends BaseModel
         'telefone',
         'ativo',
         'dt_nascimento',
+        'centro_distribuicao_id'
 
     ];
 

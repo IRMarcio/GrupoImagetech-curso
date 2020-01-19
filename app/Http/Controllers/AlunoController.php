@@ -56,7 +56,6 @@ class AlunoController extends Controller
     public function index()
     {
         $filtros = request()->all();
-        $filtros['aluno_transportadora'] = 'F';
 
         if (isset($filtros['acao']) && $filtros['acao'] == 'imprimir') {
             return $this->listagem->exportar($filtros);
@@ -99,8 +98,6 @@ class AlunoController extends Controller
         return $this->gerenciaAluno->carregarDependencias($aluno);
     }
 
-
-
     /**
      * Adiciona um novo registro.
      *
@@ -111,11 +108,10 @@ class AlunoController extends Controller
      */
     public function salvar(SalvarAlunoRequest $request, Aluno $aluno)
     {
+        /*Adiciona Centro de distribuicao no Store de Aluno*/
+        request()->merge(['centro_distribuicao_id'=> $this->sessaoUsuario->centroDistribuicao()->id]);
         $registro = DB::transaction(function () use ($request, $aluno) {
-            $dados = $request->all();
-            $dados['aluno_transportadora'] = 'F';
-
-            return $this->gerenciaAluno->criar($aluno, $dados);
+            return $this->gerenciaAluno->criar($aluno, request()->all());
         });
 
         if (!$registro->id) {

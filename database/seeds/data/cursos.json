@@ -1,0 +1,42 @@
+[
+    {
+        "codigo": "HJADKD",
+        "nome": "Curso de Inglês",
+        "valor_mensalidade": 130,
+        "valor_matricula": 80,
+        "duracao": "8",
+        "descricao": "Curso de Fluência em Ingles",
+        "ativo": true,
+        "tipo_periodo_id": [1,2,3]
+    },
+    {
+        "codigo": "LKJLKJ",
+        "nome": "Curso de Cuzinha",
+        "valor_mensalidade": 230,
+        "valor_matricula": 180,
+        "duracao": "10",
+        "descricao": "Curso Pra Fazer Papa",
+        "ativo": true,
+        "tipo_periodo_id":  [1,2,3]
+    },
+    {
+        "codigo": "LAKJDAL",
+        "nome": "Curso de Doma Cachorro",
+        "valor_mensalidade": 430,
+        "valor_matricula": 380,
+        "duracao": "6",
+        "descricao": "Curso Pra Fazer Cachorro Ficar Bonzinho",
+        "ativo": true,
+        "tipo_periodo_id": [2,3]
+    },
+    {
+        "codigo": "AOADUD",
+        "nome": "Curso de Pescaria",
+        "valor_mensalidade": 830,
+        "valor_matricula": 680,
+        "duracao": "12",
+        "descricao": "Curso Pra Fazer Pessoas Felizes",
+        "ativo": true,
+        "tipo_periodo_id": [1,2,3]
+    }
+]

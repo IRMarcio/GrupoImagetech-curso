@@ -2,13 +2,15 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\SalvarCursoRequest;
+use App\Http\Requests\SalvarCentroCursosRequest;
+use App\Models\CentroCurso;
 use App\Models\Curso;
+use App\Relatorios\CentroCursosListagem;
 use App\Relatorios\CursoListagem;
 use App\Repositories\TipoPeriodoRepository;
-use App\Repositories\CursoRepository;
+use App\Repositories\CentroCursosRepository;
 
-class CursoController extends Controller
+class CentroCursosController extends Controller
 {
 
     /**
@@ -17,7 +19,7 @@ class CursoController extends Controller
     private $listagem;
 
     /**
-     * @var CursoRepository
+     * @var CentroCursosRepository
      */
     private $repository;
 
@@ -26,7 +28,7 @@ class CursoController extends Controller
      */
     private $tipoPeriodoRepository;
 
-    public function __construct(CursoListagem $listagem, CursoRepository $repository, TipoPeriodoRepository $tipoPeriodoRepository)
+    public function __construct(CentroCursosListagem $listagem, CentroCursosRepository $repository, TipoPeriodoRepository $tipoPeriodoRepository)
     {
         parent::__construct();
 
@@ -57,7 +59,7 @@ class CursoController extends Controller
 
         $tipoPeriodos = $this->tipoPeriodoRepository->buscarTodosOrdenados('descricao');
 
-        return view('curso.index', compact('dados', 'filtros', 'tipoPeriodos'));
+        return view('centro_curso.index', compact('dados', 'filtros', 'tipoPeriodos'));
     }
 
     /**
@@ -69,18 +71,18 @@ class CursoController extends Controller
     {
         $tipoPeriodos = $this->tipoPeriodoRepository->buscarTodosOrdenados('descricao');
 
-        return view('curso.adicionar', compact('tipoPeriodos'));
+        return view('centro_curso.adicionar', compact('tipoPeriodos'));
     }
 
     /**
      * Adiciona um novo registro.
      *
      *
-     * @param  SalvarCursoRequest  $request
+     * @param  SalvarCentroCursosRequest  $request
      *
      * @return \Illuminate\Http\RedirectResponse
      */
-    public function salvar(SalvarCursoRequest $request)
+    public function salvar(SalvarCentroCursosRequest $request)
     {
         $registro = $this->repository->create($request->all());
         if (!$registro->id) {
@@ -89,7 +91,7 @@ class CursoController extends Controller
 
         flash('Registro salvo com sucesso.')->success();
 
-        return $this->tratarRedirecionamentoCrud(request('acao'), 'curso', $registro);
+        return $this->tratarRedirecionamentoCrud(request('acao'), 'centro_curso', $registro);
     }
 
     /**
@@ -99,10 +101,10 @@ class CursoController extends Controller
      *
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function alterar(Curso $curso)
+    public function alterar(CentroCurso $centroCurso)
     {
         $tipoPeriodos = $this->tipoPeriodoRepository->buscarTodosOrdenados('descricao');
-        return view('curso.alterar', compact('curso', 'tipoPeriodos'));
+        return view('centro_curso.alterar', compact('centroCurso', 'tipoPeriodos'));
     }
 
     /**
@@ -110,11 +112,11 @@ class CursoController extends Controller
      *
      * @param  Curso  $registro
      *
-     * @param  SalvarCursoRequest  $request
+     * @param  SalvarCentroCursosRequest  $request
      *
      * @return \Illuminate\Http\RedirectResponse
      */
-    public function atualizar(Curso $registro, SalvarCursoRequest $request)
+    public function atualizar(Curso $registro, SalvarCentroCursosRequest $request)
     {
 
         $atualizado = $this->repository->update($registro, $request->all());
@@ -124,7 +126,7 @@ class CursoController extends Controller
 
         flash('Os dados do registro foram alterados com sucesso.')->success();
 
-        return $this->tratarRedirecionamentoCrud(request('acao'), 'curso', $registro);
+        return $this->tratarRedirecionamentoCrud(request('acao'), 'centro_curso', $registro);
     }
 
     /**

@@ -86,5 +86,19 @@ Route::group(['middleware' => ['web', 'logado', 'unidade-ativa', 'descobrir-cent
      * */
     incluirRotaDireta("_curso.php");
 
+    /**
+     * @see  Matrículas
+     * @since Rotas Atuais -> [@internal]
+     * @internal (Matrículas)
+     * */
+    incluirRotaDireta("_matricula.php");
+
+    /**
+     * @see  Centro Cursos - add Curso para Centro de Distribuição Estudantil
+     * @since Rotas Atuais -> [@internal]
+     * @internal (Centro Cursos)
+     * */
+    incluirRotaDireta("_centro_curso.php");
+
 
 });

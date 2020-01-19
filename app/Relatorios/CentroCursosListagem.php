@@ -2,11 +2,12 @@
 
 namespace App\Relatorios;
 
-use App\Services\Mascarado;
-use App\Models\Aluno;
+use App\Models\CentroCurso;
+use App\Relatorios\RelatorioBase;
+use App\Models\Curso;
 use App\Services\SessaoUsuario;
 
-class AlunoListagem extends RelatorioBase
+class CentroCursosListagem extends RelatorioBase
 {
 
     /**
@@ -24,7 +25,7 @@ class AlunoListagem extends RelatorioBase
      *
      * @var string
      */
-    protected $titulo = 'Alunos';
+    protected $titulo = 'Centro Cursos Disponíveis';
 
     /**
      * Quantidade de itens por página.
@@ -38,33 +39,32 @@ class AlunoListagem extends RelatorioBase
      *
      * @var string
      */
-    protected $view = 'aluno.imprimir';
+    protected $view = 'centro_curso.imprimir';
 
     /**
      * Gera os dados.
      *
-     * @param  array  $filtros
-     * @param  bool  $paginar
+     * @param array $filtros
+     * @param bool $paginar
+     * @param array $with
      *
      * @return mixed
      */
-    public function gerar($filtros, $paginar = true)
+    public function gerar($filtros, $paginar = true, $with = [])
     {
-        /*Busca Centro de Distribuicao Estudantil na Sessão do Usuario Atual*/
-        $centro = $this->sessaoUsuario->centroDistribuicao();
-        //dd($centro);
-        /*Retorna query com os alunos do Centro Atual*/
-        $registros = Aluno::whereCentroDistribuicaoId($centro->id)
-                          ->orderBy('nome');
+        $registros = CentroCurso::whereCentroDistribuicaoId($this->sessaoUsuario->centroDistribuicao()->id);
 
-        if (!empty($filtros['nome'])) {
-            $registros->where('nome', 'LIKE', '%'.$filtros['nome'].'%');
+        if (!empty($filtros['descricao'])) {
+            $registros->where('descricao', 'LIKE', '%' . $filtros['descricao'] . '%');
+        }
+
+        if (!empty($filtros['tipo_periodo_id'])) {
+            $registros->where('tipo_produto_id', $filtros['tipo_periodo_id']);
         }
 
         if ($paginar) {
             return $registros->paginate($this->porPagina);
         }
-
 
         return $registros->get();
     }

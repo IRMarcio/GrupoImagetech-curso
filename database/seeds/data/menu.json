@@ -126,6 +126,26 @@
                 "url": "curso.index",
                 "ordem": 340,
                 "icone": "icon-map"
+            },
+            {
+                "descricao": "Matrícula",
+                "slug": "matricula",
+                "ordem": 350,
+                "tipo_menu": "HEADER"
+            },
+            {
+                "descricao": "Cadastro Matrículas",
+                "slug": "cadastro_matricula",
+                "url": "matricula.index",
+                "ordem": 360,
+                "icone": "icon-map"
+            },
+            {
+                "descricao": "Cadastrar Curso no Centro Estudantil",
+                "slug": "cadastro_centro_curso",
+                "url": "centro_curso.index",
+                "ordem": 370,
+                "icone": "icon-map"
             }
         ]
     }

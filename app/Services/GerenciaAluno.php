@@ -41,6 +41,7 @@ class GerenciaAluno
      */
     public function criar($aluno, $dados)
     {
+
         $aluno->transformarPermanente($dados);
         $aluno->endereco()->create($dados);
 
@@ -60,6 +61,7 @@ class GerenciaAluno
     {
         $aluno = Aluno::findOrFail($id);
         $aluno->update($dados);
+        $aluno->endereco()->update($dados);
 
         return $aluno;
     }

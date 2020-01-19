@@ -19,5 +19,7 @@ class DatabaseSeeder extends Seeder
         $this->call(UsuarioSeeder::class);
         $this->call(MenuSeeder::class);
         $this->call(RotaSeeder::class);
+        $this->call(TipoPeriodoSeeder::class);
+        $this->call(CursoSeeder::class);
     }
 }

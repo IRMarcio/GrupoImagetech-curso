@@ -558,5 +558,40 @@
         "rota": "curso.excluir_varios",
         "acesso_liberado": "N",
         "descricao": "Excluir vários CURSO"
+    },
+    {
+        "tipo_rota_id": "Matrícula",
+        "rota": "matricula.index",
+        "descricao": "Visualizar cadastro de matrículas do sistema"
+    },
+    {
+        "tipo_rota_id": "CENTRO-CURSO",
+        "rota": "centro_curso.index",
+        "descricao": "Visualizar CENTRO-CURSO"
+    },
+    {
+        "tipo_rota_id": "CENTRO-CURSO",
+        "rota": "centro_curso.adicionar",
+        "descricao": "Adicionar CENTRO-CURSO",
+        "descricao_get": "Iniciar cadastro de CENTRO-CURSO",
+        "descricao_post": "Finalizar cadastro de CENTRO-CURSO"
+    },
+    {
+        "tipo_rota_id": "CENTRO-CURSO",
+        "rota": "centro_curso.alterar",
+        "descricao": "Alterar CENTRO-CURSO",
+        "descricao_get": "Visualizar registro de CENTRO-CURSO",
+        "descricao_post": "Alterar registro de CENTRO-CURSO"
+    },
+    {
+        "tipo_rota_id": "CENTRO-CURSO",
+        "rota": "centro_curso.excluir",
+        "descricao": "Excluir CENTRO-CURSO"
+    },
+    {
+        "tipo_rota_id": "CENTRO-CURSO",
+        "rota": "centro_curso.excluir_varios",
+        "acesso_liberado": "N",
+        "descricao": "Excluir vários CENTRO-CURSO"
     }
 ]

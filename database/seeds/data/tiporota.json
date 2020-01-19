@@ -67,5 +67,11 @@
     },
     {
         "descricao": "CURSO"
+    },
+    {
+        "descricao": "Matrícula"
+    },
+    {
+        "descricao": "CENTRO-CURSO"
     }
 ]

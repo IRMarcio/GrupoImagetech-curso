@@ -23,6 +23,9 @@ class CreateAlunoTable extends Migration
             $table->date('dt_nascimento')->nullable();
             $table->string('email', 150)->nullable();
             $table->tinyInteger('ativo')->default(1);
+
+            $table->unsignedInteger('centro_distribuicao_id')->nullable();
+            $table->foreign('centro_distribuicao_id')->references('id')->on('centro_distribuicao');
             $table->timestamps();
 
         });

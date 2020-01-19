@@ -59,7 +59,8 @@ $(function () {
                 bindto: '#c3-transform-area',
                 data: {
                     columns: [
-                        ['Medicamentos'].concat(Object.values(chartValues.produtos_total.value)),
+                        'teste'
+                        // ['Medicamentos'].concat(Object.values(chartValues.produtos_total.value)),
                     ],
                     types: {
                         Medicamentos: 'area-step'
@@ -97,7 +98,8 @@ $(function () {
                         bindto: '#c3-transform-catmat',
                         data: {
                             columns: [
-                                ['Medicamentos'].concat(Object.values(chartValues.produtos_total.value))
+                                'tese'
+                                // ['Medicamentos'].concat(Object.values(chartValues.produtos_total.value))
                             ],
                             type: 'bar'
                         },
@@ -105,7 +107,7 @@ $(function () {
                             rotated: true,
                             x: {
                                 type: "categorized",
-                                categories: Object.values(chartValues.produtos_total.key),
+                                categories: 'teste', //Object.values(chartValues.produtos_total.key),
                                 tick: {
                                     rotate: -60,
                                     multiline: false

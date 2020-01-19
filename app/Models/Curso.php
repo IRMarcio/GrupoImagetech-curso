@@ -6,7 +6,8 @@ class Curso extends BaseModel
 {
 
     protected $casts = [
-        'ativo' => 'boolean'
+        'ativo'           => 'boolean',
+        'tipo_periodo_id' => 'array'
     ];
 
     protected $fillable = [
@@ -55,7 +56,6 @@ class Curso extends BaseModel
         $this->attributes['valor_matricula'] = $valor;
     }
 
-
     /**
      * Formatar saída de dados para view;
      * @return float;
@@ -71,7 +71,7 @@ class Curso extends BaseModel
      * */
     public function setTipoPeriodoIdAttribute()
     {
-        $this->attributes['tipo_periodo_id'] =  json_encode(request()->get('tipo_periodo_id'));
+        $this->attributes['tipo_periodo_id'] = json_encode(request()->get('tipo_periodo_id'));
     }
 
     /**
@@ -81,6 +81,6 @@ class Curso extends BaseModel
      */
     public function tipoPeriodo($value)
     {
-        return  TipoPeriodo::whereIn('id',json_decode($value,true))->pluck('descricao');
+        return is_array($value) ? TipoPeriodo::whereIn('id', $value)->pluck('descricao') : [];
     }
 }
