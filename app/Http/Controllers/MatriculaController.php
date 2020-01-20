@@ -2,83 +2,145 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use App\Http\Requests\SalvarMatriculaRequest as SalvarMatriculaRequestAlias;
+use App\Models\Matricula;
+use App\Relatorios\MatriculaListagem;
+use App\Repositories\MatriculaRepository;
 
 class MatriculaController extends Controller
 {
+
     /**
-     * Display a listing of the resource.
+     * @var MatriculaListagem
+     */
+    private $listagem;
+
+    /**
+     * @var MatriculaRepository
+     */
+    private $repository;
+
+    public function __construct(MatriculaListagem $listagem, MatriculaRepository $repository)
+    {
+        parent::__construct();
+
+        $this->listagem = $listagem;
+        $this->repository = $repository;
+    }
+
+    /**
+     * Lista todos os registros do sistema.
      *
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
     public function index()
     {
-        return view('matricula.index');
+        $filtros = request()->all();
+        if (isset($filtros['acao']) && $filtros['acao'] == 'imprimir') {
+            return $this->listagem->exportar($filtros);
+        }
+
+        $dados = $this->listagem->gerar($filtros);
+
+        return view('matricula.index', compact('dados', 'filtros'));
     }
 
     /**
-     * Show the form for creating a new resource.
+     * Exibe a tela para adicionar um novo registro.
      *
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function create()
+    public function adicionar()
     {
-        //
+        return view('matricula.adicionar');
     }
 
     /**
-     * Store a newly created resource in storage.
+     * Adiciona um novo registro.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
+     * @param  SalvarMatriculaRequestAlias  $request
+     *
+     * @return \Illuminate\Http\RedirectResponse
      */
-    public function store(Request $request)
+    public function salvar(SalvarMatriculaRequestAlias $request)
     {
-        //
+        $registro = $this->repository->create($request->all());
+        if (!$registro->id) {
+            return back()->withInput();
+        }
+
+        flash('Registro salvo com sucesso.')->success();
+
+        return $this->tratarRedirecionamentoCrud(request('acao'), 'matricula', $registro);
     }
 
     /**
-     * Display the specified resource.
+     * Exibe a tela para alterar os dados de um registro.
      *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
+     * @param  Matricula  $matricula
+     *
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function show($id)
+    public function alterar(Matricula $matricula)
     {
-        //
+        return view('matricula.alterar', compact('matricula'));
     }
 
     /**
-     * Show the form for editing the specified resource.
+     * Altera os dados de um registro.
      *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
+     * @param  Matricula  $registro
+     * @param  SalvarMatriculaRequestAlias  $request
+     *
+     * @return \Illuminate\Http\RedirectResponse
      */
-    public function edit($id)
+    public function atualizar(Matricula $registro, SalvarMatriculaRequestAlias $request)
     {
-        //
+        $atualizado = $this->repository->update($registro, $request->all());
+        if (!$atualizado) {
+            return back()->withInput();
+        }
+
+        flash('Os dados do registro foram alterados com sucesso.')->success();
+
+        return $this->tratarRedirecionamentoCrud(request('acao'), 'matricula', $registro);
     }
 
     /**
-     * Update the specified resource in storage.
+     * Exclui um registro.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
+     * @param  Matricula  $registro
+     *
+     * @return \Illuminate\Http\RedirectResponse
+     * @throws \Exception
      */
-    public function update(Request $request, $id)
+    public function excluir(Matricula $registro)
     {
-        //
+        $excluido = $this->repository->delete($registro);
+        if (!$excluido) {
+            return back()->withInput();
+        }
+
+        flash('O registro foi excluído com sucesso.')->success();
+
+        return redirect()->back();
     }
 
     /**
-     * Remove the specified resource from storage.
+     * Exclui um ou mais registros selecionados.
      *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Http\RedirectResponse
      */
-    public function destroy($id)
+    public function excluirVarios()
     {
-        //
+        $registros = $this->repository->buscarVariosPorId(request('ids'));
+        $excluido = $this->excluirVariosRegistros($registros);
+        if (!$excluido) {
+            return response()->json(['sucesso' => false]);
+        }
+
+        flash('Os registros foram excluídos com sucesso.')->success();
+
+        return response()->json(['sucesso' => true]);
     }
 }

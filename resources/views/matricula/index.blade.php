@@ -1,13 +1,53 @@
 @extends('layouts.default')
 
-@section('titulo_pagina', 'Cadastro de Matrículas')
+@section('titulo_pagina', 'Listagem de Matrícula')
 
 @section('breadcrumbs')
-    <li class="active">Cadastro de Matrículas</li>
+    <li class="active">Matrículas de Alunos</li>
 @endsection
 
 @section('conteudo')
     <div class="panel panel-flat">
-        Sistema de Matrículas
+        <form action="{{ route('matricula.index') }}" method="get">
+            <div class="panel-heading">
+                <h5 class="panel-title">
+                    Filtros
+                </h5>
+                <div class="heading-elements">
+                    <ul class="icons-list">
+                        <li><a data-action="collapse"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                        <div class="form-group">
+                            <label>Descrição:</label>
+                            <input type="text" class="form-control" name="descricao" value="{{ request('descricao') }}">
+                        </div>
+                    </div>
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                        <div class="form-group">
+                            <label>Sigla:</label>
+                            <input type="text" class="form-control" name="uf" value="{{ request('uf') }}">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel-footer">
+                <div class="heading-elements">
+                    <div class="heading-btn pull-left">
+                        @include('partials.forms.botao_imprimir', ['relatorio' => 'uf.jrxml', 'saida' => 'uf'])
+                        @include('partials.forms.botao_limpar', ['url' => route('matricula.index')])
+                    </div>
+                </div>
+            </div>
+        </form>
     </div>
+
+    @include('partials.painel_registros', [
+        'listagem' => 'matricula.listagem',
+        'prefixo' => 'matricula'
+    ])
 @endsection

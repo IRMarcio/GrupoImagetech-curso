@@ -563,6 +563,32 @@
         "tipo_rota_id": "Matrícula",
         "rota": "matricula.index",
         "descricao": "Visualizar cadastro de matrículas do sistema"
+    }
+    ,
+    {
+        "tipo_rota_id": "Matrícula",
+        "rota": "matricula.adicionar",
+        "descricao": "Adicionar Matrícula",
+        "descricao_get": "Iniciar cadastro de Matrícula",
+        "descricao_post": "Finalizar cadastro de Matrícula"
+    },
+    {
+        "tipo_rota_id": "Matrícula",
+        "rota": "matricula.alterar",
+        "descricao": "Alterar Matrícula",
+        "descricao_get": "Visualizar registro de Matrícula",
+        "descricao_post": "Alterar registro de Matrícula"
+    },
+    {
+        "tipo_rota_id": "Matrícula",
+        "rota": "matricula.excluir",
+        "descricao": "Excluir Matrícula"
+    },
+    {
+        "tipo_rota_id": "Matrícula",
+        "rota": "matricula.excluir_varios",
+        "acesso_liberado": "N",
+        "descricao": "Excluir vários Matrícula"
     },
     {
         "tipo_rota_id": "CENTRO-CURSO",
