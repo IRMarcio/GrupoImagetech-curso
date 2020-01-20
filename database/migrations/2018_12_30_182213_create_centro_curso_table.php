@@ -28,7 +28,7 @@ class CreateCentroCursoTable extends Migration
 
             $table->integer('quantidade_vagas');
 
-            $table->date('data_inicio')->nullable();
+            $table->date('data_inicio')->nullable()->comments('A data de Início do Curso Cadastrado Marca o Ano Letivo do mesmo');
 
             $table->timestamps();
         });

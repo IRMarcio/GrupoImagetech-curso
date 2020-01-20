@@ -10,6 +10,7 @@
 @section('conteudo')
     <div class="panel panel-flat">
         <div class="panel-body">
+
             <form action="{{ route('curso.adicionar.post') }}" method="POST" class="form-validate">
                 @include('curso.form')
             </form>

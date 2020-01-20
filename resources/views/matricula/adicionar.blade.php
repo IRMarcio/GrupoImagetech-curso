@@ -7,12 +7,22 @@
     <li class="active">Adicionar</li>
 @endsection
 
+@section('vue-componentes')
+    @parent
+    <script src="{{ asset('assets/js/modulos/matricula/form.js') }}"></script>
+@stop
+
 @section('conteudo')
     <div class="panel panel-flat">
         <div class="panel-body">
-            <form action="{{ route('matricula.adicionar.post') }}" method="POST" class="form-validate">
+            <form-us inline-template
+                     :alunos="{{ json_encode(isset($alunos) ? $alunos : [])}}"
+                     :matricula="{{ json_encode(isset($matricula) ? $matricula : [])}}"
+            >
+                <form action="{{ route('matricula.adicionar.post') }}" method="POST"
+                      class="form-validate" @submit="salvar">
                 @include('matricula.form')
-            </form>
+            </form-us>
         </div>
     </div>
 @endsection

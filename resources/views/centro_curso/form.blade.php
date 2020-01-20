@@ -1,5 +1,5 @@
 <centro-curso inline-template
-              :centro_curso="{{ json_encode(isset($centroCursos) ? $centroCursos : []) }}"
+              :centro_curso="   {{ json_encode(isset($centroCursos) ? $centroCursos : []) }}"
               :centro="{{ json_encode(isset($centro) ? $centro : []) }}"
               :_cursos="{{ json_encode(isset($cursos) ? $cursos : [])  }}"
               :tipo_periodos="{{ json_encode(isset($tipoPeriodos) ? $tipoPeriodos : [])  }}"

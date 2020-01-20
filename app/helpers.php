@@ -66,6 +66,32 @@ if (!function_exists('formatarData')) {
     }
 }
 
+if (!function_exists('formatarDataAno')) {
+    /**
+     * Formata Ano de uma data para o formato informado.
+     *
+     * @param $data
+     * @param  null  $formato
+     *
+     * @return false|string
+     */
+    function formatarDataAno($data, $formato = null)
+    {
+        if (!$data) {
+            return '';
+        }
+
+
+        if (is_null($formato)) {
+            $formato = 'Y';
+        }
+
+        $data = str_replace('/', '-', $data);
+
+        return date($formato, strtotime($data));
+    }
+}
+
 if (!function_exists('diferencaDatasPorExtenso')) {
     /**
      * Retorna por extenso a diferença de 2 datas.

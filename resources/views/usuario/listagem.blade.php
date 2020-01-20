@@ -1,11 +1,6 @@
 <table class="table table-striped" width="100%">
     <thead>
     <tr>
-        {{--@if (!isset($imprimir))
-            <th width="5%">
-                <input type="checkbox" class="styled selecionar-todos-registros" data-target="ids[]">
-            </th>
-        @endif--}}
         <th width="45%">Nome</th>
         <th width="10%">&nbsp;</th>
         <th width="15%">CPF</th>
@@ -20,11 +15,6 @@
     <tbody data-link="row" class="rowlink">
     @forelse($dados as $registro)
         <tr class="{{ $registro->temSituacao('inativo') ? 'inativo' : '' }}">
-            {{--@if (!isset($imprimir))
-                <td class="table-inbox-checkbox rowlink-skip">
-                    <input type="checkbox" class="styled" name="ids[]" value="{{ $registro->id }}">
-                </td>
-            @endif--}}
             <td>
                 {{ $registro->nome }}
             </td>

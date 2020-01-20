@@ -21,7 +21,6 @@
 </div>
 <div class="row">
     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-
         <div class="form-group">
             <label>Período:</label>
             <select name="tipo_periodo_id[]" class="form-control select2" multiple>

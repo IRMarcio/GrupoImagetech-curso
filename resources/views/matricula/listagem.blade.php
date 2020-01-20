@@ -1,28 +1,31 @@
 <table class="table table-striped">
     <thead>
     <tr>
-        <th width="65%">Centro Estudantil</th>
-        <th width="10%">Curso</th>
-        <th width="15%">Período</th>
-        <th width="15%">Aluno</th>
-        <th width="15%">Status</th>
-
+        <th width="25%">Aluno</th>
+        <th width="20%">Curso</th>
+        <th>Período</th>
+        <th>Turma</th>
+        <th>Status</th>
+        <th>Opçoes</th>
     </tr>
     </thead>
     <tbody data-link="row" class="rowlink">
     @forelse($dados as $registro)
         <tr>
             <td>
-                {{ $registro->centro->descricao }}
+                {{ $registro->alunos->nome }}
             </td>
             <td>
-                {{ $registro->curso->nome }}
+                {{ $registro->centroCursos->first()->curso->nome }}
             </td>
             <td>
-                {{ $registro->aluno->nome }}
+                {{ $registro->centroCursos->first()->periodo->descricao }}
             </td>
             <td>
-                {{ $registro->aluno->status }}
+                {{ formatarDataAno($registro->centroCursos->first()->data_inicio) }}
+            </td>
+            <td>
+                {{ $registro->getStatus($registro->status) }}
             </td>
 
             @can(['matricula.alterar', 'matricula.excluir'])

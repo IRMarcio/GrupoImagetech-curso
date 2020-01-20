@@ -7,6 +7,8 @@ use Illuminate\Database\Eloquent\Relations\HasOne;
 class CentroCurso extends BaseModel
 {
 
+    protected $with =['curso', 'periodo'];
+
     protected $fillable =
         [
             'centro_distribuicao_id',

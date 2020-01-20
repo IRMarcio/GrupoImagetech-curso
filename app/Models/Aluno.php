@@ -67,4 +67,14 @@ class Aluno extends BaseModel
         return $this->hasOne(TabEndereco::class, 'aluno_id');
     }
 
+    /**
+     * Retorna o Relação de Endereço do Aluno.
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function matricula()
+    {
+        return $this->hasMany(Matricula::class,'id', 'alunos_id');
+    }
+
 }

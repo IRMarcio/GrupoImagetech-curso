@@ -9,6 +9,8 @@ use Illuminate\Database\Eloquent\Relations\HasOne;
 class Matricula extends BaseModel
 {
 
+    protected $with =['centroCursos'];
+
     /*Status*/
     const EM_ANDAMENTO = 1;
     const TRANCADA     = 3;
@@ -39,14 +41,13 @@ class Matricula extends BaseModel
         return $this->HasMany(CentroCurso::class,'id', 'centro_cursos_id');
     }
 
-
     /**
-     * @return  HasMany
+     * @return HasOne
      * *@see Retorna centro_curso;
      */
     public function alunos()
     {
-        return $this->HasMany(Aluno::class,'id', 'alunos_id');
+        return $this->hasOne(Aluno::class,'id', 'alunos_id');
     }
 
     /**
@@ -56,5 +57,14 @@ class Matricula extends BaseModel
     public function centro()
     {
         return $this->hasOne(TabCentroDistribuicao::class,'id', 'centro_distribuicao_id');
+    }
+
+    /**
+     * @return array
+     * *@see Retorna centro ;
+     */
+    public  function getStatus($status)
+    {
+        return $this::$status[$this->attributes['status']];
     }
 }

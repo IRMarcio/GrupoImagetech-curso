@@ -15,6 +15,7 @@ class CreateMatriculaTable extends Migration
     {
         Schema::create('matriculas', function (Blueprint $table) {
             $table->increments('id');
+
             $table->unsignedInteger('centro_cursos_id');
             $table->unsignedInteger('alunos_id');
             $table->unsignedInteger('centro_distribuicao_id');
