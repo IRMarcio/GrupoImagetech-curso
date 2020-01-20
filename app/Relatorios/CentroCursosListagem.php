@@ -50,7 +50,7 @@ class CentroCursosListagem extends RelatorioBase
      *
      * @return mixed
      */
-    public function gerar($filtros, $paginar = true, $with = [])
+    public function gerar($filtros = [], $paginar = true, $with = [])
     {
         $registros = CentroCurso::whereCentroDistribuicaoId($this->sessaoUsuario->centroDistribuicao()->id);
 

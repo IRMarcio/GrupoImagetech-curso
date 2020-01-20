@@ -7,8 +7,11 @@ use App\Models\CentroCurso;
 use App\Models\Curso;
 use App\Relatorios\CentroCursosListagem;
 use App\Relatorios\CursoListagem;
+use App\Repositories\CursoRepository;
 use App\Repositories\TipoPeriodoRepository;
 use App\Repositories\CentroCursosRepository;
+use App\Services\SessaoUsuario;
+use Illuminate\Support\Facades\DB;
 
 class CentroCursosController extends Controller
 {
@@ -28,13 +31,30 @@ class CentroCursosController extends Controller
      */
     private $tipoPeriodoRepository;
 
-    public function __construct(CentroCursosListagem $listagem, CentroCursosRepository $repository, TipoPeriodoRepository $tipoPeriodoRepository)
-    {
+    /**
+     * @var CursoRepository
+     */
+    private $cursoRepository;
+
+    /**
+     * @var SessaoUsuario
+     */
+    private $sessaoUsuario;
+
+    public function __construct(
+        CursoRepository $cursoRepository,
+        CentroCursosListagem $listagem,
+        CentroCursosRepository $repository,
+        TipoPeriodoRepository $tipoPeriodoRepository,
+        SessaoUsuario $sessaoUsuario
+    ) {
         parent::__construct();
 
         $this->listagem = $listagem;
         $this->repository = $repository;
         $this->tipoPeriodoRepository = $tipoPeriodoRepository;
+        $this->cursoRepository = $cursoRepository;
+        $this->sessaoUsuario = $sessaoUsuario;
     }
 
     /**
@@ -53,6 +73,7 @@ class CentroCursosController extends Controller
         }
 
         $dados = $this->listagem->gerar($filtros, isset($filtros['paginar']) ? $filtros['paginar'] : true, $with);
+
         if (request()->wantsJson()) {
             return response()->json(['data' => $dados]);
         }
@@ -70,8 +91,11 @@ class CentroCursosController extends Controller
     public function adicionar()
     {
         $tipoPeriodos = $this->tipoPeriodoRepository->buscarTodosOrdenados('descricao');
+        $cursos = $this->cursoRepository->buscarTodosOrdenados('nome');
+        $centro = $this->sessaoUsuario->centroDistribuicao();
+        $centroCursos = $this->listagem->gerar([],false,false);
 
-        return view('centro_curso.adicionar', compact('tipoPeriodos'));
+        return view('centro_curso.adicionar', compact('tipoPeriodos', 'cursos', 'centro', 'centroCursos'));
     }
 
     /**
@@ -84,8 +108,11 @@ class CentroCursosController extends Controller
      */
     public function salvar(SalvarCentroCursosRequest $request)
     {
-        $registro = $this->repository->create($request->all());
-        if (!$registro->id) {
+
+        $registro = $this->repository->geraGestaoCentroCusto();
+
+
+        if (!$registro) {
             return back()->withInput();
         }
 
@@ -94,76 +121,5 @@ class CentroCursosController extends Controller
         return $this->tratarRedirecionamentoCrud(request('acao'), 'centro_curso', $registro);
     }
 
-    /**
-     * Exibe a tela para alterar os dados de um registro.
-     *
-     * @param  Curso curso
-     *
-     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
-     */
-    public function alterar(CentroCurso $centroCurso)
-    {
-        $tipoPeriodos = $this->tipoPeriodoRepository->buscarTodosOrdenados('descricao');
-        return view('centro_curso.alterar', compact('centroCurso', 'tipoPeriodos'));
-    }
 
-    /**
-     * Altera os dados de um registro.
-     *
-     * @param  Curso  $registro
-     *
-     * @param  SalvarCentroCursosRequest  $request
-     *
-     * @return \Illuminate\Http\RedirectResponse
-     */
-    public function atualizar(Curso $registro, SalvarCentroCursosRequest $request)
-    {
-
-        $atualizado = $this->repository->update($registro, $request->all());
-        if (!$atualizado) {
-            return back()->withInput();
-        }
-
-        flash('Os dados do registro foram alterados com sucesso.')->success();
-
-        return $this->tratarRedirecionamentoCrud(request('acao'), 'centro_curso', $registro);
-    }
-
-    /**
-     * Exclui um registro.
-     *
-     * @param  Curso  $registro
-     *
-     * @return \Illuminate\Http\RedirectResponse
-     * @throws \Exception
-     */
-    public function excluir(Curso $registro)
-    {
-        $excluido = $this->repository->delete($registro);
-        if (!$excluido) {
-            return back()->withInput();
-        }
-
-        flash('O registro foi excluído com sucesso.')->success();
-
-        return redirect()->back();
-    }
-
-    /**
-     * Exclui um ou mais registros selecionados.
-     *
-     * @return \Illuminate\Http\RedirectResponse
-     */
-    public function excluirVarios()
-    {
-        $registros = $this->repository->buscarVariosPorId(request('ids'));
-        $excluido = $this->excluirVariosRegistros($registros);
-        if (!$excluido) {
-            return response()->json(['sucesso' => false]);
-        }
-
-        flash('Os registros foram excluídos com sucesso.')->success();
-
-        return response()->json(['sucesso' => true]);
-    }
 }

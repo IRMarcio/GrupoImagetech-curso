@@ -13,6 +13,7 @@ class CentroCurso extends BaseModel
             'curso_id',
             'tipo_periodo_id',
             'quantidade_vagas',
+            'data_inicio',
         ];
 
 
@@ -32,7 +33,7 @@ class CentroCurso extends BaseModel
      * */
     public  function curso()
     {
-        return $this->hasOne(Curso::class, 'curso_id');
+        return $this->hasOne(Curso::class, 'id','curso_id');
     }
 
     /**
@@ -42,6 +43,6 @@ class CentroCurso extends BaseModel
      * */
     public  function periodo()
     {
-        return $this->hasOne(TipoPeriodo::class, 'tipo_periodo_id');
+        return $this->hasOne(TipoPeriodo::class,'id', 'tipo_periodo_id');
     }
 }

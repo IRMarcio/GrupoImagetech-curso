@@ -30,7 +30,11 @@
                     @can("$prefixo.adicionar")
                         @if(isset($adicionar) ? $adicionar : true)
                             <div class="navbar-right">
-                                @include('partials.forms.botao_adicionar', ['url' => route("$prefixo.adicionar")])
+                                @include('partials.forms.botao_adicionar',
+                                [
+                                'url' => route("$prefixo.adicionar"),
+                                'label' => isset($label) ? $label : null
+                                ])
                             </div>
                         @endif
                     @endcan

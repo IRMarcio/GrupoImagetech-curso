@@ -53,6 +53,7 @@
 
     @include('partials.painel_registros', [
         'listagem' => 'centro_curso.listagem',
-        'prefixo' => 'centro_curso'
+        'prefixo' => 'centro_curso',
+        'label' => 'Adicionar/Alterar Cursos'
     ])
 @endsection

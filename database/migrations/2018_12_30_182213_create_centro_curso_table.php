@@ -28,6 +28,8 @@ class CreateCentroCursoTable extends Migration
 
             $table->integer('quantidade_vagas');
 
+            $table->date('data_inicio')->nullable();
+
             $table->timestamps();
         });
     }

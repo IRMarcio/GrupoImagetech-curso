@@ -29,16 +29,7 @@ class SalvarCentroCursosRequest extends Request
         $id = $registro ? $registro->id : null;
 
         return [
-            'codigo' => [
-                'required',
-                Rule::unique('centro_cursos')->ignore($id),
-            ],
-            'nome' => ['required'],
-            'valor_mensalidade' => ['required'],
-            'valor_matricula' => ['required'],
-            'duracao' => ['required'],
-            'ativo' => ['required'],
-            'tipo_periodo_id' => ['required']
+
         ];
     }
 }

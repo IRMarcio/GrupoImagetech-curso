@@ -20,7 +20,8 @@
             <form-us inline-template>
                 <form action="{{ route('centro_curso.adicionar.post') }}" method="POST"
                       class="form-validate" @submit="salvar">
-                    @include('centro_curso.form')
+                @include('centro_curso.form')
+                @include('partials.forms.botao_salvar', ['voltar' => 'centro_curso.index'])
             </form-us>
         </div>
     </div>
