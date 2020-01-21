@@ -206,4 +206,6 @@ infelizmente o fator tempo esta curto devido as atividade tive somente o final d
 ## Contatos
 
 - Autor :
-    - [Marcio Rozendo Rodrigues Gonçalves, Campo Grande - MS, (67)99273-7505 / (67)99204-0958, adm.evento@gmail.com]()
+    - [Marcio Rozendo Rodrigues Gonçalves, Campo Grande - MS]() 
+    - FONES  : [(67)99273-7505 / (67)99204-0958]()
+    - EMAIL  : [adm.evento@gmail.com]()
