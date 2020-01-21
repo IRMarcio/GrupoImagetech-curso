@@ -32,6 +32,7 @@ Foi Desenvolvido um sistema com a seguinte perspectiva. Um sistema de gestão de
 
         _- Cadastro de Perfil relacioando com Unidade Gerada Anteriormente você consegue direcionar as permissões que serão dadas a este Perfil;
 
+![](public/img/info_sistema/video.webm)
 - Sub-Menu [Sistema GERAL - Usuários]().
         
         _- Cadastro de Usuários, Dados do Usuário serão registrados e a ele o Perfil-> que esta realacionado com a Unidade; 
