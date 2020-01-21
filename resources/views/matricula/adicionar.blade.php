@@ -18,6 +18,7 @@
             <form-us inline-template
                      :alunos="{{ json_encode(isset($alunos) ? $alunos : [])}}"
                      :matricula="{{ json_encode(isset($matricula) ? $matricula : [])}}"
+                     :cursos_add="{{ json_encode(isset($centroCursos) ? $centroCursos : [])}}"
             >
                 <form action="{{ route('matricula.adicionar.post') }}" method="POST"
                       class="form-validate" @submit="salvar">

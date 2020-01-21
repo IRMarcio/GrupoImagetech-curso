@@ -11,6 +11,7 @@
     </thead>
     <tbody data-link="row" class="rowlink">
     @forelse($dados as $registro)
+
         <tr>
             <td>
                 {{ $registro->alunos->nome }}

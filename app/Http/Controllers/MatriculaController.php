@@ -138,7 +138,7 @@ class MatriculaController extends Controller
     {
         /*atualiza fluxo de cadastro inicial da matrícula no request*/
         $this->requestUpdateDadosStore($request, $request->get('status'));
-        dd($request->all());
+
         $atualizado = $this->repository->update($registro, $request->all());
         if (!$atualizado) {
             return back()->withInput();

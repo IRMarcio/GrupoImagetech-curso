@@ -9,6 +9,7 @@ use Illuminate\Support\Carbon;
 
 class Aluno extends BaseModel
 {
+    protected $with =['matricula'];
 
     protected $table = 'alunos';
 
@@ -74,7 +75,7 @@ class Aluno extends BaseModel
      */
     public function matricula()
     {
-        return $this->hasMany(Matricula::class,'id', 'alunos_id');
+        return $this->hasMany(Matricula::class,'alunos_id');
     }
 
 }

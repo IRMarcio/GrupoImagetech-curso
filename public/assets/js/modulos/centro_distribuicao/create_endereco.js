@@ -249,7 +249,7 @@ Vue.component('create-endereco', {
             // Só vamos validar o resto dos dados de outras abas se o formulario principal estiver valido
             let formularioValido = $(this.$el).valid(), self = this;
             if (formularioValido) {
-                // Valida as escalas de cada tipo de atendimento, separadamente
+                // Valida as escalas de cada tipo do formulario, separadamente
                 let valido = true;
                 valido = this.getAcao();
                 console.log(valido);

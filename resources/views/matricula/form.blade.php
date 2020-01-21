@@ -11,7 +11,7 @@
                         <select v-model="alunos_id" name="alunos_id" class="form-control alunos" required>
                             <option value=""></option>
                             @foreach($alunos as $aluno)
-                                <option value="{{ $aluno->id }}" {{ isset($matricula) ? $matricula->alunos_id ? "selected":'':'' }} > {{ $aluno->nome }} </option>
+                                <option value="{{ $aluno->id }}" {{ isset($matricula) ? $matricula->alunos_id == $aluno->id ? "selected":'':'' }} > {{ $aluno->nome }} </option>
                             @endforeach
                         </select>
                     </div>
@@ -28,7 +28,7 @@
 
                         <div class="col-lg-8">
                             <label>Curso:</label>
-                            <select name="centro_cursos_id" class="form-control " required>
+                            <select v-model="centro_cursos_id" name="centro_cursos_id" class="form-control " required>
                                 <option value=""></option>
                                 @foreach($centroCursos as $centroCurso)
                                     <option value="{{ $centroCurso->id }}" {{ isset($matricula) ? $matricula->centro_cursos_id ? "selected":'':'' }} >
@@ -94,12 +94,13 @@
                             <th>Período</th>
                         </tr>
                         </thead>
-                        <tbody v-for="subitem in matricula.centro_cursos" :key="subitem.id">
-                        <tr>
-                            <td>@{{ subitem.curso.nome}}</td>
-                            <td>@{{ moment(subitem.data_inicio, 'YYYY').format('YYYY') }}</td>
-                            <td>@{{ subitem.periodo.descricao }}</td>
-                        </tr>
+                        <tbody v-for="subitem in cursos" :key="subitem.id">
+
+                            <tr v-for="itens in subitem.centro_cursos" :key="itens.id">
+                            <td>@{{ itens.curso.nome}}</td>
+                            <td>@{{ moment(itens.data_inicio, 'YYYY').format('YYYY') }}</td>
+                            <td>@{{ itens.periodo.descricao }}</td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>
