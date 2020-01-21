@@ -54,11 +54,41 @@ class MatriculaListagem extends RelatorioBase
     {
         $registros = Matricula::whereCentroDistribuicaoId($this->sessaoUsuario->centroDistribuicao()->id);
 
+        if (!empty($filtros['aluno'])) {
+            $registros->whereHas('alunos', function ($q) use ($filtros) {
+                $q->where('nome', 'like', '%'.$filtros['aluno'].'%');
+            });
+        }
+
+        if (!empty($filtros['curso'])) {
+            $registros->whereHas('centroCursos', function ($q) use ($filtros) {
+                $q->whereHas('curso', function ($q) use ($filtros) {
+                   $q->where('nome', 'like', '%'.$filtros['curso'].'%');
+                });
+            });
+        }
+
+        if (!empty($filtros['periodo'])) {
+            $registros->whereHas('centroCursos', function ($q) use ($filtros) {
+                $q->where('tipo_periodo_id',(int)$filtros['periodo']);
+            });
+        }
+
+        if (!empty($filtros['turma'])) {
+            $registros->whereHas('centroCursos.curso', function ($q) use ($filtros) {
+                $q->whereYear('data_inicio', 'like', '%'.$filtros['turma'].'%');
+            });
+        }
+
+        if (!empty($filtros['status'])) {
+            $registros->where( function ($q) use ($filtros) {
+                $q->where('status', $filtros['status']);
+            });
+        }
 
         if ($paginar) {
             return $registros->paginate($this->porPagina);
         }
-
         return $registros->get();
     }
 }

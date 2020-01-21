@@ -21,13 +21,19 @@
             </div>
             <div class="panel-body">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-10">
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                         <div class="form-group">
-                            <label>Descrição do Curso:</label>
-                            <input type="text" class="form-control" name="descricao" value="{{ request('descricao') }}">
+                            <label>Curso:</label>
+                            <input type="text" class="form-control" name="curso" value="{{ request('curso') }}">
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-2">
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                        <div class="form-group">
+                            <label>Turma:</label>
+                            <input type="number" class="form-control" name="turma" value="{{ request('turma') }}">
+                        </div>
+                    </div>
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                         <div class="form-group">
                             <label>Tipo de períodos:</label>
                             <select name="tipo_periodo_id" class="form-control select2">
@@ -43,6 +49,7 @@
             <div class="panel-footer">
                 <div class="heading-elements">
                     <div class="heading-btn pull-left">
+                        @include('partials.forms.botao_imprimir', ['relatorio' => 'uf.jrxml', 'saida' => 'uf'])
                         @include('partials.forms.botao_limpar', ['url' => route('centro_curso.index')])
                     </div>
                 </div>

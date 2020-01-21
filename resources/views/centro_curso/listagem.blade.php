@@ -3,7 +3,7 @@
     <tr>
         <th width="15%">Curso</th>
         <th width="10%">Período</th>
-        <th width="10%">Data de Início</th>
+        <th width="10%">Turma</th>
         <th width="15%">Quantidade de Vagas</th>
         <th width="15%">Quantidade Ocupada</th>
         <th width="15%">Atualizado em</th>
@@ -16,9 +16,9 @@
 
             <td>{{ $registro->curso->nome }}</td>
             <td>{{ $registro->periodo->descricao }}</td>
-            <td>{{  formatarData($registro->data_inicio) }}</td>
+            <td>{{  formatarDataAno($registro->data_inicio) }}</td>
             <td>{{ $registro->quantidade_vagas }}</td>
-            <td>0</td>
+            <td>{{ $registro->matricula->count() }}</td>
             <td>
                 {{ $registro->atualizado_em }}
             </td>

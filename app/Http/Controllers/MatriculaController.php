@@ -6,6 +6,7 @@ use App\Http\Requests\SalvarMatriculaRequest as SalvarMatriculaRequestAlias;
 use App\Models\Aluno;
 use App\Models\CentroCurso;
 use App\Models\Matricula;
+use App\Models\TipoPeriodo;
 use App\Relatorios\AlunoListagem;
 use App\Relatorios\CentroCursosListagem;
 use App\Relatorios\MatriculaListagem;
@@ -68,10 +69,11 @@ class MatriculaController extends Controller
         if (isset($filtros['acao']) && $filtros['acao'] == 'imprimir') {
             return $this->listagem->exportar($filtros);
         }
-
+        $periodos = TipoPeriodo::all();
+        $statusAll = Matricula::$status;
         $dados = $this->listagem->gerar($filtros);
 
-        return view('matricula.index', compact('dados', 'filtros'));
+        return view('matricula.index', compact('dados', 'filtros', 'statusAll', 'periodos'));
     }
 
     /**

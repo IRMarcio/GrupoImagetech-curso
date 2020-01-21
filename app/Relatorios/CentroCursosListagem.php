@@ -44,22 +44,33 @@ class CentroCursosListagem extends RelatorioBase
     /**
      * Gera os dados.
      *
-     * @param array $filtros
-     * @param bool $paginar
-     * @param array $with
+     * @param  array  $filtros
+     * @param  bool  $paginar
+     * @param  array  $with
      *
      * @return mixed
      */
     public function gerar($filtros = [], $paginar = true, $with = [])
     {
-        $registros = CentroCurso::whereCentroDistribuicaoId($this->sessaoUsuario->centroDistribuicao()->id);
+        $registros = CentroCurso::with('matricula')->whereCentroDistribuicaoId($this->sessaoUsuario->centroDistribuicao()->id);
 
         if (!empty($filtros['descricao'])) {
-            $registros->where('descricao', 'LIKE', '%' . $filtros['descricao'] . '%');
+            $registros->where('descricao', 'LIKE', '%'.$filtros['descricao'].'%');
+        }
+
+        if (!empty($filtros['curso'])) {
+            $registros->whereHas('curso', function ($q) use ($filtros) {
+                $q->where('nome', 'like', '%'.$filtros['curso'].'%');
+            });
+        }
+        if (!empty($filtros['turma'])) {
+            $registros->whereHas('curso', function ($q) use ($filtros) {
+                $q->whereYear('data_inicio', 'like', '%'.$filtros['turma'].'%');
+            });
         }
 
         if (!empty($filtros['tipo_periodo_id'])) {
-            $registros->where('tipo_produto_id', $filtros['tipo_periodo_id']);
+            $registros->where('tipo_periodo_id', (int) $filtros['tipo_periodo_id']);
         }
 
         if ($paginar) {

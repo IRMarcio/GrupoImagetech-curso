@@ -19,6 +19,7 @@ class CentroCurso extends BaseModel
         ];
 
 
+
     /**
      * @see Retorna o Centro de Distribuição relacionada;
      *
@@ -27,6 +28,16 @@ class CentroCurso extends BaseModel
     public  function centro()
     {
         return $this->hasOne(TabCentroDistribuicao::class, 'centro_distribuicao_id');
+    }
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     * *@see Retorna o Centro de Distribuição relacionada;
+     *
+     */
+    public  function matricula()
+    {
+        return $this->HasMany(Matricula::class, 'centro_cursos_id');
     }
     /**
      * @see Retorna o Curso relacionada;

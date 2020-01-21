@@ -21,16 +21,50 @@
             </div>
             <div class="panel-body">
                 <div class="row">
-                    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                         <div class="form-group">
-                            <label>Descrição:</label>
-                            <input type="text" class="form-control" name="descricao" value="{{ request('descricao') }}">
+                            <label>Aluno:</label>
+                            <input type="text" class="form-control" name="aluno" value="{{ request('aluno') }}">
                         </div>
                     </div>
                     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                         <div class="form-group">
-                            <label>Sigla:</label>
-                            <input type="text" class="form-control" name="uf" value="{{ request('uf') }}">
+                            <label>Curso:</label>
+                            <input type="text" class="form-control" name="curso" value="{{ request('curso') }}">
+                        </div>
+                    </div>
+
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                        <div class="form-group">
+                            <label>Período:</label>
+                            <select name="periodo" class="form-control select2">
+                                <option value=""></option>
+                                @foreach($periodos as $periodo)
+                                    <option value="{{ $periodo->id }}" {{  (int)request('periodo') === $periodo->id ? "selected":'' }} >
+                                        {{ $periodo->descricao }}
+                                    </option>
+                                @endforeach
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                        <div class="form-group">
+                            <label>Turma:</label>
+                            <input type="number" class="form-control" name="turma" value="{{ request('turma') }}">
+                        </div>
+                    </div>
+
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                        <div class="form-group">
+                            <label>Status:</label>
+                            <select name="status" class="form-control select2">
+                                <option value=""></option>
+                                @foreach($statusAll as $key => $status)
+                                    <option value="{{ $key }}" {{  request('status') == (int)$key ? "selected":'' }} >
+                                        {{ $status }}
+                                    </option>
+                                @endforeach
+                            </select>
                         </div>
                     </div>
                 </div>
