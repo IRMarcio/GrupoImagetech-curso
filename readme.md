@@ -12,10 +12,11 @@
 
 ## Sobre o Projeto Curso Grupo Imatech.
 
+
 Foi Desenvolvido um sistema com a seguinte perspectiva. Um sistema de gestão de Cursos com multiplas entidades Estudantis neste caso Chamadas de CDE --> (Centro de Distribuição Estudantil), aonde se realiza o cadastro de Cursos, que ficam a disposição de todos os polos (CDE), aonde cada polo adiciona o curso em seus registro determinando a data de início da turma, quantidade de vagas disponível e o período. Cada CDE também consegue realizar Cadastro dos alunos assim como a matrícula, efetivando o aluno em seu curso. segue as informações de disponíveis. 
 
 
-##MENU
+## MENU
 
 - [Dashboard]().
 - [Sistema]().
