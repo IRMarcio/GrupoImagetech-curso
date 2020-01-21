@@ -148,7 +148,7 @@
             {
                 "descricao": "Listagem Período",
                 "slug": "listagem_periodo",
-                "url": "tipo_periodo.adicionar",
+                "url": "tipo_periodo.index",
                 "ordem": 470,
                 "icone": "icon-map"
             },

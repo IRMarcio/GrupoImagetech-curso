@@ -118,8 +118,6 @@ na Barra Superior do Menu se encontra o menu de Gestão do Usuário, lado Esquer
 
 O Cadastro de usuários novos o login e senha são o cpf do usuário, no hora do usuário se logar no sistema ele será redirecionado para uma nova view que solicitara uma nova senha do mesmo.
 
-![](public/img/logo-branca.svg)
-
 
 ## Apresentação do Sistema
 
@@ -127,14 +125,70 @@ Segue abaixo uma Apresentação Geral do Sistema;
 
 ![](public/img/info_sistema/apresentacao.gif)
 
-## Code of Conduct
+## Processo de Instalação
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+- Realizar o clone do projeto :
 
-## Security Vulnerabilities
+git clone https://github.com/IRMarcio/GrupoImagetech-curso.git
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+- Executar a instalação do Laravel :
 
-## License
+        composer install
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- Executar a instalação do Node [Package.json]() :
+
+        npm install && npm run dev
+        
+- Gerar Arquivo .env e Adicionar os dados do banco de dados:
+
+        cp .env.example .env
+
+- Gerar APP_KEY do arquivo .env :
+
+        php artisan key:generate
+
+- Dar Permissões para pasta storage/Bootstrape :
+
+        sudo chmod -R 777 storage/ bootstrap/
+
+- Gerar as Migration do Sistema :
+
+        php artisan migrate
+
+- Carregar as Bibliotecas de Dados do sistema:
+
+        php artisan db:seed
+
+- Carregar as Bibliotecas de Dados de Teste do Projeto:
+
+        php artisan db:seed --class=UnidadePerfilSeeder
+
+- Após carregar os dados gerar o v-host na Máquina local:
+
+        <VirtualHost *:80>
+            ServerAdmin curso
+            DocumentRoot "/sua_pasta_ate/curso/public"
+            ServerName curso
+            ServerAlias dev.curso
+        
+                <Directory "/sua_pasta_ate/curso/public">
+                        Options Indexes FollowSymLinks
+                        AllowOverride All
+                        Order allow,deny
+                        Allow from all
+                        Require all granted
+                </Directory>
+        
+        </VirtualHost>
+
+- Senha do usuario padrão:
+
+               "cpf": "00000000000",
+               "senha": "admin",
+
+- Após Logar no sistema adicionar ao usuário padrão os Perfis Previamente Cadastrado e adiocionar as cursos cadastrados os periodos, como mostra a ilustração abaixo:
+
+
+![](public/img/info_sistema/apresentacao2.gif)
+
+## Observação
