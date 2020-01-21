@@ -79,4 +79,16 @@ class CentroCursosListagem extends RelatorioBase
 
         return $registros->get();
     }
+
+    /**
+     *
+     * */
+    public function getClearCursosList()
+    {
+        /*Obtem os Ids que retirados da lista de cursos do centro*/
+        return array_diff(
+            CentroCurso::whereCentroDistribuicaoId($this->sessaoUsuario->centroDistribuicao()->id)->pluck('id')->toArray(),
+            collect(request()->get('cursos'))->pluck('id')->toArray()
+        );
+    }
 }

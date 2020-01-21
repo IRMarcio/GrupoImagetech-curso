@@ -12,8 +12,8 @@
     <tbody data-link="row" class="rowlink">
 
     @forelse($dados as $registro)
-        <tr>
 
+        <tr>
             <td>{{ $registro->curso->nome }}</td>
             <td>{{ $registro->periodo->descricao }}</td>
             <td>{{  formatarDataAno($registro->data_inicio) }}</td>
@@ -22,8 +22,6 @@
             <td>
                 {{ $registro->atualizado_em }}
             </td>
-
-
         </tr>
     @empty
         <tr>

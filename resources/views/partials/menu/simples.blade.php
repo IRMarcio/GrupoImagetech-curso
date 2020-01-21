@@ -4,7 +4,7 @@
             {{ $menu->descricao }} <span class="caret"></span>
         </a>
 
-        <ul class="dropdown-menu width-200">
+        <ul class="dropdown-menu width-400">
             @foreach($menu->filhos as $menuFilho)
                 @can($menuFilho->url)
                     <li>

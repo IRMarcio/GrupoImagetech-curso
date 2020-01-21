@@ -10,6 +10,7 @@ use App\Models\TipoPeriodo;
 use App\Relatorios\AlunoListagem;
 use App\Relatorios\CentroCursosListagem;
 use App\Relatorios\MatriculaListagem;
+use App\Repositories\HistoricoMatriculaRepository;
 use App\Repositories\MatriculaRepository;
 use App\Services\SessaoUsuario;
 
@@ -41,12 +42,21 @@ class MatriculaController extends Controller
      */
     private $sessaoUsuario;
 
+
+    private $historicoMatriculas;
+
+    /**
+     * @var HistoricoMatriculaRepository
+     */
+    private $historicoMatriculaRepository;
+
     public function __construct(
         MatriculaListagem $listagem,
         MatriculaRepository $repository,
         AlunoListagem $alunoListagem,
         CentroCursosListagem $centroCursosListagem,
-        SessaoUsuario $sessaoUsuario
+        SessaoUsuario $sessaoUsuario,
+        HistoricoMatriculaRepository $historicoMatriculaRepository
 
     ) {
         parent::__construct();
@@ -56,6 +66,7 @@ class MatriculaController extends Controller
         $this->alunoListagem = $alunoListagem;
         $this->centroCursosListagem = $centroCursosListagem;
         $this->sessaoUsuario = $sessaoUsuario;
+        $this->historicoMatriculaRepository = $historicoMatriculaRepository;
     }
 
     /**
@@ -139,7 +150,7 @@ class MatriculaController extends Controller
     public function atualizar(Matricula $registro, SalvarMatriculaRequestAlias $request)
     {
         /*atualiza fluxo de cadastro inicial da matrícula no request*/
-        $this->requestUpdateDadosStore($request, $request->get('status'));
+        $this->requestUpdateDadosStore($registro, $request, $request->get('status'));
 
         $atualizado = $this->repository->update($registro, $request->all());
         if (!$atualizado) {
@@ -190,16 +201,37 @@ class MatriculaController extends Controller
     }
 
     /**
+     * @param  Matricula  $registro
      * @param $request
+     *
+     * @param  null  $status
      *
      * @see Retorna fluxo de cadastro inicial de matricula no request;
      */
-    private function requestUpdateDadosStore($request, $status = null)
+    private function requestUpdateDadosStore(Matricula $registro, $request, $status = null)
     {
+
         $request->request->add(['centro_distribuicao_id' => $this->sessaoUsuario->centroDistribuicao()->id]);
         $request->request->add(['ativo' => true]);
         if (!$status) {
-            $request->request->add(['status' => Matricula::EM_ANDAMENTO]);
+            $request->request->add(['status' => Matricula::ATIVA]);
+        } else {
+            /** @var Matricula $registro */
+            $this->updateHistoricoCursoAluno($registro, $request);
+        }
+    }
+
+    /**
+     *
+     * @param  Matricula  $registro
+     * @param $request
+     */
+    private function updateHistoricoCursoAluno(Matricula $registro, $request)
+    {
+        if($registro->status !== (int)$request->get('status'))
+        {
+            /** @var Matricula $registro */
+            $this->historicoMatriculaRepository->storeHistoriMatricula($registro);
         }
     }
 }

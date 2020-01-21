@@ -74,9 +74,8 @@
                                 </div>
                             </div>
                             <table width="100%">
-                                <td
-                                        style="background-color: #b3c6e5;padding: 10px;font-size: 16px;color: white;text-align: center"
-                                >@{{ item.ativo == true ? 'Aluno Ativo' : 'Aluno Inativo' }}
+                                <td style="background-color: #b3c6e5;padding: 10px;font-size: 16px;color: white;text-align: center">
+                                    @{{ ativo ? 'Aluno Ativo' : 'Aluno Inativo' }}
                                 </td>
                             </table>
                         </div>

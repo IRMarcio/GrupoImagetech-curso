@@ -9,19 +9,19 @@ use Illuminate\Database\Eloquent\Relations\HasOne;
 class Matricula extends BaseModel
 {
 
-    protected $with =['centroCursos'];
+    protected $with = ['centroCursos'];
 
     /*Status*/
-    const EM_ANDAMENTO = 1;
-    const TRANCADA     = 3;
-    const ABANDONO     = 2;
-    const FINALIZADO   = 4;
+    const ATIVA      = 1;
+    const TRANCADA   = 3;
+    const ABANDONO   = 2;
+    const FINALIZADO = 4;
 
     public static $status = [
-        self::EM_ANDAMENTO => 'Em Andamento',
-        self::TRANCADA     => 'Trancada',
-        self::ABANDONO     => 'Abandono',
-        self::FINALIZADO   => 'Finalizado',
+        self::ATIVA      => 'Ativa',
+        self::TRANCADA   => 'Trancada',
+        self::ABANDONO   => 'Abandono',
+        self::FINALIZADO => 'Finalizado',
     ];
 
     protected $fillable = [
@@ -38,7 +38,7 @@ class Matricula extends BaseModel
      */
     public function centroCursos()
     {
-        return $this->HasMany(CentroCurso::class,'id', 'centro_cursos_id');
+        return $this->HasMany(CentroCurso::class, 'id', 'centro_cursos_id');
     }
 
     /**
@@ -47,7 +47,7 @@ class Matricula extends BaseModel
      */
     public function alunos()
     {
-        return $this->hasOne(Aluno::class,'id', 'alunos_id');
+        return $this->hasOne(Aluno::class, 'id', 'alunos_id');
     }
 
     /**
@@ -56,14 +56,14 @@ class Matricula extends BaseModel
      */
     public function centro()
     {
-        return $this->hasOne(TabCentroDistribuicao::class,'id', 'centro_distribuicao_id');
+        return $this->hasOne(TabCentroDistribuicao::class, 'id', 'centro_distribuicao_id');
     }
 
     /**
      * @return array
      * *@see Retorna centro ;
      */
-    public  function getStatus($status)
+    public function getStatus($status)
     {
         return $this::$status[$this->attributes['status']];
     }

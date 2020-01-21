@@ -89,62 +89,95 @@
         ]
     },
     {
-        "descricao": "Gestão Administrativa",
-        "slug": "alunos",
-        "tipo_menu": "MEGA",
+        "descricao": "Gestão Matrículas",
+        "slug": "gestao_matricula",
+        "tipo_menu": "SIMPLES",
         "ordem": 300,
         "filhos": [
             {
-                "descricao": "Alunos",
-                "slug": "gestao",
-                "ordem": 310,
-                "tipo_menu": "HEADER"
-            },
-            {
-                "descricao": "Cadastro",
-                "slug": "cadastro",
-                "url": "aluno.index",
-                "ordem": 320,
-                "icone": "icon-map"
-            },
-            {
-                "descricao": "Curso",
-                "slug": "periodo",
-                "ordem": 330,
-                "tipo_menu": "HEADER"
-            },
-            {
-                "descricao": "Cadastro Tipo Período",
-                "slug": "cadastro_tipo",
-                "url": "tipo_periodo.index",
-                "ordem": 340,
-                "icone": "icon-map"
-            },
-            {
-                "descricao": "Cadastro Cursos",
-                "slug": "curso",
-                "url": "curso.index",
-                "ordem": 340,
-                "icone": "icon-map"
-            },
-            {
-                "descricao": "Matrícula",
-                "slug": "matricula",
-                "ordem": 350,
-                "tipo_menu": "HEADER"
-            },
-            {
                 "descricao": "Cadastro Matrículas",
                 "slug": "cadastro_matricula",
-                "url": "matricula.index",
+                "url": "matricula.adicionar",
                 "ordem": 360,
                 "icone": "icon-map"
             },
             {
-                "descricao": "Cadastrar Curso no Centro Estudantil",
-                "slug": "cadastro_centro_curso",
-                "url": "centro_curso.index",
+                "descricao": "Listagem Matrículas",
+                "slug": "listagem_matricula",
+                "url": "matricula.index",
                 "ordem": 370,
+                "icone": "icon-map"
+            }
+        ]
+    },
+    {
+        "descricao": "Gestão Aluno",
+        "slug": "alunos_gestao",
+        "tipo_menu": "SIMPLES",
+        "ordem": 400,
+        "filhos": [
+            {
+                "descricao": "Cadastro Alunos",
+                "slug": "cadastro_alunos",
+                "url": "aluno.adicionar",
+                "ordem": 420,
+                "icone": "icon-map"
+            },
+            {
+                "descricao": "Listagem Alunos",
+                "slug": "listagem_alunos",
+                "url": "aluno.index",
+                "ordem": 430,
+                "icone": "icon-map"
+            }
+        ]
+    },
+    {
+        "descricao": "Gestão Cursos",
+        "slug": "alunos",
+        "tipo_menu": "SIMPLES",
+        "ordem": 440,
+        "filhos": [
+            {
+                "descricao": "Cadastro Período",
+                "slug": "cadastro_periodo",
+                "url": "tipo_periodo.adicionar",
+                "ordem": 460,
+                "icone": "icon-map"
+            },
+            {
+                "descricao": "Listagem Período",
+                "slug": "listagem_periodo",
+                "url": "tipo_periodo.adicionar",
+                "ordem": 470,
+                "icone": "icon-map"
+            },
+            {
+                "descricao": "Cadastro Cursos",
+                "slug": "cadastro_curso",
+                "url": "curso.adicionar",
+                "ordem": 480,
+                "icone": "icon-map"
+            },
+            {
+                "descricao": "Listagem Cursos",
+                "slug": "Listagem_curso",
+                "url": "curso.index",
+                "ordem": 490,
+                "icone": "icon-map"
+            },
+            {
+                "descricao": "Add Curso C. Educacional",
+                "slug": "cadastro_centro_curso",
+                "url": "centro_curso.adionar",
+                "ordem": 500,
+                "icone": "icon-map"
+            },
+            {
+                "descricao": "listar Cursos C. Educacional",
+                "slug": "listar_centro_curso",
+                "url": "centro_curso.index",
+                "ordem": 510,
                 "icone": "icon-map"
             }
         ]

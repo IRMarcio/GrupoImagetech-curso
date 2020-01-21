@@ -54,6 +54,8 @@ class MatriculaListagem extends RelatorioBase
     {
         $registros = Matricula::whereCentroDistribuicaoId($this->sessaoUsuario->centroDistribuicao()->id);
 
+
+
         if (!empty($filtros['aluno'])) {
             $registros->whereHas('alunos', function ($q) use ($filtros) {
                 $q->where('nome', 'like', '%'.$filtros['aluno'].'%');
@@ -83,6 +85,10 @@ class MatriculaListagem extends RelatorioBase
         if (!empty($filtros['status'])) {
             $registros->where( function ($q) use ($filtros) {
                 $q->where('status', $filtros['status']);
+            });
+        }else{
+            $registros->where(function ($q) use ($filtros) {
+                $q->where('status', Matricula::ATIVA);
             });
         }
 

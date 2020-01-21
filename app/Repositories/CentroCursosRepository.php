@@ -3,6 +3,7 @@
 namespace App\Repositories;
 
 use App\Models\CentroCurso;
+use App\Services\SessaoUsuario;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
 use phpDocumentor\Reflection\Types\Boolean;
@@ -11,16 +12,26 @@ use phpDocumentor\Reflection\Types\Boolean;
 class CentroCursosRepository extends CrudRepository
 {
 
+    /**
+     * @var SessaoUsuario
+     */
+    private $sessaoUsuario;
+
+    public function __construct(SessaoUsuario $sessaoUsuario)
+    {
+        $this->sessaoUsuario = $sessaoUsuario;
+    }
+
     protected $modelClass = CentroCurso::class;
 
     /**
      * @return Collection
      * *@see Faz Atualização do Banco de Cursos pertencentes ao Centro de distribuição educaional lotado;
      */
-    public function geraGestaoCentroCusto()
+    public function geraGestaoCentroCusto($validation)
     {
         /*Chama Função para limpesa de Cursos não mais utilizados sem relacionamento*/
-        $this->cleanCursosNotInRelation();
+        $this->cleanCursosNotInRelation($validation);
 
         /*Executa funçao de Cadastro/Atualização do Curso Registrado no Centro*/
         foreach (request()->get('cursos') as $registro) {
@@ -41,13 +52,8 @@ class CentroCursosRepository extends CrudRepository
      * @see remove os Cursos tirados da lista de cadastro do Centro de distribuição sem (relação com alunos cadastrados);
      *
      * */
-    private function cleanCursosNotInRelation()
+    private function cleanCursosNotInRelation($delete)
     {
-        /*Obtem os Ids que retirados da lista de cursos do centro*/
-        $delete = array_diff(
-            $this->getAll()->pluck('id')->toArray(),
-            collect(request()->get('cursos'))->pluck('id')->toArray()
-        );
 
         /*Resolve a função deletando Registros Localizados sem relacionamento*/
         $this->buscarVariosPorId($delete)->map(function ($item) {

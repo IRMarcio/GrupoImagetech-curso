@@ -108,9 +108,7 @@ class CentroCursosController extends Controller
      */
     public function salvar(SalvarCentroCursosRequest $request)
     {
-
-        $registro = $this->repository->geraGestaoCentroCusto();
-
+        $registro = $this->repository->geraGestaoCentroCusto($this->listagem->getClearCursosList());
 
         if (!$registro) {
             return back()->withInput();

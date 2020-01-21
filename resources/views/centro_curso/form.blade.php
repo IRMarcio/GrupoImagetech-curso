@@ -25,7 +25,7 @@
                     <select @change="validacao" :name="'cursos['+ index +'][curso_id]'" v-model.lazy="curso.curso_id"
                             v-select="curso.curso_id" style="width: 300px !important;">
                         <option v-for="_curso in _cursos" :value="_curso.id">
-                            @{{ _curso.descricao }}
+                            @{{ _curso.nome }}
                         </option>
                     </select>
                 </td>
