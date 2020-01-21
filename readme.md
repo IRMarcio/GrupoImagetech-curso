@@ -99,7 +99,7 @@ Foi Desenvolvido um sistema com a seguinte perspectiva. Um sistema de gestão de
            _- Cadastro dos Cursos Dentro dos CDE, com toda particularidade como, quantidade de vagas disponíveis,data de início da turma e período;
 
 
-na Barra Superior do Menu se encontra o menu de Gestão do Usuário, lado Esquerdo do ícone de usuário se encontrado a Unidade Lotada do Usuário atual, do lado direito o Nome do Perfil e Primeiro nome do usuário, clicando em cima do nome do usuário voce encontra 3 menus:
+Na Barra Superior do Menu se encontra o menu de Gestão do Usuário, lado Esquerdo do ícone de usuário se encontrado a Unidade Lotada do Usuário atual, do lado direito o Nome do Perfil e Primeiro nome do usuário, clicando em cima do nome do usuário voce encontra 3 menus:
 
 - Sub-Menu [Alterar Senha]().
            
@@ -186,9 +186,24 @@ git clone https://github.com/IRMarcio/GrupoImagetech-curso.git
                "cpf": "00000000000",
                "senha": "admin",
 
-- Após Logar no sistema adicionar ao usuário padrão os Perfis Previamente Cadastrado e adiocionar as cursos cadastrados os periodos, como mostra a ilustração abaixo:
+- Após Logar no sistema, adicionar ao usuário [PADRÃO]() os Perfis Previamente Cadastrados, e adicionar aos cursos cadastrados, os períodos: [Matutino, Vespertino, Noturmo](), como mostra a ilustração abaixo:
 
 
 ![](public/img/info_sistema/apresentacao2.gif)
 
 ## Observação
+- O sistema caberia muitas funcionalidades que permite a leitura ainda superficial do projeto, como fluxo de movimento financeiros entre os CDE, mensalidades de taxas de matrículas etc....
+infelizmente o fator tempo esta curto devido as atividade tive somente o final de semana e as noites para desenvolver este projeto, espero que esteja satisfatório. Agradeço atenciosamente a atenção e me colocar a disposição.
+
+## Exemplos de Trabalhos Realizados em Analise de Projeto e execução
+
+- https://www.lucidchart.com/documents/view/73367593-8c54-441d-89a5-3a42b06c9cae/0_0
+
+- https://www.lucidchart.com/documents/view/a3e01733-d566-4a84-b90d-70a5c4effe80
+
+- https://www.lucidchart.com/documents/view/e5ee01ef-1d96-42cf-bd1f-331e401c0d2e
+
+## Contatos
+
+- Autor :
+    - [Marcio Rozendo Rodrigues Gonçalves, Campo Grande - MS, (67)99273-7505 / (67)99204-0958, adm.evento@gmail.com]()
