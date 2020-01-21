@@ -12,7 +12,8 @@
 
 ## Sobre o Projeto Curso Grupo Imatech.
 
-Foi Desenvolvido um sistema com a seguinte perspectiva. um sistema de gestão de Cursos com multiplas entidades Estudantil neste caso Chamadas de CDE --> (Centro de Distribuição Estudantil), aonde se realiza o cadastro de Cursos que ficam a disposição de todos os polos (CDE), aonde cada polo adiciona o curso em seus registro determinando a data de início da turma, quantidade de vagas disponível e o período. Cada CDE também consegue realizar Cadastro dos alunos assim como a matrícula, efetivando o aluno em seu curso. segue as informações de disponíveis. 
+Foi Desenvolvido um sistema com a seguinte perspectiva. Um sistema de gestão de Cursos com multiplas entidades Estudantis neste caso Chamadas de CDE --> (Centro de Distribuição Estudantil), aonde se realiza o cadastro de Cursos, que ficam a disposição de todos os polos (CDE), aonde cada polo adiciona o curso em seus registro determinando a data de início da turma, quantidade de vagas disponível e o período. Cada CDE também consegue realizar Cadastro dos alunos assim como a matrícula, efetivando o aluno em seu curso. segue as informações de disponíveis. 
+
 
 ##MENU
 
@@ -52,7 +53,6 @@ Foi Desenvolvido um sistema com a seguinte perspectiva. um sistema de gestão de
             _- Configurações Gerais - Como: Fuso horário,E-mail, e Termo de Uso;
 
 - [Gestão Matrícula]().
-            
             
 - Sub-Menu [Cadastro de Matrículas]().
             
@@ -94,7 +94,20 @@ Foi Desenvolvido um sistema com a seguinte perspectiva. um sistema de gestão de
            _- Cadastro dos Cursos Dentro dos CDE, com toda particularidade como, quantidade de vagas disponíveis,data de início da turma e período;
 
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+na Barra Superior do Menu se encontra o menu de Gestão do Usuário, lado Esquerdo do ícone de usuário se encontrado a Unidade Lotada do Usuário atual, do lado direito o Nome do Perfil e Primeiro nome do usuário, clicando em cima do nome do usuário voce encontra 3 menus:
+
+- Sub-Menu [Alterar Senha]().
+           
+           _- Trocar a senha do usuário;
+           
+- Sub-Menu [Selecionar Centro]().
+           
+           _- Um usuário pode ser lotado em mais de uma CDE, sendo assim você pode navegar entre os Centros aqui;
+           
+- Sub-Menu [Alterar Perfil]().
+           
+           _- Alterar Perfil do Usuário;
+           
 
 ## Learning Laravel
 
