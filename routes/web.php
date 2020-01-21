@@ -21,12 +21,6 @@ Route::group(['middleware' => ['web', 'logado', 'unidade-ativa', 'descobrir-cent
      **/
     incluirRotaDireta("_dashboard.php");
 
-    /**
-     * @see Relatórios
-     * @since  Rotas Atuais -> [@internal]
-     * @internal   (Estoques)
-     **/
-    incluirRotaDireta("_relatorios.php");
 
     /**
      * @see Configurações/Auditoria

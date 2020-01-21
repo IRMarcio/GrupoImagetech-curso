@@ -13,7 +13,7 @@
 
                     <div class="panel panel-body" >
                         <div class="text-center" >
-                            <img src="{{ asset('img/logo1.png') }}"  width="300" style="margin-left: 0px !important;" />
+                            <img src="{{ asset('img/logo.svg') }}"  width="300" style="margin-left: 0px !important;" />
                             <hr />
                             <h5 class="content-group-lg">Faça login na sua conta
                                 <small class="display-block">Entre com suas credenciais</small>

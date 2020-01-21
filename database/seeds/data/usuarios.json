@@ -2,7 +2,7 @@
   {
       "nome": "Admin",
       "cpf": "00000000000",
-      "senha": "sinlog",
+      "senha": "admin",
       "data_nascimento": "01/01/2019",
       "email": "example@example.com",
       "super_admin": 1,
