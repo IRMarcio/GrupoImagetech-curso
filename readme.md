@@ -26,13 +26,13 @@ Foi Desenvolvido um sistema com a seguinte perspectiva. Um sistema de gestão de
         
           
         
-![](public/img/info_sistema/img1.png)
+
 
 - Sub-Menu [Sistema GERAL - Perfils]().
 
         _- Cadastro de Perfil relacioando com Unidade Gerada Anteriormente você consegue direcionar as permissões que serão dadas a este Perfil;
 
-![](public/img/info_sistema/video.webm)
+
 - Sub-Menu [Sistema GERAL - Usuários]().
         
         _- Cadastro de Usuários, Dados do Usuário serão registrados e a ele o Perfil-> que esta realacionado com a Unidade; 
@@ -121,9 +121,11 @@ O Cadastro de usuários novos o login e senha são o cpf do usuário, no hora do
 ![](public/img/logo-branca.svg)
 
 
-## Contributing
+## Apresentação do Sistema
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Segue abaixo uma Apresentação Geral do Sistema;
+
+![](public/img/info_sistema/apresentacao.gif)
 
 ## Code of Conduct
 
