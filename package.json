@@ -20,7 +20,7 @@
     "axios": "^0.18.0",
     "install": "^0.12.2",
     "laravel-echo": "^1.6.1",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.13.1",
     "pace-progress": "^1.0.2",
     "underscore": "^1.8.3",
     "v-money": "^0.8.1",
