@@ -17,7 +17,7 @@
     "progress-tracker": "^2.0.1"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "install": "^0.12.2",
     "laravel-echo": "^1.6.1",
     "node-sass": "^4.13.0",
